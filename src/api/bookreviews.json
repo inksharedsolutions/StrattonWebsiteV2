@@ -1,0 +1,180 @@
+{
+    "background":[
+        {
+            "dashboard-carousel":[
+                {
+                    "1":[
+                        {
+                            "file-name": "100-YEARS-OF-DECEPTION_web",
+                            "src": "../assets/images/backgrounds/100-YEARS-OF-DECEPTION_web.jpg",
+                            "type": ".jpg",
+                            "created": "Tuesday, August 31,2021",
+                            "size": "208 KB"
+                        }
+                    ],
+                    "3":[
+                        {
+                            "file-name": "ALASTIANS_WEB",
+                            "src": "../assets/images/backgrounds/ALASTIANS_WEB.jpg",
+                            "type": ".jpg",
+                            "created": "Tuesday, August 31,2021",
+                            "size": "208 KB"
+                        }
+                    ],
+                    "4":[
+                        {
+                            "file-name": "BLUEBERRY-DREAMS_web",
+                            "src": "../assets/images/backgrounds/BLUEBERRY-DREAMS_web.jpg",
+                            "type": ".jpg",
+                            "created": "Tuesday, August 31,2021",
+                            "size": "208 KB"
+                        }
+                    ],
+                    "5":[
+                        {
+                            "file-name": "DYING-WELL-PREPARED_WEB",
+                            "src": "../assets/images/backgrounds/DYING-WELL-PREPARED_WEB.jpg",
+                            "type": ".jpg",
+                            "created": "Tuesday, August 31,2021",
+                            "size": "208 KB"
+                        }
+                    ],
+                    "6":[
+                        {
+                            "file-name": "ERIC-HOFFER-AWARD_WEB",
+                            "src": "../assets/images/backgrounds/ERIC-HOFFER-AWARD_WEB.jpg",
+                            "type": ".jpg",
+                            "created": "Tuesday, August 31,2021",
+                            "size": "208 KB"
+                        }
+                    ]
+                }
+            ],
+            "banner":[
+                {
+                    "1":[
+                        {
+                            "file-name": "banner-image",
+                            "src": "../assets/images/backgrounds/banner-image.png",
+                            "type": ".png",
+                            "created": "Tuesday, August 31,2021",
+                            "size": "208 KB"
+                        }
+                    ],
+                    "2":[
+                        {
+                            "file-name": "contactus",
+                            "src": "../assets/images/backgrounds/contactus.png",
+                            "type": ".png",
+                            "created": "Tuesday, August 31,2021",
+                            "size": "208 KB"
+                        }
+                    ],
+                    "3":[
+                        {
+                            "file-name": "publish-bg",
+                            "src": "../assets/images/backgrounds/publish-bg.png",
+                            "type": ".png",
+                            "created": "Tuesday, August 31,2021",
+                            "size": "208 KB"
+                        }
+                    ],
+                    "4":[
+                        {
+                            "file-name": "publish-bg",
+                            "src": "../assets/images/backgrounds/publish-bg.png",
+                            "type": ".png",
+                            "created": "Tuesday, August 31,2021",
+                            "size": "208 KB"
+                        }
+                    ],
+                    "5":[
+                        {
+                            "file-name": "banner2",
+                            "src": "../assets/images/backgrounds/banner2.png",
+                            "type": ".png",
+                            "created": "Tuesday, August 31,2021",
+                            "size": "208 KB"
+                        }
+                    ]
+                }
+            ],
+            "others":[
+                {
+                    "1":[
+                        {
+                            "file-name": "background",
+                            "src": "../assets/images/backgrounds/background.png",
+                            "type": ".png",
+                            "created": "Tuesday, August 31,2021",
+                            "size": "208 KB"
+                        }
+                    ],
+                    "2":[
+                        {
+                            "file-name": "Book Expo",
+                            "src": "../assets/images/backgrounds/background.png",
+                            "type": ".png",
+                            "created": "Tuesday, August 31,2021",
+                            "size": "208 KB"
+                        }
+                    ],
+                    "3":[
+                        {
+                            "file-name": "BookExpoFair",
+                            "src": "../assets/images/backgrounds/BookExpoFair.png",
+                            "type": ".png",
+                            "created": "Tuesday, August 31,2021",
+                            "size": "208 KB"
+                        }
+                    ],
+                    "4":[
+                        {
+                            "file-name": "booktrailer",
+                            "src": "../assets/images/backgrounds/booktrailer.png",
+                            "type": ".png",
+                            "created": "Tuesday, August 31,2021",
+                            "size": "208 KB"
+                        }
+                    ],
+                    "5":[
+                        {
+                            "file-name": "Book Expo",
+                            "src": "../assets/images/backgrounds/background.png",
+                            "type": ".png",
+                            "created": "Tuesday, August 31,2021",
+                            "size": "208 KB"
+                        }
+                    ],
+                    "6":[
+                        {
+                            "file-name": "Channels",
+                            "src": "../assets/images/backgrounds/channels.png",
+                            "type": ".png",
+                            "created": "Tuesday, August 31,2021",
+                            "size": "208 KB"
+                        }
+                    ],
+                    "7":[
+                        {
+                            "file-name": "green Background",
+                            "src": "../assets/images/backgrounds/green background.png",
+                            "type": ".png",
+                            "created": "Tuesday, August 31,2021",
+                            "size": "208 KB"
+                        }
+                    ],
+                    "8":[
+                        {
+                            "file-name": "Hal_Davis",
+                            "src": "../assets/images/backgrounds/Hal_Davis.jpg",
+                            "type": ".jpg",
+                            "created": "Tuesday, August 31,2021",
+                            "size": "208 KB"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

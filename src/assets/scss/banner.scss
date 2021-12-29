@@ -1,0 +1,104 @@
+.banner-section {
+    background: #badfcd;
+    width: 100%;
+    
+    .my-hero{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        @media (max-width:1366px) {
+            padding-top: 8vh;
+        }
+        @media (max-width:480px) {
+            padding-top: 21vh;
+        }
+
+    .tagline-section {
+        width: 50%;
+        display: inline-block;
+        padding: 13vh 0 5vh 0;
+        @media (max-width: 768px) {
+            width: 100%;
+            padding: 21vh 0 5vh 0;
+        }
+
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+        @media (max-width: 480px) {
+            width: 90%;
+            padding: 4vh 0 5vh 0;
+        }
+
+            .tagline-body {
+                margin-top: 19px;
+                position: relative;
+
+                .tagline {
+                    font-size: 5.5rem;
+                    font-weight: 900;
+                    display: block;
+                    text-align: left;
+                    line-height: 0.8;
+                    
+                    @media (max-width:1366px) {
+                        font-size: 5rem;
+                        
+                    }
+                    @media (max-width:1024px) {
+                        font-size: 4rem;
+                        
+                    }
+                  
+                }
+
+                .tagline-content {
+                    font-size: 18px;
+                    display: block;
+                    text-align: justify;
+                    padding: 2vh 0vw 4vh ;
+        
+            
+
+                    @media (max-width:768px) {
+                        font-size: 20px;
+                        
+                    }
+                    
+                    .your-story{
+                        color: #f68e56;
+                    }
+                }
+
+                .what {
+                    color: #fff;
+                    font-weight: 100;
+                    display: inline;
+                    font-family: "Helvetica Neue LT Std Condensed";
+                }
+
+                .story {
+                    color: #f68e56;
+                    font-family: "Helvetica Neue LT Std Blck Condensed";
+                }
+            }
+       }
+    }   
+
+    .banner-image {
+        display: inline-block;
+        vertical-align: top;
+        width: 55%;
+       
+
+        img {
+            width: 101.3%;
+            height: 100%;
+            padding: 0;
+        }
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+}

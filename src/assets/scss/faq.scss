@@ -1,0 +1,672 @@
+.faq-section{
+    position: relative;
+    
+}
+
+.faq-1{   
+        .faq-banner{
+            background: rgb(186,223,205);
+            background: linear-gradient(180deg, rgba(186,223,205,1) 0%, rgba(74,124,122,1) 100%, rgba(0,212,255,1) 100%);
+            height: auto;
+            width: 100%;
+            //padding-left: 170px;
+            padding-top: 150px;
+
+            @media (max-width:1366px) {
+                padding-top: 20vh;
+                //adding-left: 20px;
+                //padding-right: 20px;
+            }
+            @media (max-width:480px) {
+                padding-top: 24vh;
+                //padding-left: 10px;
+               // padding-right: 10px;
+            }
+            
+            .faq-header{
+                background: #669089;
+                color: #858282;
+                margin: 0 auto;
+                max-width: 1800px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 36px;
+                font-family: 'Montserrat Regular';
+                @media (max-width:1366px) {
+                    width: auto;
+                    padding-top: 3vh;
+                }
+                @media (max-width:480px) {
+                    width: auto;    
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+
+                
+                h1{
+                    font-family: 'Helvetica';
+                    font-size: 5rem;
+                    font-weight: 800;
+                    text-align: center;
+                    color: white;
+                    @media (max-width:1366px) {
+                        font-size: 4rem;
+                    }
+                    @media (max-width:480px) {
+                        font-size: 2rem;   
+                    }
+                }
+
+                p{
+                    text-align: justify;
+                    font-size: 17px45px
+                }
+            }
+
+            .faq-footer{
+                background: #d8ede3;
+                color: #858282;
+                margin: 0 auto;
+                max-width: 1800px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 25px 90px;
+                //font-family: 'Montserrat Regular';
+                @media (max-width:1366px) {
+                    width: auto;
+                }
+                @media (max-width:480px) {
+                    width: auto;    
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+                
+                h2{
+                    font-family: 'Helvetica';
+                    font-weight: 800;
+                    font-size: 30px;
+                    color: #043339; 
+                }
+                p{
+                    color: #123f44;
+                    font-family: 'Helvetica';
+                    padding-left: 30px;
+                    font-size: 18px;
+                    font-weight: 550;
+                }
+            }
+            
+            .faq-lists{
+                summary{
+                    font-family: 'Helvetica';
+                    font-weight: 750;
+                    font-size: 20px;
+                    color: #043339; 
+                }
+
+                h1{ 
+                    font-weight: 900;
+                }
+
+                p{
+                    color: #123f44;
+                    font-family: 'Helvetica';
+                    padding-left: 30px;
+                    font-size: 14px;
+                    font-weight: 550;
+                }
+            }
+
+
+            .faq-bg{
+                width: 100%;
+                height: 100%;
+                background: url('../images/backgrounds/faq-bg.png');
+                background-repeat: no-repeat;
+                background-size: 70%;
+                background-position: right bottom;
+                
+                @media (max-width:1366px) {
+                    background-size: 59%;
+                }
+
+                @media (max-width:480px) {
+                    background-size: 75%;
+                    background: none;
+                }
+
+                .w-100{
+                    max-width: 1780px;
+                    display: flex;
+                    padding: 45px 0px;
+                    justify-content: center;
+
+                    @media (max-width:480px) {
+                        padding: 0 25px;
+                    }
+                    
+
+                .faq-container{
+                    padding: 0 0 150px;
+                    display: flex;
+                    flex-wrap: wrap;
+             
+                    @media (max-width:1366px) {
+                        padding: 0px;
+                    }
+                    @media (max-width:480px) {
+                        padding: 0 0 50px;
+                    }
+
+                 
+                    .left{
+                        margin: 0 auto;
+                        max-width: 1800px;
+                        // width: 100%;
+                        width: 65%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+
+                        @media (max-width:1024px) {
+                            width: 100%;
+                        }
+
+                        @media (max-width:480px) {
+                            flex-direction: column-reverse;
+                            
+                        }
+                        
+                        .logo{
+                            display: flex;
+                            justify-content: space-between;
+                            position: relative;
+                            flex-direction: row;
+                            align-items: center;
+                            left: 0;
+
+                            @media (max-width:768px) {
+                                left: -41px;
+                            }
+
+                               @media (max-width:500px) {
+                                left: 0;
+                                flex-direction: column;
+                            }
+
+                            img{
+                                box-sizing: border-box;
+                                padding: 0;
+                                @media (max-width:1024px) {
+                                    width: 50%;
+                                }
+                                @media (max-width:768px) {
+                                    padding: 10px 0;
+                                    width: initial;
+                                }
+                            }
+        
+                        }
+
+                        .faq-main{
+                            // font-family: "Montserrat";
+                            color: #2f6466;
+                            padding-bottom: 0;
+                            
+                            @media (max-width:480px) {
+                              text-align: center;
+                              padding-bottom: 75px;
+                            }
+
+                            h1{
+                            
+                                font-size: 8em;
+                                font-weight: 800;
+                               
+                                @media (max-width:1366px) {
+                                    font-size: 5em;
+                                }
+
+                                @media (max-width:1024px) {
+                                    font-size: 4em;
+                                   
+                                }
+                                
+                                @media (max-width:480px) {
+                                    font-size: 5em;
+                                    font-size: 3.5em;
+                                }
+                            }
+                            
+                            h2{
+                                font-size: 2.86em;
+                                font-weight: 700;
+
+                                @media (max-width:1366px) {
+                                    font-size: 2em;
+                                }
+                            }
+                            
+                            p{
+                                font-style: italic;
+                                font-size: 1.7em;
+
+                                @media (max-width:1366px) {
+                                    font-size: 1.3em;
+                                }
+                            }
+
+                            .input-con{
+                                font-size: 32px;
+                                opacity: .8;
+                                
+                                @media (max-width:1366px) {
+                                    font-size: 24px;
+                                }
+                                
+                                .name{
+                                    padding: 0 10px;
+                                    width: 100%;
+                                    border-radius: 10px; 
+                                    margin-bottom: 25px;
+                                    border-style: none;
+                                    font-style: italic;
+
+                                    @media (max-width:1366px) {
+                                        width: 90%;
+                                    }
+                                    @media (max-width:480px) {
+                                        margin-bottom: 10px;
+                                        
+                                 
+                                    }
+                                
+                                }   
+
+                                .flex{
+                                    display: flex;
+                                    width: 100%; 
+                                    flex-direction: row;
+                                    @media (max-width:480px) {
+                                        flex-direction: column; 
+                                        width: 98%; 
+                                        padding-left: 15px;
+                                    }
+                                }
+
+                                .iti{
+                                    width: 52%;
+                                    scroll-padding: 4%;
+                                    padding-bottom: 0;
+                                    @media (max-width:480px) 
+                                    {
+                                        width: 100%;
+                                        padding-bottom: 10px;
+                                        padding-right: 10px;
+                                    }
+                                }
+                                .iti__flag-container{
+
+                                    position: absolute;
+                                    top: -20px;
+                                    @media (max-width:480px) {
+
+                                        top:-7px
+                                            
+                                        }
+                                }.iti__selected-flag{
+                                    background: none ;
+                                    font-size: 18px;
+                                }
+
+                                .iti__flag {background-image: url("../images/logo/flags.png");}
+
+                                @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+                                .iti__flag {background-image: url("../images/logo/flags@2x.png");}}     
+
+                                .phone{
+                                    width: 97%;
+                                    padding-left:50px;
+                                    border-radius: 10px; 
+                                    margin-bottom: 25px;
+                                    border-style: none;
+                                    font-style: italic;
+
+                                    @media (max-width:1366px) {
+                                        width: 98%;
+                                    }
+                                    @media (max-width:480px) {
+                                        width: 100%; 
+                                        margin-right: 0 ;
+                                        margin-bottom: 10px;
+                                 
+                                    }
+                                   
+
+                                }
+
+                                .email{
+                                    width: 48%;
+                                    padding: 0 10px;
+                                    border-radius: 10px; 
+                                    margin-bottom: 25px;
+                                    border-style: none;
+                                    font-style: italic;
+
+                                    
+                                    @media (max-width:1366px) {
+                                        width: 38%;
+                                    }
+                                    @media (max-width:480px) {
+                                        width: 97%; 
+                                        margin-bottom: 10px;
+                                    }
+                                }
+
+                                .subject{
+                                    padding: 0 10px;
+                                    width: 100%;
+                                    border-radius: 10px; 
+                                    margin-bottom: 25px;
+                                    border-style: none;
+                                    font-style: italic;
+
+                                    @media (max-width:1366px) {
+                                        width: 90%;
+                                    }
+                                    @media (max-width:480px) {
+                                        margin-bottom: 10px;
+                                 
+                                    }
+                                
+                                } 
+
+                                .textarea{
+                                    padding: 0 10px;
+                                    width: 100%;
+                                    height: 50vh;
+                                    border-radius: 10px;
+                                    border-style: none;
+                                    font-style: italic;
+
+                                    @media (max-width:1366px) {
+                                        width: 90%;
+                                    }
+                                }
+
+                                .sub_button{
+                                    padding: 20px 110px;
+                                    border-style: none;
+                                    border-radius: 10px;
+                                    font-weight: 700;
+                                    color: #fff;
+                                    background-color: #4a7c7a;
+                                    width: inherit;
+
+                                    @media (max-width:480px) {
+                                        width: 100%;
+                                        padding: 10px 110px;
+                                    }
+
+                                }
+                                .hidden{
+                                    opacity: 0%;
+                                  }
+                            }
+                        }
+                 
+                  }    
+                
+                  .right{
+
+                    width: 25%;
+                }
+               
+            }
+        }
+        .bottom-content{
+            position: relative;
+            width: 100%;
+            background-color: #abc3c1;
+            padding: 3% 5%;
+            opacity: .8;
+            margin-top: 6vh;
+
+            .location{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                @media (max-width:480px) {
+                    flex-direction: column;
+                }
+
+                .place{
+                    width: 25%;
+
+                    @media (max-width:1366px) {
+                       width: 30%; 
+                    }
+                    @media (max-width:480px) {
+                     width: 100%;
+                     text-align: center;
+                    }
+
+                    h1{
+                        font-size: 2em;
+                        font-weight: 700;
+                    }
+                    p{
+                        font-size: 1.5em ;
+                    }
+                }
+
+            }
+        }
+        .p100{
+            padding: 50px 0; 
+            @media (max-width:1366px) {
+                padding: 0px; 
+             }
+        }
+    }
+}
+}
+
+.loader{
+    display:none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 5s linear infinite;
+  }
+  .display{
+      display:block;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+
+.faq-2{
+    .w-100{
+        // background: url('../images/backgrounds/green background.png');
+        background: linear-gradient(to bottom, #aadfd7, #1a454a);
+        max-width: 1980px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+        .left{
+            width: 50%;
+            position: relative;
+            margin: 0 20px;
+            align-items: flex-end;
+            align-content: center;
+            align-self: center;
+            display: flex;
+            flex-direction: column;
+
+            .my-card{
+                background: #f8fcfa;
+                border-radius: 20px;
+                margin-top: 20px;
+                padding: 15px;
+                color: #1a454a; 
+                display: flex;
+                flex-direction: row;
+                width: 49rem;
+                
+                img{
+                    width: 100%;
+                }
+
+                .card-left{
+                    padding: 20px;
+                    align-items: start;
+                    align-self: start;
+                    align-content: start;
+                    display: flex;
+                    justify-content:center;
+                    width: 20%;
+                }
+
+                .card-right{
+                    width: 80%;
+                    padding: 10px 30px;
+
+                    h2{
+                        font-size: 32px;
+                        font-weight: 600;
+                    }
+
+                    p{
+                        font-size: 22px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+
+        .right{
+            width: 50%;
+            margin: 0 20px;
+
+            .right-my-card{
+                background: #aadfd7;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                height: 105vh;
+                width: 43%;
+                border-radius: 20px;
+                top: 45rem;
+                position: absolute;
+
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    padding: 20px 50px;
+
+                    h1{
+                        color: #3b7071;
+                        font-size: 55px;
+                        padding: 10px;
+                        font-weight: 600;
+                        font-style: italic;
+                        font-family: "Helvetica Neue LT Std Blck Condensed";
+                    }
+
+                    .yourname{
+                        height: 40px;
+                        margin: 0 auto;
+                        font-style: italic;
+                        margin: 20px 0;
+                        border-radius: 10px;
+                        border: none;
+                    }
+
+                    .email {
+                        height: 40px;
+                        font-style: italic;
+                        margin: 0 auto;
+                        border-radius: 10px;
+                        border: none;
+                        margin: 20px 0;
+                    }
+
+                    .contact {
+                        height: 40px;
+                        font-style: italic;
+                        border: none;
+                        margin: 0 auto;
+                        margin: 20px 0;
+                        border-radius: 10px;
+                    }
+
+                    .message {
+                        font-style: italic;
+                        border: none;
+                        height: 20rem;
+                        border-radius: 10px;
+                        margin: 0 auto;
+                        font-size: 20px;
+                        color: gray;
+                        margin: 20px 0;
+                    }
+
+                    button{
+                        height: 50px;
+                        width: 13rem;
+                        background: #2f6466;
+                        color: white;
+                        border: none;
+                        margin: 20px 0 ;
+                        border-radius: 10px;
+                        align-items: center;
+                        align-content: center;
+                        align-self: center;
+                    }
+                }
+            }
+        }
+    }
+
+}

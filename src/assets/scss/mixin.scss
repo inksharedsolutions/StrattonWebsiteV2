@@ -1,0 +1,24 @@
+.con{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+
+    @media (max-width:1024px) {
+        max-width: 960px;
+        
+    }
+}
+
+.slider-bg{
+    width: 100%;
+    background-color: #fefbea;
+}
+
+.slider-con{
+    max-width: 1140px;
+    margin: 0 auto;
+    @media (max-width:1024px) {
+        max-width: 960px;
+        
+    }
+}
