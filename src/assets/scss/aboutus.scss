@@ -128,8 +128,10 @@
                 .celebrate{
                     width: 50%;
                     color: #f68e56;
+                    text-align: left;
 
                     @media (max-width:480px) {
+                        text-align: initial;
                         width: 100%;
                     }
 
@@ -691,7 +693,7 @@
 
             .left {
                 width: 47%;
-                padding: 40px 0;
+             
                 text-align: initial;
                 
                 @media (max-width:768px) {
@@ -866,7 +868,7 @@
 
             .left {
                 width: 47%;
-                padding: 40px 0;
+           
                 text-align: initial;
 
                 @media (max-width:768px) {
