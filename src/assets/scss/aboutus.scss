@@ -196,7 +196,7 @@
     
             h1 {
                 font-weight: bolder;
-                font-size: 2.5rem;
+                font-size: 2rem;
                 display: flex;
                 flex-direction: column;
 
@@ -211,6 +211,7 @@
     
 
             ul {
+                line-height: 26px;
                 margin-left: 25px;
                 padding-top: 20px;
                 list-style-type: disc;
@@ -223,12 +224,7 @@
                 }
 
                 li {
-                    font-size: 20px;
-                    @media (max-width:1024px) {
-                        font-size: 20px;
-                    }
-                    
-                
+                    font-size: 20px;         
                     @media (max-width:480px) {
                         font-size: 5vw;
                     }
@@ -385,7 +381,7 @@
               
 
                 h1 {
-                    font-size: 2.5rem;
+                    font-size: 2rem;
                     font-weight: 700;
                     color: #957264;
                 }
@@ -425,10 +421,12 @@
     height: auto;
 
     .w100{
-        padding: 50px;
+        padding: 3rem 0;
         width: 100%;
         display: flex;
         justify-content: center;
+        max-width: 1140px;
+        margin: 0 auto;
         @media (max-width:480px) {
             padding: 25px;
         }
@@ -445,7 +443,7 @@
             }
 
             img{
-                width: initial ;
+                width: 33% ;
                 height: auto;
 
                 @media (max-width:480px) {
@@ -471,11 +469,12 @@
     height: auto;
 
     .w100{
-        padding: 50px 100px;
+       padding: 3rem 0;
         width: 100%;
         display: flex;
         justify-content: center;
-
+        max-width: 1140px;
+        margin: 0 auto;
         @media (max-width:480px) {
             padding: 25px;
         }
@@ -516,11 +515,12 @@
     height: auto;
 
     .w100{
-        padding: 50px 100px;
+       padding: 3rem 0;
         width: 100%;
         display: flex;
         justify-content: center;
-
+        max-width: 1140px;
+        margin: 0 auto;
         @media (max-width:480px) {
             padding: 25px;
         }
@@ -559,12 +559,12 @@
     height: auto;
 
     .w100{
-        padding: 50px 100px;
+        padding: 3rem 0;
         width: 100%;
-        // display: flex;
-        justify-content: space-between;
-        
-        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        max-width: 1140px;
+        margin: 0 auto;
         
         @media (max-width:1200px) {
 
@@ -584,7 +584,7 @@
             flex-wrap: wrap;
             justify-content: space-between;
             position: relative;
-            width: 495px;
+            width: 33%;
             // height: 376px;
             
                 @media (max-width: 480px) {
@@ -703,7 +703,7 @@
 
 
                 h1 {
-                    font-size: 2.5rem;
+                    font-size: 2rem;
                     font-weight: 700;
                     color: #5d7c6b;
                     @media (max-width:414px) {
@@ -802,7 +802,7 @@
                 }
               
                 h1 {
-                    font-size: 2.5rem;
+                    font-size: 2rem;
                     font-weight: 700;
                     color: #957264;
                     @media (max-width:414px) {
@@ -877,7 +877,7 @@
                 }
 
                 h1 {
-                    font-size: 2.5rem;
+                    font-size: 2rem;
                     font-weight: 700;
                     color: #5d7c6b;
                 }
@@ -947,7 +947,7 @@
             }
 
             h1 {
-                font-size: 50px;
+                font-size: 2.5rem;
                 text-transform: uppercase;
                 font-weight: 900;
                 letter-spacing: 4px;
@@ -1141,7 +1141,7 @@
                 position: relative;
 
                 h1 {
-                    font-size: 4em;
+                    font-size: 2.5rem;
                     color: #fff;
                     font-weight: 900;
 
@@ -1152,7 +1152,7 @@
                 }
 
                 h3 {
-                    font-size: 25px;
+                    font-size: 2rem;
                     font-weight: bold;
                     padding-bottom: 20px;
                     color: #fff;

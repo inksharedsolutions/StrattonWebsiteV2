@@ -239,7 +239,7 @@ const AboutUs: React.FC<Props> = () => {
                 <div className="publishing-sect">
                 <div className="w-100">
                     <div className="text-container">
-                        <h1>Publishing with <span>Stratton Press means YOU:</span></h1>
+                        <h1>Publishing with Stratton Press means YOU:</h1>
                         <ul>
                             <li>Retain ownership of your work.</li>
                             <li>Can expect to have amazing book covers!</li>
