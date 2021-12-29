@@ -522,7 +522,7 @@ const AboutUs: React.FC<Props> = () => {
                 </div>
             </div>
 
-            <div className="bookreviews-2">
+            <section className="bookreviews-2">
             <Slider {...settings}>
                 <div className="bg-review">
                     <img className="img pc" src={BGreview1} alt=""  />
@@ -592,7 +592,7 @@ const AboutUs: React.FC<Props> = () => {
                 </div>
                 
             </Slider>
-            </div>
+            </section>
 
             <div className="contactus">
                 <div className="w-100">

@@ -557,12 +557,11 @@
     background-color: #fff;
     animation: fade-in 2s;
     height: auto;
-// test
+
     .w100{
         padding: 3rem 0;
-        width: 100%;
-        display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
         max-width: 1140px;
         margin: 0 auto;
         
@@ -584,8 +583,8 @@
             flex-wrap: wrap;
             justify-content: space-between;
             position: relative;
-            width: 33%;
-            // height: 376px;
+            width: 30%;
+            height: auto;
             
                 @media (max-width: 480px) {
                     width: 100%;
@@ -692,7 +691,7 @@
 
             .left {
                 width: 47%;
-                padding: 40px;
+                padding: 40px 0;
                 text-align: initial;
                 
                 @media (max-width:768px) {
@@ -867,7 +866,7 @@
 
             .left {
                 width: 47%;
-                padding: 40px;
+                padding: 40px 0;
                 text-align: initial;
 
                 @media (max-width:768px) {
@@ -965,12 +964,22 @@
 
 .bookreviews-2 {
     position: relative;
-    background-color: #5d7c6b;
+    max-width: 1140px;
+    margin: 0 auto;
+    // background-color: #5d7c6b;
     
     
     button{
         z-index: 1;
     }
+
+    // .slick-list{
+    //     height: 100% !important;
+    // }
+       
+    .slick-dots{
+        bottom: 25px;
+    }  
 
     .slick-prev:before{
         position: relative;
@@ -1000,8 +1009,8 @@
     
    
     .bg-review{
-        display: inline-block;
-        overflow: hidden;
+        // display: inline-block;
+        // overflow: hidden;
         position: relative;
         width: 100%;
 
@@ -1039,10 +1048,7 @@
                 position: relative;
             }   
           }
-          
-        .slick-dots{
-            bottom: 25px;
-        }  
+       
 
         .flex{
             position: relative;
@@ -1052,6 +1058,7 @@
             top: 1px;
             align-items: center;
             margin:30px;
+            padding: 3rem 0;
 
                 @media (max-width:480px) {
                     flex-direction: column;
@@ -1090,15 +1097,15 @@
                 }
 
                 .ttl{
-                    font-size: 35px;
+                    font-size: 2rem;
                     font-weight: 700;
-                    @media (max-width:375px) {
-                        font-size: 25px;
-                    }
+                    // @media (max-width:375px) {
+                    //     font-size: 25px;
+                    // }
                 }
 
                 .author{
-                     font-size: 25px;
+                     font-size: 1.8rem;
                 }
                 
                 .content{
@@ -1152,7 +1159,7 @@
                 }
 
                 h3 {
-                    font-size: 2rem;
+                    font-size: 1.6rem;
                     font-weight: bold;
                     padding-bottom: 20px;
                     color: #fff;
