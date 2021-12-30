@@ -159,7 +159,8 @@ const faq: React.FC<Props> = () => {
       <div className="faq-1" id="faq-1">
         <div className="faq-banner">
         <div className="loader"></div>
-          <div className="faq-header">
+        <div className="con">
+        <div className="faq-header">
             {" "}
             <h1> FREQUENTLY ASKED QUESTIONS </h1>{" "}
           </div>
@@ -194,6 +195,7 @@ const faq: React.FC<Props> = () => {
 
           </div> 
 
+        </div>
           <div className="faq-bg">
             <div className="w-100">
               <div className="faq-container">

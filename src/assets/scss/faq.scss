@@ -47,7 +47,7 @@
                 
                 h1{
                     font-family: 'Helvetica';
-                    font-size: 5rem;
+                    font-size: 2.5rem;
                     font-weight: 800;
                     text-align: center;
                     color: white;
@@ -61,7 +61,7 @@
 
                 p{
                     text-align: justify;
-                    font-size: 17px45px
+                    font-size: 18px;
                 }
             }
 
@@ -116,8 +116,8 @@
                     color: #123f44;
                     font-family: 'Helvetica';
                     padding-left: 30px;
-                    font-size: 14px;
-                    font-weight: 550;
+                    font-size: 18px;
+                  
                 }
             }
 
@@ -127,8 +127,8 @@
                 height: 100%;
                 background: url('../images/backgrounds/faq-bg.png');
                 background-repeat: no-repeat;
-                background-size: 70%;
-                background-position: right bottom;
+                background-size: 40%;
+                background-position: 70% bottom;
                 
                 @media (max-width:1366px) {
                     background-size: 59%;
@@ -140,10 +140,12 @@
                 }
 
                 .w-100{
-                    max-width: 1780px;
+                    max-width: 1140px;
                     display: flex;
                     padding: 45px 0px;
                     justify-content: center;
+                    margin: 0 auto;
+                
 
                     @media (max-width:480px) {
                         padding: 0 25px;
@@ -151,7 +153,7 @@
                     
 
                 .faq-container{
-                    padding: 0 0 150px;
+                    padding: 0;
                     display: flex;
                     flex-wrap: wrap;
              
@@ -243,17 +245,15 @@
                             }
                             
                             h2{
-                                font-size: 2.86em;
+                                font-size: 2.5em;
                                 font-weight: 700;
 
-                                @media (max-width:1366px) {
-                                    font-size: 2em;
-                                }
+                    
                             }
                             
                             p{
                                 font-style: italic;
-                                font-size: 1.7em;
+                                font-size: 18px;
 
                                 @media (max-width:1366px) {
                                     font-size: 1.3em;
