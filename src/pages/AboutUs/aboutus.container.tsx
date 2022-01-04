@@ -52,7 +52,7 @@ import BGreview2sp from "../../assets//images/backgrounds/sp/mobile1.png";
 import BGreview3sp from "../../assets//images/backgrounds/sp/mobile4.png";
 import BGreview4sp from "../../assets//images/backgrounds/sp/mobile5.png";
 
-import publishing from "../../assets/images/backgrounds/thinking.png";
+import publishing from "../../assets/images/backgrounds/thinking.jpg";
 import booktrailer from "../../assets/images/backgrounds/booktrailer.png";
 import bookGroup from "../../assets/images/books/bookgroup.png";
 import Rectangle from "../../assets/images/backgrounds/Rounded Rectangle.png";
@@ -238,6 +238,8 @@ const AboutUs: React.FC<Props> = () => {
             </div>
                 <div className="publishing-sect">
                 <div className="w-100">
+                    <div className="temp">
+                    </div>
                     <div className="text-container">
                         <h1>Publishing with Stratton Press means YOU:</h1>
                         <ul>

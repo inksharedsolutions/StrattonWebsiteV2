@@ -21,9 +21,13 @@
             padding: 0px;
         }
         .flex {
+            background: url('../images/backgrounds/publish-bg-min.png');
             display: flex;
             position: relative;
             align-items: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 100%;
 
             @media (max-width: 480px) {
                 flex-direction: column;
@@ -31,11 +35,14 @@
             }
             @media (max-width: 768px) {
                 flex-direction: column-reverse;
+                background: none;
             }
 
             
 
             .left {
+                // background: rgb(254,254,254);
+                // background: linear-gradient(90deg, rgba(254,254,254,1) 0%, rgba(254,254,254,0.7063200280112045) 100%);
                 width: 50%;
                 position: relative;
                 color: #858282;
@@ -120,7 +127,7 @@
             justify-content: space-between;
 
          
-            @media (max-width:480px) {
+            @media (max-width:768px) {
                 height:auto;
                 flex-direction: column;
                 padding: 5vh 0;
@@ -129,7 +136,7 @@
             .left {
                 width: 65%;
 
-                @media (max-width:500px) {
+                @media (max-width:768px) {
                     width: 100%;
                 }
                 
@@ -209,6 +216,7 @@
             padding: 3rem 0;
  
             @media (max-width:768px) {
+                padding: 3rem 0 0;
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;

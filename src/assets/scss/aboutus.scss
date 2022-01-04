@@ -169,17 +169,14 @@
     max-width: 1140px;
     margin: 0 auto;
     background-size: cover !important;
-    background: url('../images/backgrounds/thinking.png');
-    background-repeat: no-repeat; 
-    background-position: 30% 100%;
-
+    background: url('../images/backgrounds/thinking.jpg');
+ 
 
     @media (max-width:480px) {
            padding: 0;
     }
 
     .w-100{
-        margin: 0 20px;
         position: relative;
         display: flex;
         align-items: center;
@@ -189,14 +186,18 @@
             margin: 0;
        }
 
+        .temp{
+            width: 38%;
+        }
         .text-container {
-            background: #557163;
+            width: 65%;
+            background: #80c08d;
             border-radius: 5px;
             color: white;
             width: fit-content;
             position: relative;
-            left: 8%;
-            padding: 50px;
+            margin-right: 20px;
+            padding: 45px;
             opacity: 0.9;
 
             @media (max-width:768px) {
@@ -205,11 +206,11 @@
     
             h1 {
                 font-weight: bolder;
-                font-size: 2rem;
+                font-size: 1.8rem;
                 display: flex;
                 flex-direction: column;
 
-                @media (max-width:768px) {
+                @media (max-width:768px) {  
                     font-size: 5vw;
                 }
 
@@ -221,7 +222,6 @@
 
             ul {
                 line-height: 26px;
-                margin-left: 25px;
                 padding-top: 20px;
                 list-style-type: disc;
 
@@ -233,7 +233,8 @@
                 }
 
                 li {
-                    font-size: 20px;         
+                    font-size: 16px;
+                    line-height: 19px;
                     @media (max-width:480px) {
                         font-size: 5vw;
                     }
@@ -251,7 +252,7 @@
 
 .section-1 {
     position: relative;
-    margin: 0 20px;
+    padding: 0 20px;
     background: #fefbea;
     @media (max-width:768px) {
         margin: 0;
@@ -341,7 +342,7 @@
 .section-2 {
     position: relative;
     background: #fed0b2;
-    margin: 0 20px;
+    padding: 0 20px;
     @media (max-width:768px) {
         margin: 0;
    }
@@ -682,7 +683,7 @@
 .section-3 {
     position: relative;
     background: #fefbea;
-    margin: 0 20px;
+    padding: 0 20px;
 
     @media (max-width:768px) {
         margin: 0;
@@ -779,7 +780,7 @@
 .section-4 {
     position: relative;
     background: #fed0b2;
-    margin: 0 20px;
+    padding: 0 20px;
 
     @media (max-width:768px) {
         margin: 0;
@@ -869,7 +870,7 @@
 .section-5 {
     position: relative;
     background: #fefbea;
-    margin: 0 20px;
+    padding: 0 20px;
 
     @media (max-width:768px) {
         margin: 0;

@@ -165,7 +165,8 @@ const PublishContainer: React.FC<Props> = () => {
       <Navigation />
       <div className="publish-1" id="publish-1">
         <div className="loader"></div>
-        <div className="w-100">
+        <div className="w-100">    {/* <img src={PublishBg} alt="" /> */}
+    
           <div className="flex">
             <div className="left">
               <h1>
@@ -187,7 +188,7 @@ const PublishContainer: React.FC<Props> = () => {
               <p>For the world to see.</p>
             </div>
             <div className="right">
-              <img src={PublishBg} alt="" />
+            
             </div>
           </div>
         </div>
