@@ -24,7 +24,7 @@
             padding-left: 0px;
             padding-right: 0px;
             font-size: 38px;
-            text-align: center;
+            text-align: cente
         }
     }
 }
@@ -51,9 +51,10 @@
        
         .left{
             width: 50%;
-           
             object-position: initial;
-            height: auto;
+            margin-right: 4%;
+            display: flex;
+            align-items: center;
             @media (max-width:1024px) {
                 height: 90vh; 
                 width: 100%;
@@ -64,10 +65,8 @@
             }
 
             img{
-                height: 100%;
-                width: 90%;
                 position: relative;
-                object-fit: initial;
+                object-fit: cover;
                 border-radius: 34px;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 

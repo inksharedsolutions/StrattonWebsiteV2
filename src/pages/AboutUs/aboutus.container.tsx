@@ -8,7 +8,7 @@ import ButtonComp from "../../common/Button/button.component";
 import HeaderSection from "../../common/Navigation/header.component";
 import Navigation from "../../common/Navigation/navigation.component";
 import Image from "../../common/Image/image.component";
-import banner from "../../assets/images/backgrounds/banner2.png";
+import banner from "../../assets/images/backgrounds/banner2.jpg";
 import FooterComp from "../../common/Footer/footer.component";
 
 import { useHistory } from "react-router-dom";
