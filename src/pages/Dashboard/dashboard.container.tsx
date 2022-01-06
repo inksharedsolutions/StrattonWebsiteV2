@@ -558,12 +558,12 @@ const settingSp ={
                   </div>
                 </div>
               </div>
-            </div>
+            </div>  
           </div>
         </div>
       </section>
       {/* end of spotlight */}
-      <div className="testimonials text-center" id="testimonials">
+      <div className="testimonials text-center pc" id="testimonials">
         <div className=" con">
           
           

@@ -551,6 +551,7 @@ body {
     padding: 4vh 0;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
 
     @media (max-width:480px) {
@@ -560,11 +561,10 @@ body {
     }
 
     .left{
-      width: 50%;
-      text-align: left;
+      width: 43%;
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
          
     @media (max-width:480px) {
       width:80%;
@@ -593,11 +593,10 @@ body {
     }
 
     .right{
-      width: 50%;
-      position:relative;
+      width: 43%;
+      position: relative;
       display: flex;
-      justify-content: center;
-
+      justify-content: flex-end;
       button{
         font-size: 20px;
         height: 50px;

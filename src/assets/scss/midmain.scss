@@ -22,7 +22,7 @@
     }
 
     label {
-      font-size: 24px;
+      font-size: 22px;
       text-transform: uppercase;
       margin: 40px auto 10px !important;
       font-weight: 600;
@@ -1303,6 +1303,7 @@
               align-items: center;
               padding-right: 20px;
               padding-bottom: 0;
+              width: initial;
 
               @media (max-width:1366px) {
                 padding-right: 0;
@@ -1311,6 +1312,10 @@
               
               @media (max-width:1024px) {
                 padding-right: 20px;
+              }
+
+              @media (max-width:900px) {
+               width: 100%;
               }
 
 
@@ -1345,10 +1350,16 @@
               align-items: center;
               justify-content: center;
               padding-right: 0;
+              width: initial;
+              padding-top: 0;
             
               @media (max-width:1024px) {
                 padding-right: 0;
               }
+              @media (max-width:900px) {
+                width: 100%;
+                padding-top: 30px;
+               }
               
               button{
                 background: #78a48d;
@@ -1365,6 +1376,8 @@
                 @media (max-width: 1024px) {
                   width: 425px;
                 }
+                 
+           
 
                 @media (max-width: 480px) {
                   width: 100%;
