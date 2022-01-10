@@ -35,6 +35,20 @@ import Indigo from "../../assets/images/logo/indigo.png";
 import Ingram from "../../assets/images/logo/ingram.png";
 import LightningSource from "../../assets/images/logo/lightning source.png";
 import PublishBg from "../../assets/images/backgrounds/publish-bg.png";
+
+import customized from "../../assets/images/icon-image/Customized Cover Design.png";
+import advanced from "../../assets/images/icon-image/Advanced Editing.png";
+import interior from "../../assets/images/icon-image/Interior Design and Book.png";
+import paperback from "../../assets/images/icon-image/Paperback, Hardback, Ebook Formatting.png";
+import worldwide  from "../../assets/images/icon-image/Worldwide Distribution.png";
+import social from "../../assets/images/icon-image/Social media_website creation.png";
+import radio from "../../assets/images/icon-image/Radio INterview.png";
+import  youtube from "../../assets/images/icon-image/yt campaign.png";
+import screenplay from "../../assets/images/icon-image/Screenplay.png";
+import translation from "../../assets/images/icon-image/Translation Services_B.png";
+
+
+
 import * as intlTelInput from "intl-tel-input";
 
 interface Props {}
@@ -212,7 +226,7 @@ const PublishContainer: React.FC<Props> = () => {
         <div className="w-100">
           <div className="container">
             <div className="left">
-              <img src={BookMark} alt="..." />
+              <img src={customized} alt="..." />
             </div>
             <div className="right">
               <h1>Customized Cover Design</h1>
@@ -229,7 +243,7 @@ const PublishContainer: React.FC<Props> = () => {
           </div>
           <div className="container">
             <div className="left">
-              <img src={OpenBook} alt="..." />
+              <img src={advanced} alt="..." />
             </div>
             <div className="right">
               <h1>Advanced Editing</h1>
@@ -244,7 +258,7 @@ const PublishContainer: React.FC<Props> = () => {
           </div>
           <div className="container">
             <div className="left">
-              <img src={BookPencil} alt="..." />
+              <img src={interior} alt="..." />
             </div>
             <div className="right">
               <h1>Interior Design and Book Layout</h1>
@@ -259,7 +273,7 @@ const PublishContainer: React.FC<Props> = () => {
           </div>
           <div className="container">
             <div className="left">
-              <img src={BookLayer} alt="..." />
+              <img src={paperback} alt="..." />
             </div>
             <div className="right">
               <h1>Paperback, Hardback, Ebook Formatting</h1>
@@ -274,7 +288,7 @@ const PublishContainer: React.FC<Props> = () => {
           </div>
           <div className="container">
             <div className="left">
-              <img src={WorldWide} alt="..." />
+              <img src={worldwide} alt="..." />
             </div>
             <div className="right">
               <h1>Worldwide Distribution</h1>
@@ -289,7 +303,7 @@ const PublishContainer: React.FC<Props> = () => {
           </div>
           <div className="container">
             <div className="left">
-              <img src={SocialMeida} alt="..." />
+              <img src={social} alt="..." />
             </div>
             <div className="right">
               <h1>Social Media Marketing and Website Creation</h1>
@@ -304,7 +318,7 @@ const PublishContainer: React.FC<Props> = () => {
           </div>
           <div className="container">
             <div className="left">
-              <img src={Radio} alt="..." />
+              <img src={radio} alt="..." />
             </div>
             <div className="right">
               <h1>Radio Interview and Book Reviews</h1>
@@ -325,7 +339,7 @@ const PublishContainer: React.FC<Props> = () => {
           </div>
           <div className="container">
             <div className="left">
-              <img src={Youtube} alt="..." />
+              <img src={youtube} alt="..." />
             </div>
             <div className="right">
               <h1>Youtube Campaign</h1>
@@ -338,7 +352,7 @@ const PublishContainer: React.FC<Props> = () => {
           </div>
           <div className="container">
             <div className="left">
-              <img src={Camera} alt="..." />
+              <img src={screenplay} alt="..." />
             </div>
             <div className="right">
               <h1>Screenplay</h1>
@@ -352,7 +366,7 @@ const PublishContainer: React.FC<Props> = () => {
           </div>
           <div className="container">
             <div className="left">
-              <img src={Papers} alt="..." />
+              <img src={translation} alt="..." />
             </div>
             <div className="right">
               <h1>Translation Services</h1>

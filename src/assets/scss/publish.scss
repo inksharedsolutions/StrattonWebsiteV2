@@ -9,6 +9,10 @@
         padding-top: 15vh;
     }
 
+    @media (max-width:768px) {
+        padding-top: 21vh;
+    }
+
     .w-100 {
         height: auto;
         max-width: 1140px;
@@ -83,6 +87,7 @@
                     }
                     @media (max-width:768px) {
                         font-size: 18px;  
+                        padding-right: 0;
                         line-height: 30px;
                     }
                 }
@@ -127,12 +132,15 @@
             margin: 0 20px;
             width: 90%;
             justify-content: space-between;
+            align-items: center;
 
          
             @media (max-width:768px) {
                 height:auto;
+                width: 100%;
                 flex-direction: column;
-                padding: 5vh 0;
+                margin: 0 ;
+              
             }
 
             .left {
@@ -216,13 +224,16 @@
             justify-content: center;
             // padding: 25px 0;
             padding: 3rem 0;
- 
+    
             @media (max-width:768px) {
-                padding: 3rem 0 0;
+                padding: 3rem 20px 0;
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
+              
               }
+
+        
 
             .left {
                 width: 20%;
@@ -232,15 +243,21 @@
                     width: 70%;
                   }
                 img {
-                    width: 75%;
+                    width: 100%;
                     padding-bottom: 0;
+                    border-radius: 50%;
+                    background: white;
+                    padding: 13.7% 0;
+                    margin: 0;
 
                     @media (max-width:900px) {
                         width: 100%;
                     }
                     @media (max-width:768px) {
-                        width: 50%;
-                        padding-bottom: 20px;
+                        width: 66%;
+                        margin: 20px;
+                        padding: 8.8% 0;
+                     
                   }
                 }
             }
@@ -256,13 +273,16 @@
                 justify-content: center;
                 padding: 36px;
                 font-family: 'Montserrat Regular';
+                margin-left: 30px;
+
                 @media (max-width:768px) {
                     height: auto;
                     width: 100%;
-                    fdisplay: flex;
+                    display: flex;
                     flex-direction: column;
                     justify-content: center;
                     padding: 20px;
+                    margin-left: 0;
                   }
                 
                 h1{ 
@@ -278,7 +298,8 @@
 
                 p{
                     text-align: justify;
-                    font-size: 17px;
+                    font-size: 18px;
+                    font-weight: 600;
                 }
             }
         }
