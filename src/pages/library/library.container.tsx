@@ -23,14 +23,16 @@ const AboutUs: React.FC<Props> = () => {
         <div className="library-Component">
             <HeaderSection bgcolor="#043439" />
             <Navigation />
-
+            <div className="temp"></div>
             <div className="bg-lib">
-                <img className="img" src={libraryBG} alt="" />
+              <h2>STRATTON PRESS  <span>PUBLISHING</span></h2>
+              <h3>Search any books of our Stratton Press Authors.</h3>
             </div>
 
             <div className="searchBar">
                 <div className="w-100">
-                    <input type="text"  placeholder="search"/>
+
+                    <input type="text"  placeholder="search"/>  
 
                     <label>Sort By:</label>
 
@@ -50,26 +52,90 @@ const AboutUs: React.FC<Props> = () => {
             <div className="library-banner-section">
                 <div className="w-100">
                     <div className="left">
-                        <Image src={banner} className="images" width="550" height="650" alt="..." />
+                        
+                    <h3>Genres</h3>
+                        <div className="flex">
+                            <input type="checkbox" name="" id="" />
+                            <div className="text">All</div>
+                        </div>
+                        <div className="flex">
+                            <input type="checkbox" name="" id="" />
+                            <div className="text">Arts & Photography</div>
+                        </div>
+                        <div className="flex">
+                            <input type="checkbox" name="" id="" />
+                            <div className="text">Biographies & Memoirs</div>
+                        </div>
+                        <div className="flex">
+                            <input type="checkbox" name="" id="" />
+                            <div className="text">Business Money</div>
+                        </div>
+                        <div className="flex">
+                            <input type="checkbox" name="" id="" />
+                            <div className="text">Christian Books & Bibles</div>
+                        </div>
+                        <div className="flex">
+                            <input type="checkbox" name="" id="" />
+                            <div className="text">Cookbooks, Food & Wine</div>
+                        </div>
+                        <div className="flex">
+                            <input type="checkbox" name="" id="" />
+                            <div className="text">Education & Teaching</div>
+                        </div>
+                        <div className="flex">
+                            <input type="checkbox" name="" id="" />
+                            <div className="text">History</div>
+                        </div>
+                        <div className="flex">
+                            <input type="checkbox" name="" id="" />
+                            <div className="text">Kindle Ebooks</div>
+                        </div>
+                        <div className="flex">
+                            <input type="checkbox" name="" id="" />
+                            <div className="text">Literature & Fiction</div>
+                        </div>
+                        <div className="flex">
+                            <input type="checkbox" name="" id="" />
+                            <div className="text">Medical Books</div>
+                        </div>
+                        <div className="flex">
+                            <input type="checkbox" name="" id="" />
+                            <div className="text">Mystery, Thriller & Suspense</div>
+                        </div>
+                        <div className="flex">
+                            <input type="checkbox" name="" id="" />
+                            <div className="text">Parenting & Relationship</div>
+                        </div>
+                        <div className="flex">
+                            <input type="checkbox" name="" id="" />
+                            <div className="text">Politics & Social Sciences</div>
+                        </div>
+                        <div className="flex">
+                            <input type="checkbox" name="" id="" />
+                            <div className="text">Reference</div>
+                        </div>
+                        <div className="flex">
+                            <input type="checkbox" name="" id="" />
+                            <div className="text">Religion & Spirituality</div>
+                        </div>
+                        <div className="flex">
+                            <input type="checkbox" name="" id="" />
+                            <div className="text">Romance</div>
+                        </div>
+                        <div className="flex">
+                            <input type="checkbox" name="" id="" />
+                            <div className="text">Science Fiction & Fantasy</div>
+                        </div>
+                        <div className="flex">
+                            <input type="checkbox" name="" id="" />
+                            <div className="text">Self-Help</div>
+                        </div>
+                        
                     </div>
                     <div className="right">
-                        <div className="header">
-                            <div className="support">~~~~~~</div>
-                            <div className="celebrate">~~~~~~</div>
-                        </div>
+                       
                         <div className="body">
-                            <p>
-                                Many writers have dreamt to be authors. But not all writers get to fulfill this dream. We understand how difficult the road to publishing can get. With thousands of manuscripts written every day, not all get picked up by a publisher. But this may change when you have your manuscript ready in professional book form.
-                            </p>
-                            <p>
-                                Stratton Press is an Author Service Provider. Our mission is help you take the brave, first steps and to press on, throughout your publishing journey.
-                            </p>
-                            <p>
-                                We’ll give you the tools and the team you need. From book cover design to editing, to distribution and marketing.  Imagine having your own professional team dedicated to work on your book.
-                            </p>
-                            <p>
-                                We are here to support you. To get you Your space so that the world can see Your story. And yes, should a traditional publisher discover the wonder that you truly are, we will be as joyful as you. And in each step closer, for every success you’d make, we will celebrate You.
-                            </p>
+                            
                         </div>
                     </div>
                 </div>

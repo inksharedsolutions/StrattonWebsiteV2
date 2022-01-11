@@ -566,14 +566,14 @@ const settingSp ={
       <div className="testimonials text-center pc" id="testimonials">
         <div className=" con">
           
-          
+          ``
             <div className="row">
             <Slider {...settings}>
               
               <div className="col-md-6 col-lg-4">
                 <div className="card border-light bg-light text-center">
-                  {/* <i className="fa fa-quote-left card-img-top rounded-circle" aria-hidden="true"></i> */}
-                  <QuoteAltRight
+                  {/* <i className="fa fa-quote-left card-img-top rounded-circle" aria-hidden="true"></i> */}  
+                  <QuoteAltRight                                                                                                                                                       
                     size={45}
                     className="card-img-top rounded-circle"
                     aria-hidden="true"
