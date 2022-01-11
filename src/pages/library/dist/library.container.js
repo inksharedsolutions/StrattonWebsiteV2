@@ -26,7 +26,7 @@ var AboutUs = function () {
                 React.createElement("select", { name: "sort", id: "sort" },
                     React.createElement("option", { value: "Relevance" }, "Relevance"),
                     React.createElement("option", { value: "Date" }, "Date")),
-                React.createElement("button", { className: "searchBar__btn" }, " SEARCH "))),
+                React.createElement("button", null, " SEARCH "))),
         React.createElement("div", { className: "library-banner-section" },
             React.createElement("div", { className: "w-100" },
                 React.createElement("div", { className: "left" },
