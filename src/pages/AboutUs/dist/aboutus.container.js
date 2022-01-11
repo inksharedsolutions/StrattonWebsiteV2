@@ -13,15 +13,16 @@ var __assign = (this && this.__assign) || function () {
 exports.__esModule = true;
 var React = require("react");
 var react_router_hash_link_1 = require("react-router-hash-link");
+var react_router_dom_1 = require("react-router-dom");
 var $ = require("jquery");
 var emailjs_com_1 = require("emailjs-com");
 var sweetalert2_1 = require("sweetalert2");
 var header_component_1 = require("../../common/Navigation/header.component");
 var navigation_component_1 = require("../../common/Navigation/navigation.component");
 var image_component_1 = require("../../common/Image/image.component");
-var banner2_png_1 = require("../../assets/images/backgrounds/banner2.png");
+var banner2_jpg_1 = require("../../assets/images/backgrounds/banner2.jpg");
 var footer_component_1 = require("../../common/Footer/footer.component");
-var react_router_dom_1 = require("react-router-dom");
+var react_router_dom_2 = require("react-router-dom");
 var react_slick_1 = require("react-slick");
 require("slick-carousel/slick/slick.css");
 require("slick-carousel/slick/slick-theme.css");
@@ -65,16 +66,20 @@ var lightning_source_png_1 = require("../../assets/images/logo/lightning source.
 var intlTelInput = require("intl-tel-input");
 var AboutUs = function () {
     var _a = React.useState([]), state = _a[0], setstate = _a[1];
-    var history = react_router_dom_1.useHistory();
+    var history = react_router_dom_2.useHistory();
     //For Sending Emails
     var sendEmail = function (e) {
         e.preventDefault();
-        // emailjs.sendForm('gmail', 'contact_template', e.currentTarget, 'user_norNgT0B71lOeGvDG16ph') FOR GMAIL
-
-        emailjs_com_1["default"].sendForm('outlook', 'publish/aboutUs_template', e.currentTarget, 'user_norNgT0B71lOeGvDG16ph')
+        $(".send1").addClass("hidden");
+        $(".loader").addClass("display");
+        emailjs_com_1["default"].sendForm('sender', 'publish/aboutUs_template', e.currentTarget, 'user_norNgT0B71lOeGvDG16ph')
             .then(function (result) {
+            $(".send1").removeClass("hidden");
+            $(".loader").removeClass("display");
             sweetalert2_1["default"].fire('EMAIL SENT', 'Thank you for reaching out to us, our representative will reach out to you soon', 'success');
         }, function (error) {
+            $(".send1").removeClass("hidden");
+            $(".loader").removeClass("display");
             sweetalert2_1["default"].fire({
                 icon: 'error',
                 title: 'Oops...',
@@ -88,6 +93,11 @@ var AboutUs = function () {
     var fullScreen = function () {
         // let i = document.querySelector(".vid1");
         // i.requestFullscreen();
+    };
+    var goToPolicy = function () {
+        history.push("/privacy");
+        window.scrollTo(0, 0);
+        behavior: "smooth";
     };
     var toAboutUs2 = function (name) {
         switch (name) {
@@ -122,8 +132,16 @@ var AboutUs = function () {
         document.title = "Stratton Press";
         var input = document.getElementById("phone");
         intlTelInput(input, {
+            geoIpLookup: function (callback) {
+                $.get("http://ipinfo.io", function () { }, "jsonp").always(function (resp) {
+                    var countryCode = (resp && resp.country) ? resp.country : "";
+                    callback(countryCode);
+                });
+            },
+            hiddenInput: "full_number",
+            nationalMode: true,
             separateDialCode: true,
-            utilsScript: "build/js/utils.js"
+            utilsScript: "intl-tel-input/build/js/utils.js"
         });
     }, []);
     // END
@@ -160,7 +178,7 @@ var AboutUs = function () {
         React.createElement("div", { className: "aboutus-banner-section" },
             React.createElement("div", { className: "w-100" },
                 React.createElement("div", { className: "left" },
-                    React.createElement(image_component_1["default"], { src: banner2_png_1["default"], className: "images", width: "550", height: "650", alt: "..." })),
+                    React.createElement(image_component_1["default"], { src: banner2_jpg_1["default"], className: "images", width: "550", height: "650", alt: "..." })),
                 React.createElement("div", { className: "right" },
                     React.createElement("div", { className: "header" },
                         React.createElement("div", { className: "support" }, "We Support You."),
@@ -172,10 +190,9 @@ var AboutUs = function () {
                         React.createElement("p", null, "We are here to support you. To get you Your space so that the world can see Your story. And yes, should a traditional publisher discover the wonder that you truly are, we will be as joyful as you. And in each step closer, for every success you\u2019d make, we will celebrate You."))))),
         React.createElement("div", { className: "publishing-sect" },
             React.createElement("div", { className: "w-100" },
+                React.createElement("div", { className: "temp" }),
                 React.createElement("div", { className: "text-container" },
-                    React.createElement("h1", null,
-                        "Publishing with ",
-                        React.createElement("span", null, "Stratton Press means YOU:")),
+                    React.createElement("h1", null, "Publishing with Stratton Press means YOU:"),
                     React.createElement("ul", null,
                         React.createElement("li", null, "Retain ownership of your work."),
                         React.createElement("li", null, "Can expect to have amazing book covers!"),
@@ -303,7 +320,7 @@ var AboutUs = function () {
                 React.createElement("div", { className: "websites" },
                     React.createElement("img", { src: web3_png_1["default"], alt: "" }),
                     React.createElement("div", { className: "hover" },
-                        React.createElement("a", { href: "https://www.poemsfromtheedge.com/", target: "blank" }, "Live Preview"))),
+                        React.createElement("a", { href: "https://www.rhmybooks-7022.com/", target: "blank" }, "Live Preview"))),
                 React.createElement("div", { className: "websites" },
                     React.createElement("img", { src: web4_png_1["default"], alt: "" }),
                     React.createElement("div", { className: "hover" },
@@ -346,7 +363,7 @@ var AboutUs = function () {
             React.createElement("div", { className: "w-100" },
                 React.createElement("div", { className: "content" },
                     React.createElement("h1", null, "THE US REVIEW OF BOOKS")))),
-        React.createElement("div", { className: "bookreviews-2" },
+        React.createElement("section", { className: "bookreviews-2" },
             React.createElement(react_slick_1["default"], __assign({}, settings),
                 React.createElement("div", { className: "bg-review" },
                     React.createElement("img", { className: "img pc", src: bg_review1_png_1["default"], alt: "" }),
@@ -419,11 +436,10 @@ var AboutUs = function () {
                                 React.createElement("label", null, "Phone"),
                                 React.createElement("input", { type: "text", name: "phone", id: "phone", required: true })),
                             React.createElement("div", { className: "foot" },
-                                React.createElement("button", { type: "submit" }, "Request Free Consultation"),
+                                React.createElement("button", { type: "submit", className: "send1" }, "Request Free Consultation"),
                                 React.createElement("p", { className: "privacy" },
-                                    "By clicking \u201CRequest My Free Consultation\u201D, you are providing your electronic signature, voluntarily authorizing Stratton Publishing and its affiliates to contact you using a manual or automated telephone dialing system and send you advertisement or telemarketing messages by email or text/SMS/MMS message to the address and phone number you have provided above. You are not required to agree to this in order to buy products or services from Stratton Publishing. You certify that you are over the age of eighteen (18). You\u2019ll get up to ten (10) messages per month. Standard message and data rates may apply. Click here to view our ",
-                                    React.createElement("a", { href: "javascript(0);" }, "privacy policy"),
-                                    "."))))))),
+                                    "By clicking \u201CRequest My Free Consultation\u201D, you are providing your electronic signature, voluntarily authorizing Stratton Publishing and its affiliates to contact you using a manual or automated telephone dialing system and send you advertisement or telemarketing messages by email or text/SMS/MMS message to the address and phone number you have provided above. You are not required to agree to this in order to buy products or services from Stratton Publishing. You certify that you are over the age of eighteen (18). You\u2019ll get up to ten (10) messages per month. Standard message and data rates may apply. Click here to view our0 ",
+                                    React.createElement(react_router_dom_1.Link, { to: "/privacy", onClick: function () { return goToPolicy(); } }, " privacy policy. ")))))))),
         React.createElement("div", { className: "channels-section" },
             React.createElement("div", { className: "channel-header" },
                 React.createElement("p", null, "AUTHORS' BOOKS ARE DISTRIBUTED IN THESE AMAZING CHANNELS")),
