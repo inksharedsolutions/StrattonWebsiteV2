@@ -100,7 +100,8 @@
                 left: 0;
             }
 
-            @media (max-width:480px) {
+            @media (max-width:600px) {
+                width: 100%;  
                 padding: 0 0 30px;
                 margin: 0 auto 30px;  
             }
@@ -187,9 +188,14 @@
 
         .temp{
             width: 38%;
+
+            @media (max-width:768px) {
+                width: 0;
+                
+            }
         }
         .text-container {
-            width: 65%;
+          
             background: #80c08d;
             border-radius: 5px;
             color: white;
@@ -201,6 +207,7 @@
 
             @media (max-width:768px) {
                 left: 0;
+                margin-right: 0;
             }
     
             h1 {
@@ -1095,6 +1102,7 @@
                     flex-direction: column;
                     position: absolute;
                     margin:20px;
+                    padding: 0;
                 }
                 
             .book{
@@ -1129,20 +1137,28 @@
 
                 .ttl{
                     font-size: 2rem;
-                    font-weight: 700;
-                    // @media (max-width:375px) {
-                    //     font-size: 25px;
-                    // }
+                    font-weight: 800;
+                    @media (max-width:600px) {
+                        font-size: 25px;
+                    }
                 }
 
                 .author{
                      font-size: 1.8rem;
+                     font-weight: 600;
+
+                     @media (max-width:600px) {
+                        font-size: 20px;
+                    }
                 }
                 
                 .content{
                     font-size: 18px;
                     font-style: italic;
                     line-height: 24px;
+                    @media (max-width:600px) {
+                        font-size: 17px;
+                    }
                 }
 
             }

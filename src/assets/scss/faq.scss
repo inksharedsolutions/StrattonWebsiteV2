@@ -5,7 +5,7 @@
 
 .faq-1{   
         .faq-banner{
-            background: rgb(186,223,205);
+
             background: linear-gradient(180deg, rgba(186,223,205,1) 0%, rgba(74,124,122,1) 100%, rgba(0,212,255,1) 100%);
             height: auto;
             width: 100%;
@@ -52,7 +52,7 @@
                     text-align: center;
                     color: white;
                     @media (max-width:1366px) {
-                        font-size: 4rem;
+                        font-size: 3rem;
                     }
                     @media (max-width:480px) {
                         font-size: 2rem;   
@@ -79,10 +79,12 @@
                 @media (max-width:1366px) {
                     width: auto;
                 }
+                @media (max-width:768px) {
+                    padding: 25px 40px;
+                }
                 @media (max-width:480px) {
                     width: auto;    
-                    padding-left: 10px;
-                    padding-right: 10px;
+                    padding: 25px 10px;
                 }
                 
                 h2{
@@ -178,6 +180,10 @@
                             width: 100%;
                         }
 
+                        @media (max-width:800px) {
+                            width: 92%;
+                        }
+
                         @media (max-width:480px) {
                             flex-direction: column-reverse;
                             
@@ -218,10 +224,11 @@
                             // font-family: "Montserrat";
                             color: #2f6466;
                             padding-bottom: 0;
-                            
-                            @media (max-width:480px) {
+                            margin: 0 20px;
+                            @media (max-width:600px) {
                               text-align: center;
                               padding-bottom: 75px;
+                              margin: 0;
                             }
 
                             h1{
@@ -267,6 +274,15 @@
                                 @media (max-width:1366px) {
                                     font-size: 24px;
                                 }
+
+                                @media (max-width:600px) {
+                                    font-size: 24px;
+                                    margin: 0 auto;
+                                    width: 100%;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                }
                                 
                                 .name{
                                     padding: 0 10px;
@@ -291,10 +307,15 @@
                                     display: flex;
                                     width: 100%; 
                                     flex-direction: row;
+
+                                    @media (max-width:600px) {
+                                        justify-content: center;
+                                    }
                                     @media (max-width:480px) {
                                         flex-direction: column; 
-                                        width: 98%; 
-                                        padding-left: 15px;
+                                        align-items: center;
+                                        margin: 0 auto;
+                        
                                     }
                                 }
 
@@ -306,7 +327,7 @@
                                     {
                                         width: 100%;
                                         padding-bottom: 10px;
-                                        padding-right: 10px;
+                                        padding-right: 0;
                                     }
                                 }
                                 .iti__flag-container{
@@ -315,9 +336,11 @@
                                     top: -20px;
                                     @media (max-width:480px) {
 
-                                        top:-7px
+                                        top:-7px;
+                                        left: 6%;
                                             
                                         }
+
                                 }.iti__selected-flag{
                                     background: none ;
                                     font-size: 18px;
@@ -340,7 +363,7 @@
                                         width: 98%;
                                     }
                                     @media (max-width:480px) {
-                                        width: 100%; 
+                                        width: 90%; 
                                         margin-right: 0 ;
                                         margin-bottom: 10px;
                                  
@@ -362,7 +385,7 @@
                                         width: 38%;
                                     }
                                     @media (max-width:480px) {
-                                        width: 97%; 
+                                        width: 90%; 
                                         margin-bottom: 10px;
                                     }
                                 }

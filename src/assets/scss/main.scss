@@ -363,7 +363,7 @@ body {
 .navbar-sp{
   display: none;
   z-index: 99999999;
-  // position: fixed;
+  // position: fixed;f
   left: 85%;
   top: 70px;
   @media (max-width:767px) {
@@ -611,12 +611,12 @@ body {
         &:hover{
           transform: scale(1.05);
         }
-        @media (max-width:390px) {
+        @media (max-width:500px) {
           font-size: 17px;
+          width: 100%;
+          justify-content: center;
         }
-        @media (max-width:375px) {
-          font-size: 16px;
-        }
+        
       }
     }
 

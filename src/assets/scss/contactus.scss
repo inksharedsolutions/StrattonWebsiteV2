@@ -13,12 +13,17 @@
             padding-top: 10%;
 
             @media (max-width:1366px) {
-                padding-top: 27vh;
+                padding-top: 20vh;
+            }
+
+            @media (max-width:1024px) {
+                padding-top: 28vh;
             }
            
 
             .contact-bg{
-                width: 100%;
+                max-width: 1140px;
+                margin: 0 auto;
                 height: 100%;
                 background: url('../images/backgrounds/contact-bg.png');
                 background-repeat: no-repeat;
@@ -35,7 +40,7 @@
                 }
 
                 .w-100{
-                    max-width: 1780px;
+                    max-width: 1440px;
                     display: flex;
                     padding: 0 50px;
                     justify-content: center;
@@ -46,7 +51,7 @@
                     
 
                 .contact-container{
-                    padding: 0 0 150px;
+                    padding: 0 0 100px;
                     display: flex;
                     flex-wrap: wrap;
              
@@ -57,7 +62,7 @@
 
                  
                     .left{
-                        width: 65%;
+                        width: 100%;
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
@@ -73,30 +78,30 @@
                         
                         .logo{
                             display: flex;
-                            justify-content: space-between;
+                            justify-content: space-around;
                             position: relative;
                             flex-direction: row;
                             align-items: center;
-                            left: 0;
-
-                            @media (max-width:768px) {
-                                left: -41px;
-                            }
-
+                           
+                    
                                @media (max-width:500px) {
-                                left: 0;
                                 flex-direction: column;
+                            }
+                            a{
+                                display: flex;
+                                justify-content: center;
                             }
 
                             img{
                                 box-sizing: border-box;
                                 padding: 0;
+                                width: 75%;
                                 @media (max-width:1024px) {
                                     width: 50%;
                                 }
                                 @media (max-width:768px) {
                                     padding: 10px 0;
-                                    width: initial;
+                                    width: 75%;
                                 }
                             }
         
@@ -113,28 +118,28 @@
                             }
 
                             h1{
-                            
-                                font-size: 8em;
                                 font-weight: 800;
+                                font-size: 60px;
                                
                                 @media (max-width:1366px) {
-                                    font-size: 5em;
+                                   
                                 }
 
                                 @media (max-width:1024px) {
-                                    font-size: 4em;
+                                
                                    
                                 }
                                 
-                                @media (max-width:480px) {
-                                    font-size: 5em;
-                                    font-size: 3.5em;
+                                @media (max-width:500px) {
+                                        text-align: center;
+                                        font-size: 52px;
                                 }
                             }
                             
                             h2{
-                                font-size: 2.86em;
+        
                                 font-weight: 700;
+                                font-size: 30px;
 
                                 @media (max-width:1366px) {
                                     font-size: 2em;
@@ -143,11 +148,8 @@
                             
                             p{
                                 font-style: italic;
-                                font-size: 1.7em;
+                                font-size: 18px;
 
-                                @media (max-width:1366px) {
-                                    font-size: 1.3em;
-                                }
                             }
 
                             .input-con{
@@ -294,7 +296,7 @@
                                 .textarea{
                                     padding: 0 10px;
                                     width: 100%;
-                                    height: 50vh;
+                                    height: 40vh;
                                     border-radius: 10px;
                                     border-style: none;
                                     font-style: italic;
@@ -329,7 +331,7 @@
                 
                   .right{
 
-                    width: 25%;
+                    width: 0%;
                 }
                
             }
@@ -367,7 +369,7 @@
                         font-weight: 700;
                     }
                     p{
-                        font-size: 1.5em ;
+                        font-size: 18px ;
                     }
                 }
 
