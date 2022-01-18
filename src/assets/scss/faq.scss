@@ -136,7 +136,7 @@
                     background-size: 59%;
                 }
 
-                @media (max-width:480px) {
+                @media (max-width:600px) {
                     background-size: 75%;
                     background: none;
                 }
@@ -430,9 +430,9 @@
                                     background-color: #4a7c7a;
                                     width: inherit;
 
-                                    @media (max-width:480px) {
-                                        width: 100%;
-                                        padding: 10px 110px;
+                                    @media (max-width:600px) {
+                                        padding: 20px 0px;
+                                        width: 90%;
                                     }
 
                                 }

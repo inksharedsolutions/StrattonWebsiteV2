@@ -542,7 +542,7 @@ const settingSp ={
             frameBorder="0"
             allowFullScreen
           >
-            {" "}
+         
           </iframe>
                     <h2>This Week In America Radio Interview :</h2>
                     <h1> From an Outhouse to the White House</h1>
@@ -565,8 +565,7 @@ const settingSp ={
       {/* end of spotlight */}
       <div className="testimonials text-center pc" id="testimonials">
         <div className=" con">
-          
-          ``
+        
             <div className="row">
             <Slider {...settings}>
               
