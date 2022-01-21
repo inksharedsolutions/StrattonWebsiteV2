@@ -207,4 +207,4 @@ const AboutUs: React.FC<Props> = () => {
     );
 };
 
-export default AboutUs;
+export default AboutUs;  
