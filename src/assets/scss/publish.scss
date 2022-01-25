@@ -189,7 +189,7 @@
                     width: 18rem;
                     border-radius: 20px;
                     font-weight: 700;
-                    font-size: 17px;
+                    font-size: 20px;
                     border: none;
                     &:hover{
                         transform:scale(1.05);
@@ -299,7 +299,14 @@
                 p{
                     text-align: justify;
                     font-size: 18px;
-                    font-weight: 600;
+
+                    @media (max-width:500px) {
+                        text-align: left;
+                        font-size: 18px;
+                        line-height: 20px;
+                        
+                    }
+                 
                 }
             }
         }
@@ -485,7 +492,11 @@
                         align-items: top;
                     }
                 }
+                .moretext {
+                    display: none;
+                  }
 
+                  
                 .reviews{
                     padding: 0 40px;
 

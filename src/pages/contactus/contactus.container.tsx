@@ -67,6 +67,15 @@ const contactUs: React.FC<Props> = () => {
     
 }
 
+$('.moreless-button').click(function() {
+  $('.moretext').slideToggle();
+  if ($('.moreless-button').text() == "Read more") {
+    $(this).text("Read less")
+  } else {
+    $(this).text("Read more")
+  }
+});
+
 const goToFAQ = () => {
   history.push("/faq");
   window.scrollTo(0, 0);
@@ -98,7 +107,7 @@ const goToFAQ = () => {
    
     hiddenInput: "full_number",
     // localizedCountries: { 'de': 'Deutschland' },
-    nationalMode: true,
+    nationalMode: true,   
     // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
     // placeholderNumberType: "MOBILE",
     // preferredCountries: ['cn', 'jp'],
@@ -242,7 +251,7 @@ const goToFAQ = () => {
               <Slider {...settings}>
                 <div className="reviews">
                   <h3>August 25,2021</h3>
-                  <p>
+                  <div className="article">
                     To whom it may concern,I am writing this review with
                     gratitude toward Stratton Press Publishing. Last fall, I
                     received a phone call from a project manager from Stratton.
@@ -254,7 +263,9 @@ const goToFAQ = () => {
                     fair, and I took the offer. I am now under contract for six
                     books. One has been released and is available for sale. Two
                     are in the editing process, one I am working on daily and is
-                    near completion and two are in the wings. Working with
+                    near completion and two are in the wings. 
+                    <p className="moretext">
+                    Working with
                     Stratton has been one of the pleasures of my life. My
                     project manager has inspired me to write and paint and do
                     all the creative endeavors I used to do. He calls several
@@ -263,7 +274,9 @@ const goToFAQ = () => {
                     projects, and our association has only been since last
                     November. I cannot believe we have accomplished so much in
                     such a short time. I couldn't be more pleased.
-                  </p>
+                    </p>
+                    <a className="moreless-button" >Read more</a>
+                  </div>
                   <span>Jean I.</span>
                   
                 </div>

@@ -350,7 +350,7 @@ const AboutUs: React.FC<Props> = () => {
                             <iframe src="https://www.youtube.com/embed/xj4V60xXRug" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                             <iframe src="https://www.youtube.com/embed/3PpE0sxomM4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                             <iframe src="https://www.youtube.com/embed/w-OkABdPGfU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                            <iframe src="https://www.youtube.com/embed/BVisD_0kv14"  title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>               
+                            <iframe src="https://www.youtube.com/embed/7JQxo1Sx1Ts"  title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>               
                         </div>
 
                         <div className="books book-sp">
@@ -360,7 +360,7 @@ const AboutUs: React.FC<Props> = () => {
                             <iframe src="https://www.youtube.com/embed/xj4V60xXRug" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                             <iframe src="https://www.youtube.com/embed/3PpE0sxomM4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                             <iframe src="https://www.youtube.com/embed/w-OkABdPGfU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                            <iframe src="https://www.youtube.com/embed/BVisD_0kv14"  title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>               
+                            <iframe src="https://www.youtube.com/embed/7JQxo1Sx1Ts"  title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>               
                         </Slider>
                             
                         </div>
@@ -388,22 +388,26 @@ const AboutUs: React.FC<Props> = () => {
             <div className="book-cover3" id="book-cover3">
             <div className="w100">
                         <div className="books book-pc">
-                            <iframe src="https://www.youtube.com/embed/mSnqWHs4K24"  title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                            <iframe src="https://www.youtube.com/embed/LN3wQmPbVEs"title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                            <iframe src="https://www.youtube.com/embed/Qitg8fyB1F0" title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                            <iframe src="https://www.youtube.com/embed/Gv9c3Es3snc"  title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                            <iframe src="https://www.youtube.com/embed/wwtMnoy7lSI" title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                            <iframe src="https://www.youtube.com/embed/wqYCiwU8hy4" title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>                                  
+                            <iframe src="https://drive.google.com/file/d/1SZ1D4nt7PCQk9t1LZhTXdZTHw210GwPZ/preview"  title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <iframe src="https://drive.google.com/file/d/1zUPSylh02gTVEdHJYZr_KZT9VjCtj5la/preview"title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <iframe src="https://drive.google.com/file/d/1QyfgkLLj4WsoNKJtMD--dKkrQH675OLJ/preview" title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <iframe src="https://drive.google.com/file/d/1NcOmbH7qcvZzDCGUSphRJzxbG3rxAdSP/preview"  title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <iframe src="https://drive.google.com/file/d/1tFtv-LIzrEOzWalrZ3fWZDrj-aDDSorh/preview" title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <iframe src="https://drive.google.com/file/d/1dGbi5uc3mMRIWzcc2Yqs5KV4bxds0kJj/preview" title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>                                  
+                            <iframe src="https://drive.google.com/file/d/1zVN6q_MHT5K1uuddpbiO90tK6MUU7V_d/preview" title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>                                  
+                            <iframe src="https://drive.google.com/file/d/1QyfgkLLj4WsoNKJtMD--dKkrQH675OLJ/preview" title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>                                  
                         </div>
                         <div className="books book-sp">
                         <Slider {...settings}>
                             
-                             <iframe src="https://www.youtube.com/embed/mSnqWHs4K24"  title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                            <iframe src="https://www.youtube.com/embed/LN3wQmPbVEs"title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                            <iframe src="https://www.youtube.com/embed/Qitg8fyB1F0" title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                            <iframe src="https://www.youtube.com/embed/Gv9c3Es3snc"  title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                            <iframe src="https://www.youtube.com/embed/wwtMnoy7lSI" title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                            <iframe src="https://www.youtube.com/embed/wqYCiwU8hy4" title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>                                  
+                             <iframe src="https://drive.google.com/file/d/1SZ1D4nt7PCQk9t1LZhTXdZTHw210GwPZ/preview"  title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <iframe src="https://drive.google.com/file/d/1zUPSylh02gTVEdHJYZr_KZT9VjCtj5la/preview" title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <iframe src="https://drive.google.com/file/d/1QyfgkLLj4WsoNKJtMD--dKkrQH675OLJ/preview" title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <iframe src="https://drive.google.com/file/d/1NcOmbH7qcvZzDCGUSphRJzxbG3rxAdSP/preview"  title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <iframe src="https://drive.google.com/file/d/1tFtv-LIzrEOzWalrZ3fWZDrj-aDDSorh/preview" title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <iframe src="https://drive.google.com/file/d/1dGbi5uc3mMRIWzcc2Yqs5KV4bxds0kJj/preview" title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>                                  
+                            <iframe src="https://drive.google.com/file/d/1zVN6q_MHT5K1uuddpbiO90tK6MUU7V_d/preview" title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>                                  
+                            <iframe src="https://drive.google.com/file/d/1QyfgkLLj4WsoNKJtMD--dKkrQH675OLJ/preview" title="YouTube video player" frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>                                  
                
                            </Slider>
 
@@ -520,7 +524,7 @@ const AboutUs: React.FC<Props> = () => {
                 <div className="w-100">
                     <div className="content">
                         <h1>THE US REVIEW OF BOOKS</h1>
-                        {/* <img src={usreview} alt="..." />     */}
+                        <img src={usreview} alt="..." />    
                     </div>
                 </div>
             </div>
@@ -651,7 +655,7 @@ const AboutUs: React.FC<Props> = () => {
                                         services from Stratton Publishing. You certify that you are 
                                         over the age of eighteen (18). You’ll get up to ten (10) messages 
                                         per month. Standard message and data rates may apply. Click here 
-                                        to view our0 <Link to="/privacy"  onClick={() => goToPolicy()}> privacy policy. </Link>
+                                        to view our. <Link to="/privacy"  onClick={() => goToPolicy()}> privacy policy. </Link>
                                     </p>
                                 </div>
                             </span>

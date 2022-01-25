@@ -8,8 +8,7 @@ import ButtonComp from "../../common/Button/button.component";
 import HeaderSection from "../../common/Navigation/header.component";
 import Navigation from "../../common/Navigation/navigation.component";
 import Image from "../../common/Image/image.component";
-import { UserCircle } from "styled-icons/boxicons-regular";
-import { QuoteAltLeft } from "styled-icons/boxicons-solid";
+
 import { QuoteAltRight } from "styled-icons/boxicons-solid";
 import Carousel from "nuka-carousel";
 
@@ -362,7 +361,7 @@ const settingSp ={
         <div className="w-100">
           <div className="left">
             <h2>
-              <strong>Publishing made easy</strong>{" "}
+              <strong>Publishing made easy.</strong>{" "}
             </h2>
             {/* <p>
               Download our free publishing guide to learn about our
@@ -491,7 +490,7 @@ const settingSp ={
           <div className="bar2"></div>
         </div>
         <div className="content">
-        <iframe  src="https://www.youtube.com/embed/qNOpjGy5Us0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/MgVFfR45nis" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
       </div>
 
@@ -538,7 +537,7 @@ const settingSp ={
                   <div className="temp-author"></div>
                   <div className="left">
                   <iframe
-            src="https://www.youtube.com/embed/TuhAb-6AJ3Q?version=3&enablejsapi=1"
+            src="https://drive.google.com/file/d/1tFtv-LIzrEOzWalrZ3fWZDrj-aDDSorh/preview"
             frameBorder="0"
             allowFullScreen
           >

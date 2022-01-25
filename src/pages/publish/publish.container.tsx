@@ -186,7 +186,7 @@ const PublishContainer: React.FC<Props> = () => {
               <h1>
                 <span>PUBLISHING</span> made accessible
               </h1>
-              <p>"Can I really get my book published"</p>
+              <h2>"Can I really get my book published?"</h2>
 
               <p>
                 For aspiring authors, publishing a book seems daunting. And yes,
