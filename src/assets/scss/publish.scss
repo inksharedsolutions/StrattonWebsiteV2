@@ -501,9 +501,10 @@
                     padding: 0 40px;
 
                     @media (max-width:768px) {
-                        padding: 0 20px;
-
-                        
+                        padding: 0 20px; 
+                    }
+                    @media (max-width:500px) {
+                        padding: 0 ; 
                     }
                 }
                 
@@ -520,17 +521,14 @@
                 
                 h2{ 
                     font-size: 1.4rem;
-                   font-weight: 700;  
-                   text-align: left;
+                 
+                   text-align: right;
                    
-                   @media (max-width:480px) {
-
-                     text-align: center;  
-                     }
+                 
                    }
                 
                 h3{
-                    text-align: right;
+                    text-align: left;
                     padding: 3px;
                     font-size: 17px;
                     font-weight: 700;

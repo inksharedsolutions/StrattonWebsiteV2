@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 // import logo from "../../assets/images/logo/Logo.png";
 import logo from "../../assets/images/logo/Company_Logo3.png";
+import logosp from "../../assets/images/logo/logo-mobile.png";
 
 
 interface Props {}
@@ -189,9 +190,14 @@ function scrollFunction() {
       {/* END OF OVERLAY MENU */}
 
       <div className="container-fluid navbar-section">
-        <a href="./index.html" className="navbar-brand d-flex w-50 me-auto">
+        <a href="./index.html" className="navbar-brand d-flex w-50 m-auto">
           <Link to="" onClick={() => goToHome()}> 
-            <img src={logo} className="logo-img" alt="" />
+           <div className="pc">
+              <img src={logo} className="logo-img" alt="" />
+           </div>
+           <div className="sp">
+              <img src={logosp} className="logo-img" alt="" />
+           </div>
           </Link>
         </a>
 

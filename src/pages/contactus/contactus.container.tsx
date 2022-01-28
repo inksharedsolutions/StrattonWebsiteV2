@@ -67,15 +67,6 @@ const contactUs: React.FC<Props> = () => {
     
 }
 
-$('.moreless-button').click(function() {
-  $('.moretext').slideToggle();
-  if ($('.moreless-button').text() == "Read more") {
-    $(this).text("Read less")
-  } else {
-    $(this).text("Read more")
-  }
-});
-
 const goToFAQ = () => {
   history.push("/faq");
   window.scrollTo(0, 0);
@@ -85,6 +76,27 @@ const goToFAQ = () => {
 
   React.useEffect(() => {
     document.title = "Stratton Press";
+
+    
+$('.moreless-button').click(function() {
+  $('.moretext').slideToggle();
+  if ($('.moreless-button').text() == "Read more") {
+    $(this).text("Read less")
+   
+  
+  } else {
+
+    $(this).text("Read more")
+   
+  
+  }
+  const settings = {
+     
+    adaptiveHeight: true,
+    
+  };
+});
+
 
     
   var input = document.querySelector("#phone")  as HTMLCanvasElement;
@@ -252,6 +264,7 @@ const goToFAQ = () => {
                 <div className="reviews">
                   <h3>August 25,2021</h3>
                   <div className="article">
+                   <p>
                     To whom it may concern,I am writing this review with
                     gratitude toward Stratton Press Publishing. Last fall, I
                     received a phone call from a project manager from Stratton.
@@ -259,11 +272,12 @@ const goToFAQ = () => {
                     business arrangement. He mentioned a book that I had
                     recently published with another publisher. Of course, I was
                     skeptical about republishing and spent a good deal of time
-                    investigating Stratton. I was soon convinced that it was
+                    investigating Stratton. I was soon convinced that it was  
                     fair, and I took the offer. I am now under contract for six
                     books. One has been released and is available for sale. Two
                     are in the editing process, one I am working on daily and is
                     near completion and two are in the wings. 
+                   </p>
                     <p className="moretext">
                     Working with
                     Stratton has been one of the pleasures of my life. My

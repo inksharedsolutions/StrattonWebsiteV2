@@ -612,7 +612,7 @@ const AboutUs: React.FC<Props> = () => {
                             </span>
                             <span className="form">
                                 <div className="manus">
-                                    <label>Do you have a manuscript that is ready to publish *</label>
+                                    <label>Do you have a manuscript that is ready to publish? *</label>
                                     {/* <input type="text" placeholder="Yes, I am ready to publish today" name="manuscript"/> */}
                                     <select name="subject" id="cars" placeholder="Want to know more">
                                        <option value="Yes, I am ready to publish today." disabled selected>

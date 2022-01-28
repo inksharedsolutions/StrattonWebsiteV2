@@ -13,7 +13,7 @@
             padding-top: 10%;
 
             @media (max-width:1366px) {
-                padding-top: 20vh;
+                padding-top: 30vh;
             }
 
             @media (max-width:1024px) {
@@ -31,11 +31,10 @@
                 background-position: right bottom;
                 
                 @media (max-width:1366px) {
-                    background-size: 59%;
+                    background-size: 43%;
                 }
 
                 @media (max-width:480px) {
-                    background-size: 75%;
                     background: none;
                 }
 
@@ -169,7 +168,8 @@
                                     font-size: 20px;
                                     flex-direction: column;
                                 }
-                                
+                              
+
                                 .name{
                                     padding: 0 10px;
                                     width: 100%;
@@ -178,6 +178,10 @@
                                     border-style: none;
                                     font-style: italic;
 
+                                    &::placeholder{
+                                        color: #ced4da;
+                                    }
+                                    
                                     @media (max-width:1366px) {
                                         width: 90%;
                                     }
@@ -243,7 +247,9 @@
                                     border-style: none;
                                     font-style: italic;
 
-                                    
+                                    &::placeholder{
+                                        color: #ced4da;
+                                    }
                                     @media (max-width:480px) {
                                         width: 100%; 
                                         margin-right: 0 ;
@@ -262,6 +268,9 @@
                                     border-style: none;
                                     font-style: italic;
 
+                                    &::placeholder{
+                                        color: #ced4da;
+                                    }
                                     
                                     @media (max-width:1366px) {
                                         width: 43%;
@@ -283,6 +292,11 @@
                                     border-style: none;
                                     font-style: italic;
 
+                                    &::placeholder{
+                                        color: #ced4da;
+                                    }
+                                    
+
                                     @media (max-width:1366px) {
                                         width: 90%;
                                     }
@@ -300,6 +314,10 @@
                                     border-radius: 10px;
                                     border-style: none;
                                     font-style: italic;
+
+                                    &::placeholder{
+                                        color: #ced4da;
+                                    }
 
                                     @media (max-width:1366px) {
                                         width: 90%;

@@ -1,3 +1,4 @@
+
 .AboutUs-Component {
     background: #fefbea;
 }
@@ -992,7 +993,7 @@
         width: 100%;
         max-width: 1800px;
         margin: 0 auto;
-        padding: 35px 0;
+        padding: 20px 0;
 
         .content {
             display: flex;
@@ -1120,7 +1121,7 @@
             align-items: center;
             margin: 0 auto;
             padding: 3rem 0;
-            justify-content: center;
+   
 
                 @media (max-width:480px) {
                     flex-direction: column;
@@ -1171,8 +1172,10 @@
                      font-size: 1.8rem;
                      font-weight: 600;
 
-                     @media (max-width:600px) {
+                     @media (max-width:600px) {                                           
                         font-size: 20px;
+                        padding: 5px 0 10px;
+
                     }
                 }
                 
@@ -1267,9 +1270,13 @@
                             padding-left: 10px;
                         }   
                     }
-
+                   
                     .fname {
                         text-align: left;
+                        padding-top: 10px;
+
+                         
+    
 
                         label {
                             width: 100%;
@@ -1288,6 +1295,7 @@
 
                     .lname {
                         text-align: left;   
+                        padding-top: 10px;
 
                         label {
                             width: 100%;
@@ -1307,6 +1315,7 @@
 
                     .email {
                         text-align: left;
+                        padding-top: 10px;
 
                         label {
                             width: 100%;
@@ -1326,6 +1335,7 @@
 
                     .phone {
                         text-align: left;
+                        padding-top: 10px;
 
                         label {
                             width: 100%;

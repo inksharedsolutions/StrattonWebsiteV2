@@ -30,6 +30,7 @@ import blueberrysp from "../../assets/images/414x736/414_X_736_3.jpg"
 import dyingwellsp from "../../assets/images/414x736/414_X_736_4.jpg"
 import erichoffersp from "../../assets/images/414x736/414_X_736_5.jpg"
 
+import allrewards from "../../assets/images/backgrounds/ALL-AWARDS_FINAL.jpg";
 import deception from "../../assets/images/backgrounds/100-YEARS-OF-DECEPTION_web.jpg";
 import atlastians from "../../assets/images/backgrounds/ALASTIANS_WEB.jpg";
 import blueberry from "../../assets/images/backgrounds/BLUEBERRY-DREAMS_web.jpg";
@@ -57,6 +58,7 @@ import clint from "../../assets/images/authors/clint.png";
 import { SettingsPhone } from "@styled-icons/material";
 
 const ITEMSSP= [
+
   {
     img: deceptionsp,
     alt: "Slide 1",
@@ -85,14 +87,20 @@ const ITEMSSP= [
 ];
 
 const ITEMS = [
-  {
-    img: deception,
-    alt: "Slide 1",
+    {
+    img: allrewards,
+    alt: "Slide 0",
     href: "javascript:void(0)",
   },
+ 
   {
     img: atlastians,
     alt: "Slide 2",
+    href: "javascript:void(0)",
+  },
+  {
+    img: deception,
+    alt: "Slide 1",
     href: "javascript:void(0)",
   },
   {
@@ -571,12 +579,14 @@ const settingSp ={
               <div className="col-md-6 col-lg-4">
                 <div className="card border-light bg-light text-center">
                   {/* <i className="fa fa-quote-left card-img-top rounded-circle" aria-hidden="true"></i> */}  
-                  <QuoteAltRight                                                                                                                                                       
-                    size={45}
-                    className="card-img-top rounded-circle"
-                    aria-hidden="true"
-                    color="orange"
-                  />
+                  <div className="up">
+                <QuoteAltRight
+                size={45}
+                className="card-img-top rounded-circle"
+                aria-hidden="true"
+                color="orange"
+              />
+                </div>
                   <div className="card-body blockquote">
                     {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                     {/* <UserCircle size={65} color="gray"/> */}
@@ -601,12 +611,14 @@ const settingSp ={
               <div className="col-md-6 col-lg-4">
                 <div className="card border-light bg-light text-center">
                   {/* <i className="fa fa-quote-left card-img-top rounded-circle" aria-hidden="true"></i> */}
-                  <QuoteAltRight
-                    size={45}
-                    className="card-img-top rounded-circle"
-                    aria-hidden="true"
-                    color="orange"
-                  />
+                  <div className="up">
+                <QuoteAltRight
+                size={45}
+                className="card-img-top rounded-circle"
+                aria-hidden="true"
+                color="orange"
+              />
+                </div>
                   <div className="card-body blockquote">
                     {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                     {/* <UserCircle size={65} color="gray" /> */}
@@ -632,12 +644,14 @@ const settingSp ={
               <div className="col-md-6 col-lg-4" >
                 <div className="card border-light bg-light text-center">
                   {/* <i className="fa fa-quote-left card-img-top rounded-circle" aria-hidden="true"></i> */}
-                  <QuoteAltRight
-                    size={45}
-                    className="card-img-top rounded-circle"
-                    aria-hidden="true"
-                    color="orange"
-                  />
+                  <div className="up">
+                <QuoteAltRight
+                size={45}
+                className="card-img-top rounded-circle"
+                aria-hidden="true"
+                color="orange"
+              />
+                </div>
                   <div className="card-body blockquote">
                     {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                     {/* <UserCircle size={65} color="gray" /> */}
@@ -665,12 +679,14 @@ const settingSp ={
                 <div className="col-md-6 col-lg-4" >
                   <div className="card border-light bg-light text-center">
                     {/* <i className="fa fa-quote-left card-img-top rounded-circle" aria-hidden="true"></i> */}
-                    <QuoteAltRight
-                      size={45}
-                      className="card-img-top rounded-circle"
-                      aria-hidden="true"
-                      color="orange"
-                    />
+                    <div className="up">
+                <QuoteAltRight
+                size={45}
+                className="card-img-top rounded-circle"
+                aria-hidden="true"
+                color="orange"
+              />
+                </div>
                     <div className="card-body blockquote">
                       {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                       {/* <UserCircle size={65} color="gray" /> */}
@@ -694,12 +710,14 @@ const settingSp ={
                 <div className="col-md-6 col-lg-4" >
                   <div className="card border-light bg-light text-center">
                     {/* <i className="fa fa-quote-left card-img-top rounded-circle" aria-hidden="true"></i> */}
-                    <QuoteAltRight
-                      size={45}
-                      className="card-img-top rounded-circle"
-                      aria-hidden="true"
-                      color="orange"
-                    />
+                    <div className="up">
+                <QuoteAltRight
+                size={45}
+                className="card-img-top rounded-circle"
+                aria-hidden="true"
+                color="orange"
+              />
+                </div>
                     <div className="card-body blockquote">
                       {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                       {/* <UserCircle size={65} color="gray" /> */}
@@ -724,12 +742,14 @@ const settingSp ={
                 <div className="col-md-6 col-lg-4" >
                   <div className="card border-light bg-light text-center">
                     {/* <i className="fa fa-quote-left card-img-top rounded-circle" aria-hidden="true"></i> */}
-                    <QuoteAltRight
-                      size={45}
-                      className="card-img-top rounded-circle"
-                      aria-hidden="true"
-                      color="orange"
-                    />
+                    <div className="up">
+                <QuoteAltRight
+                size={45}
+                className="card-img-top rounded-circle"
+                aria-hidden="true"
+                color="orange"
+              />
+                </div>
                     <div className="card-body blockquote">
                       {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                       {/* <UserCircle size={65} color="gray" /> */}
@@ -753,12 +773,14 @@ const settingSp ={
                 <div className="col-md-6 col-lg-4" >
                   <div className="card border-light bg-light text-center">
                     {/* <i className="fa fa-quote-left card-img-top rounded-circle" aria-hidden="true"></i> */}
-                    <QuoteAltRight
-                      size={45}
-                      className="card-img-top rounded-circle"
-                      aria-hidden="true"
-                      color="orange"
-                    />
+                    <div className="up">
+                <QuoteAltRight
+                size={45}
+                className="card-img-top rounded-circle"
+                aria-hidden="true"
+                color="orange"
+              />
+                </div>
                     <div className="card-body blockquote">
                       {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                       {/* <UserCircle size={65} color="gray" /> */}
@@ -794,12 +816,14 @@ const settingSp ={
           <div className="col-md-6 col-lg-4 sp">
             <div className="card border-light bg-light text-center">
               {/* <i className="fa fa-quote-left card-img-top rounded-circle" aria-hidden="true"></i> */}
-              <QuoteAltRight
+              <div className="up">
+                <QuoteAltRight
                 size={45}
                 className="card-img-top rounded-circle"
                 aria-hidden="true"
                 color="orange"
               />
+                </div>
               <div className="card-body blockquote">
                 {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                 {/* <UserCircle size={65} color="gray"/> */}
@@ -824,12 +848,14 @@ const settingSp ={
           <div className="col-md-6 col-lg-4 sp">
             <div className="card border-light bg-light text-center">
               {/* <i className="fa fa-quote-left card-img-top rounded-circle" aria-hidden="true"></i> */}
-              <QuoteAltRight
+                <div className="up">
+                <QuoteAltRight
                 size={45}
                 className="card-img-top rounded-circle"
                 aria-hidden="true"
                 color="orange"
               />
+                </div>
               <div className="card-body blockquote">
                 {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                 {/* <UserCircle size={65} color="gray" /> */}
@@ -855,12 +881,14 @@ const settingSp ={
           <div className="col-md-6 col-lg-4 sp">
             <div className="card border-light bg-light text-center">
               {/* <i className="fa fa-quote-left card-img-top rounded-circle" aria-hidden="true"></i> */}
-              <QuoteAltRight
+              <div className="up">
+                <QuoteAltRight
                 size={45}
                 className="card-img-top rounded-circle"
                 aria-hidden="true"
-                color="orange"  
+                color="orange"
               />
+                </div>
               <div className="card-body blockquote">
                 {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                {/* <UserCircle size={65} color="gray" /> */}
@@ -887,12 +915,14 @@ const settingSp ={
           <div className="col-md-6 col-lg-4 sp">
             <div className="card border-light bg-light text-center">
               {/* <i className="fa fa-quote-left card-img-top rounded-circle" aria-hidden="true"></i> */}
-              <QuoteAltRight
+              <div className="up">
+                <QuoteAltRight
                 size={45}
                 className="card-img-top rounded-circle"
                 aria-hidden="true"
-                color="orange"  
+                color="orange"
               />
+                </div>
               <div className="card-body blockquote">
                 {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                {/* <UserCircle size={65} color="gray" /> */}
@@ -916,12 +946,14 @@ const settingSp ={
           <div className="col-md-6 col-lg-4 sp">
             <div className="card border-light bg-light text-center">
               {/* <i className="fa fa-quote-left card-img-top rounded-circle" aria-hidden="true"></i> */}
-              <QuoteAltRight
+              <div className="up">
+                <QuoteAltRight
                 size={45}
                 className="card-img-top rounded-circle"
                 aria-hidden="true"
-                color="orange"  
+                color="orange"
               />
+                </div>
               <div className="card-body blockquote">
                 {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                {/* <UserCircle size={65} color="gray" /> */}
@@ -946,12 +978,14 @@ const settingSp ={
           <div className="col-md-6 col-lg-4 sp">
             <div className="card border-light bg-light text-center">
               {/* <i className="fa fa-quote-left card-img-top rounded-circle" aria-hidden="true"></i> */}
-              <QuoteAltRight
+              <div className="up">
+                <QuoteAltRight
                 size={45}
                 className="card-img-top rounded-circle"
                 aria-hidden="true"
-                color="orange"  
+                color="orange"
               />
+                </div>
               <div className="card-body blockquote">
                 {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                {/* <UserCircle size={65} color="gray" /> */}
@@ -975,12 +1009,14 @@ const settingSp ={
           <div className="col-md-6 col-lg-4 sp">
             <div className="card border-light bg-light text-center">
               {/* <i className="fa fa-quote-left card-img-top rounded-circle" aria-hidden="true"></i> */}
-              <QuoteAltRight
+              <div className="up">
+                <QuoteAltRight
                 size={45}
                 className="card-img-top rounded-circle"
                 aria-hidden="true"
-                color="orange"  
+                color="orange"
               />
+                </div>
               <div className="card-body blockquote">
                 {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                {/* <UserCircle size={65} color="gray" /> */}

@@ -74,11 +74,11 @@ const faq: React.FC<Props> = () => {
       summary: "An Author Service Provider offers the author a range of services needed in the design, production, distribution and marketing of his book, that normally he would have difficulty doing on his own. Imagine having to look for your own cover designer, interior designer, copy editor, developmental editor, proofreader, social media specialist, or marketing specialist. An Author Services Provider has experienced staff with varying competencies, who can support your specific needs. The author takes control of his work and decides which services he’d utilize. An Author Services Provider is like a one-stop shop for authors. You get to pick the services you need and have a team back you up.An Author Services Provider produces a professional, finished product created by both the author and an experienced group of publishing professionals. Stratton Press not only helps you create a beautiful, published book, we also help you distribute and market it.",
     },
     {
-      title: "Are you a Vanity Press",
+      title: "Are you a Vanity Press?",
       summary: "No. Vanity publishers take ownership of the author’s work. Once a manuscript is published, it becomes the vanity publisher’s intellectual property. The author forfeits all rights to his book. Stratton Press ensures the authors assume control in the creative and production process and retain his rights and ownership when published.",
     },
     {
-      title: "Would you own the rights to my book",
+      title: "Would you own the rights to my book?",
       summary: "Absolutely not. You own the rights to your book 100%. You have full control over your work, including how you wish to proceed at each step of the publishing process.",
     },
     {
@@ -86,7 +86,7 @@ const faq: React.FC<Props> = () => {
       summary: "We publish both fiction and non-fiction books. We can have them available in ebook, paperback and hardback format.",
     },
     {
-      title: "Do you accept an already published book",
+      title: "Do you accept an already published book?",
       summary: "Yes. As long as you retain full ownership to the rights of your books, we can help you re-publish it.",
     },
     {
@@ -98,7 +98,7 @@ const faq: React.FC<Props> = () => {
       summary: "A Client Services Officer will gather all the materials needed to have a seamless publication process of your book. These are your manuscript, your photo, images, illustrations, and other necessary information for your book launch. The Project Management Officer will also guide you throughout the whole publication process. He/she will serve as your main point of contact to your artist and editors.? ",
     },
     {
-      title: "Do you publish all book formats",
+      title: "Do you publish all book formats?",
     summary: "Yes, we can publish in various formats including paperback, hardcover, eBook, and audiobook form.",
     },
     {
@@ -178,8 +178,7 @@ const faq: React.FC<Props> = () => {
                     <summary>
                     My manuscript is in multiple files. Does Stratton Press merge them into one file for me?
                     </summary>
-                    <p>
-                      Stratton Press requires authors to merge their own files prior to submitting them 
+                    <p> Stratton Press requires authors to merge their own files prior to submitting them 
                       to the Project Management Officer. This is to ensure the sequence of the manuscript 
                       is accurate. <br/><br/>
                       Microsoft Word makes it very easy to merge multiple documents into one 
@@ -187,7 +186,7 @@ const faq: React.FC<Props> = () => {
                       1. Open the first word document of your manuscript. <br/> 
                       2. Place the text cursor at the end of the document, or that space where you would like the next file to start. <br/> 
                       3. At the top of your opened Microsoft Word document is a toolbar. Find the “Insert” menu and select “File”. <br/> 
-                      4. Browse for and select the next file to be merged. <br/> 
+                      4. Browse for and select the next file to be merged. <br/>  
                       5. Repeat as necessary.
                     </p>
                   </details>
