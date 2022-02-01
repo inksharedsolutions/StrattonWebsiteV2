@@ -463,7 +463,7 @@
 
 .book-cover1{
     display: none;
-    background-color: #fff;
+   background: url('../images/backgrounds/concrete-wall.png');
     animation: fade-in 2s;
     height: auto;
 
@@ -639,6 +639,10 @@
                     
                 }
 
+             img{
+                border-radius: 10%;
+             }   
+
             .hover{
                 display: none;
 
@@ -658,6 +662,7 @@
                 justify-content: center;
                 align-items: center;
                 height: 100%;
+                border-radius: 10%;
                 background: rgb(186,223,205);
                 background: linear-gradient(143deg, rgba(186,223,205,1) 0%, rgba(74,124,111,0.4990371148459384) 100%, rgba(0,212,255,1) 100%);
 

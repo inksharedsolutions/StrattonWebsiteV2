@@ -27,20 +27,21 @@ import bookreview3 from "../../assets/images/books/book-review3.png";
 import bookreview4 from "../../assets/images/books/book-review4.png";
 
 import booksample1 from "../../assets/images/books/blueberry.png";
-import booksample2 from "../../assets/images/books/designated survivor.png";
-import booksample3 from "../../assets/images/books/dont work.png";
-import booksample4 from "../../assets/images/books/greasy cove.png";
-import booksample5 from "../../assets/images/books/ice moon.png";
-import booksample6 from "../../assets/images/books/mutton decadece.png";
-import booksample7 from "../../assets/images/books/up north.png";
-import booksample8 from "../../assets/images/books/wasted youth.png";
+import booksample2 from "../../assets/images/books/unsealed.png";
+import booksample3 from "../../assets/images/books/designated.png";
+import booksample4 from "../../assets/images/books/fun.png";
+import booksample5 from "../../assets/images/books/listening.png";
+import booksample6 from "../../assets/images/books/different.png";
+import booksample7 from "../../assets/images/books/ice.png";
+import booksample8 from "../../assets/images/books/key.png";
+import booksample9 from "../../assets/images/books/greasy.png";
 
-import web1 from "../../assets/images/books/web1.1.png";
-import web2 from "../../assets/images/books/web2.png";
-import web3 from "../../assets/images/books/web3.png";
-import web4 from "../../assets/images/books/web4.png";
-import web5 from "../../assets/images/books/web5.png";
-import web6 from "../../assets/images/books/web6.png";
+import web1 from "../../assets/images/books/avaphillips.png";
+import web2 from "../../assets/images/books/lois1.png";
+import web3 from "../../assets/images/books/steve.png";
+import web4 from "../../assets/images/books/william3.png";
+import web5 from "../../assets/images/books/thomas.png";
+import web6 from "../../assets/images/books/jesse.png";
 
 import BGreview1 from "../../assets//images/backgrounds/bg-review1.png";
 import BGreview2 from "../../assets//images/backgrounds/bg-review2.png";
@@ -298,6 +299,7 @@ const AboutUs: React.FC<Props> = () => {
                                 <img src={booksample6} alt="b" />
                                <img src={booksample7} alt="b" />
                                 <img src={booksample8} alt="b" />
+                                <img src={booksample9} alt="b" />
                             
                         </div>
 
@@ -441,37 +443,37 @@ const AboutUs: React.FC<Props> = () => {
                     <div className="websites">
                         <img src = {web1} alt="" />
                         <div className="hover">
-                            <a href="https://www.perrywrites.com/" target="blank">Live Preview</a>
+                            <a href="https://www.ava-phillips.com/" target="blank">Live Preview</a>
                         </div>
                     </div>  
                     <div className="websites">
                         <img src = {web2} alt="" />
                         <div className="hover">
-                            <a href="https://www.author-williamhoy.com/" target="blank">Live Preview</a>
+                            <a href="https://www.paulettemarshall.com/" target="blank">Live Preview</a>
                         </div>
                     </div>  
                     <div className="websites">
                         <img src = {web3} alt="" />
                         <div className="hover">
-                            <a href="https://www.rhmybooks-7022.com/" target="blank">Live Preview</a>
+                            <a href="https://www.21dvmm.com/" target="blank">Live Preview</a>
                         </div>
                     </div>  
                     <div className="websites">
                         <img src = {web4} alt="" />
                         <div className="hover">
-                            <a href="https://www.ava-phillips.com/" target="blank">Live Preview</a>
+                            <a href="https://www.author-williamhoy.com/" target="blank">Live Preview</a>
                         </div>
                     </div>  
                     <div className="websites">
                         <img src = {web5} alt="" />
                         <div className="hover">
-                            <a href="https://www.mollymcgintybooks.com/" target="blank">Live Preview</a>
+                            <a href="https://www.thomasshipleyjr.com/" target="blank">Live Preview</a>
                         </div>
                     </div>  
                     <div className="websites">
                         <img src = {web6} alt="" />
                         <div className="hover">
-                            <a href="https://www.authorstaceyjohnston.com/" target="blank">Live Preview</a>
+                            <a href="https://www.proudrosalinda.com/" target="blank">Live Preview</a>
                         </div>
                     </div>  
     
@@ -483,37 +485,37 @@ const AboutUs: React.FC<Props> = () => {
                     <div className="websites">
                         <img src = {web1} alt="" />
                         <div className="hover">
-                            <a href="https://www.perrywrites.com/" target="blank">Live Preview</a>
+                            <a href="https://www.ava-phillips.com/" target="blank">Live Preview</a>
                         </div>
                     </div>  
                     <div className="websites">
                         <img src = {web2} alt="" />
                         <div className="hover">
-                            <a href="https://www.author-williamhoy.com/" target="blank">Live Preview</a>
+                            <a href="https://www.paulettemarshall.com/" target="blank">Live Preview</a>
                         </div>
                     </div>  
                     <div className="websites">
                         <img src = {web3} alt="" />
                         <div className="hover">
-                            <a href="https://www.poemsfromtheedge.com/" target="blank">Live Preview</a>
+                            <a href="https://www.21dvmm.com/" target="blank">Live Preview</a>
                         </div>
                     </div>  
                     <div className="websites">
                         <img src = {web4} alt="" />
                         <div className="hover">
-                            <a href="https://www.ava-phillips.com/" target="blank">Live Preview</a>
+                            <a href="https://www.author-williamhoy.com/" target="blank">Live Preview</a>
                         </div>
                     </div>  
                     <div className="websites">
                         <img src = {web5} alt="" />
                         <div className="hover">
-                            <a href="https://www.mollymcgintybooks.com/" target="blank">Live Preview</a>
+                            <a href="https://www.thomasshipleyjr.com/" target="blank">Live Preview</a>
                         </div>
                     </div>  
                     <div className="websites">
                         <img src = {web6} alt="" />
                         <div className="hover">
-                            <a href="https://www.authorstaceyjohnston.com/" target="blank">Live Preview</a>
+                            <a href="https://www.proudrosalinda.com/" target="blank">Live Preview</a>
                         </div>
                     </div>  
                     </Slider>

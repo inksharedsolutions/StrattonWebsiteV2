@@ -16,7 +16,7 @@ const HeaderSection: React.FC<Props> = ({
             <div className="w-100">
                 <div className="flex">
                     <label className="callSection"> 
-                        <span className="spanTag"> <a href="tel:+833.323.7009">Call 833.323.7009</a></span>
+                        <span className="spanTag"> <a href="tel:+833.323.7009">Call 888.323.7009</a></span>
                     </label>
                       <label className="searchSection" style={{ cursor: 'pointer' }}> 
                         <span className="spanTag"> <a href="mailto:publish@stratton-press.com"> Email: publish@stratton-press.com </a> </span>
