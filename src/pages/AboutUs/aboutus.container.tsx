@@ -1,7 +1,7 @@
 import * as React from "react";
 import { HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
-import * as $ from "jquery";
+import $ from "jquery";
 import emailjs from "emailjs-com";
 import Swal from "sweetalert2";
 import ButtonComp from "../../common/Button/button.component";
@@ -67,7 +67,7 @@ import Indigo from "../../assets/images/logo/indigo.png";
 import Ingram from "../../assets/images/logo/ingram.png";
 import LightningSource from "../../assets/images/logo/lightning source.png";
 
-import * as intlTelInput from 'intl-tel-input';
+import intlTelInput from 'intl-tel-input';
 
 
 interface Props { }

@@ -1,7 +1,7 @@
 import * as React from "react";
 import emailjs from "emailjs-com";
 import Swal from "sweetalert2";
-import * as $ from "jquery";
+import $ from "jquery";
 import HeaderSection from "../../common/Navigation/header.component";
 import Navigation from "../../common/Navigation/navigation.component";
 import FooterComp from "../../common/Footer/footer.component";
@@ -14,7 +14,7 @@ import Indigo from "../../assets/images/logo/indigo.png";
 import Ingram from "../../assets/images/logo/ingram.png";
 import LightningSource from "../../assets/images/logo/lightning source.png";
 
-import * as intlTelInput from "intl-tel-input";
+import intlTelInput from "intl-tel-input";
 
 import FaqItems from "./FaqItems";
 

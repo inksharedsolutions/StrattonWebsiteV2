@@ -16,12 +16,11 @@ import LightningSource from "../../assets/images/logo/lightning source.png";
 import Blueberry from "../../assets/images/books/bluedreams.png";
 import Amazon from "../../assets/images/logo/amazon-lib.png";
 
+import JSONData from "../../posts";
+
 interface Props { }
 
 const AboutUs: React.FC<Props> = () => {
-
-    
-
 
     return (
 
@@ -140,7 +139,37 @@ const AboutUs: React.FC<Props> = () => {
                     <div className="right">
                        
                         <div className="book-con">
+
+                            {JSONData.contents.map((data, index) => {
+                                return(
                                     <div className="book">
+                                    <div className="lib-flex">
+                                            <div className="book-left">
+                                                <img src={"images/" + data.thumbnail} alt=""/>
+                                            </div>
+                                            <div className="book-right">
+                                                        <div className="genre">
+                                                            {/* <p>Self-Help</p> */}
+                                                            <p>{data.title}</p>
+                                                        </div>
+                                                        <div className="title">
+                                                            <h2>{data.title}</h2>
+                                                            <h3>{data.author}</h3>
+                                                        </div>
+                                                        <div className="author">
+                                                            <p>Charles Pope</p>
+                                                        </div>
+                                                        <div className="amazon">
+                                                            <img src={Amazon} alt=""  />
+                                                        </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                )
+                            })}
+
+
+                                    {/* <div className="book">
                                     <div className="lib-flex">
                                             <div className="book-left">
                                                 <img src={Blueberry} alt=""/>
@@ -184,7 +213,7 @@ const AboutUs: React.FC<Props> = () => {
                                                         </div>
                                                 </div>
                                             </div>
-                                     </div>
+                                     </div> */}
                         </div>
                     </div>
                 </div>
