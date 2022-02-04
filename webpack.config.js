@@ -41,10 +41,10 @@ const config = {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: 'asset/resource',
       },
-      {
-        test: /\.json$/,
-        loader: 'json-loader'
-      }
+      // {
+      //   test: /\.json$/,
+      //   loader: 'json-loader'
+      // }
       // {
       //   test: /\.(jpg|jpeg|png|gif|mp3|svg)$/,
       //   use: 'file-loader'

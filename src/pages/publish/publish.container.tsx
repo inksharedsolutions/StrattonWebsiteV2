@@ -3,7 +3,7 @@ import { HashLink } from "react-router-hash-link";
 import { useHistory } from "react-router-dom";
 import { Link } from "react-router-dom";
 import emailjs from "emailjs-com";
-import * as $ from "jquery";
+import $ from "jquery";
 import Swal from "sweetalert2";
 import HeaderSection from "../../common/Navigation/header.component";
 import Navigation from "../../common/Navigation/navigation.component";
@@ -49,7 +49,7 @@ import translation from "../../assets/images/icon-image/Translation Services_B.p
 
 
 
-import * as intlTelInput from "intl-tel-input";
+import intlTelInput from "intl-tel-input";
 
 interface Props {}
 
