@@ -1,0 +1,8 @@
+---
+title: Shadow of the Rainbow
+genre: Genre Fiction
+author: Randa Lynne Zollinger
+amazon_link: https://www.amazon.com/Shadow-Rainbow-Randa-Lynne-Zollinger/dp/1648954502/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642676597&sr=8-1
+thumbnail: https://images-na.ssl-images-amazon.com/images/I/61-sPtqPn4S.jpg
+---
+The Hansens seemed to be a contented, happy family when the kids were young. Brandon, the oldest, was the perfect son, continuing the tradition of being a great athlete like his father and grandfather before him. The twins, Jaden and Jenny, revered their older brother and sought to emulate him. As Brandon started high school and the twins began middle school, things in the idyllic American family began to change. The siblings had typical teenage issues in school as well as with their parents, but it was more than that. Fighting, suspensions, and drugs had never been in their plans. Picture-perfect on the outside, the family was jolted when Jaden, who wanted nothing more than to please his dad and older brother, failed miserably as he began to discover his sexual identity. If it hadn't been for the support of his sister and a neighbor, Jaden might have tried to end his life long before he did. While dealing with Jaden, his father was forced to confront issues neither imagined nor expected. Live through Jaden's story as he struggles to understand the ramifications of his father's haunted past and continues to forge on in his quest for the "rainbow."
