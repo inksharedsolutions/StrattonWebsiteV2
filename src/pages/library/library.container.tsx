@@ -143,7 +143,7 @@ const AboutUs: React.FC<Props> = () => {
                                     <div className="book">
                                     <div className="lib-flex">
                                             <div className="book-left">
-                                                <img src={Blueberry} alt=""/>
+                                                <img src="https://images-na.ssl-images-amazon.com/images/I/71Tf7zYYqgS.jpg" alt=""/>
                                             </div>
                                             <div className="book-right">
                                                         <div className="genre">
