@@ -1,0 +1,8 @@
+---
+title: America Come and Get It
+genre: Biographies & Memoirs
+author: Kasalobi
+amazon_link: https://www.amazon.com/America-Come-Get-Kasalobi/dp/1648954103/ref=sr_1_1?crid=378GX5SLSW8XT&keywords=9781648954108&qid=1642672352&sprefix=9781648954108%2Caps%2C287&sr=8-1
+thumbnail: https://images-na.ssl-images-amazon.com/images/I/71kweDvJ5QS.jpg
+---
+In America, Come and Get It, his second release, Mr. Kasalobi finds himself in a big legal fight to regain back the custody of his two daughters. Loylla, the youngest, is eight months old when Sheebah, their mother, abandons them. She comes back eight years later and kidnaps both of them with the help of the Hurst Police Department. For his daughters, Kasalobi moves skies and empties seas, but because it is believed that girls are better off with their mother, lawyers refuse to take the case, while the Child Protective Services closes their eyes to the cruel mistreatments these two little girls are going through. The worst of all is the fact that it is the hands of their own mother that are administrating these violent abuses. As days go by, the fighting becomes bigger and bascules itself on one side, the mother's side. Mr. Kasalobi doesn't get desperate. He doesn't give up even when he finds himself alone doing legal battles to everyone and against every established institution possible. He only gets a break when the lawyer Violet Nwokoye enters the family court on his side. At the end of the day, did he get both children back? He is talking about this new journey in America, Come and Get It.
