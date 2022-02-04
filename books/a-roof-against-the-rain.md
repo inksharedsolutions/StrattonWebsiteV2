@@ -1,0 +1,8 @@
+---
+title: A Roof Against the Rain
+genre: Dramas & Plays
+author: Joellen Collins
+amazon_link: https://www.amazon.com/Roof-Against-Rain-Joellen-Collins/dp/1648954081/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642672242&sr=8-1
+thumbnail: https://images-na.ssl-images-amazon.com/images/I/617yZu4n-zS.jpg
+---
+A Roof Against the Rain tells the story of a 52 year old widow, Juliet Barnes, who, while adjusting to life on her own, begins a correspondence with Sam Duncan, a college professor renting her vacation home. Ironically, he cancels the rental because his wife also becomes fatally ill and dies within a few weeks. After many months of exchanging mutually supportive letters, they meet, and Juliet is aghast at his near-exact resemblance to her late husband, Paul. The book then explores her attempts to deal with this coincidence, the memories it awakens of her late husband, and her growing passion for Sam, who occupies his own place in her heart. She moves from Santa Monica, California, to Sun Valley, Idaho, meets different men, and sees her daughters, young women in their twenties, in addition to her twice-divorced best friend, involved in similar quests for meaningful relationships. Other settings include Malibu, Manzanillo, New Hampshire, and Paris. Some of the book's themes are loss and recovery, the changes in sexual mores from her mother's generation to Juliet's, the possibilities for love and passion amongst survivors of grief, and the intricacies of friendships among women-particularly between mothers and daughters.
