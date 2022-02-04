@@ -75,6 +75,12 @@ const Navigation: React.FC<Props> = () => {
     behavior: "smooth";
   };
 
+  const goToLibrary = () => {
+    history.push("/library");
+    window.scrollTo(0, 0);
+    behavior: "smooth";
+  };
+
   // const goToPolicy = () => {
   //   history.push("/privacy");
   //   window.scrollTo(0, 0);
@@ -166,9 +172,9 @@ function scrollFunction() {
                     <li className="line" onClick={() => goToPublish()}>
                       <Link to="">Publish your book</Link>
                     </li>
-                    {/* <li className="line">
+                    <li className="line" onClick={() => goToLibrary()}>
                       <Link to="/">Library</Link>
-                    </li> */}
+                    </li> 
                     <li className="line">
                         
                     </li>
@@ -241,11 +247,11 @@ function scrollFunction() {
               </Link>
             </li>
            
-            {/* <li className="nav-item">
+            <li className="nav-item" onClick={() => goToLibrary()}>
               <Link  to="" className="nav-link text-uppercase fw-bolder">
                 Library
               </Link>
-            </li> */}
+            </li>
 
             {/* Menu */}
               <li onClick={() => goToMenu()}>

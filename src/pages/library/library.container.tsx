@@ -16,7 +16,7 @@ import LightningSource from "../../assets/images/logo/lightning source.png";
 import Blueberry from "../../assets/images/books/bluedreams.png";
 import Amazon from "../../assets/images/logo/amazon-lib.png";
 
-import JSONData from "../../posts.json";
+import JSONData from "../../books.json";
 
 interface Props { }
 
@@ -140,32 +140,32 @@ const AboutUs: React.FC<Props> = () => {
                        
                         <div className="book-con">
 
-                            {/* {JSONData.map((data, index) => { 
-                               return( */}
-                                    <div className="book">
-                                    <div className="lib-flex">
+                            {JSONData.map((data, index) => { 
+                               return( 
+                                    <div className="book" key={index}>
+                                        <div className="lib-flex">
                                             <div className="book-left">
-                                                <img src="https://images-na.ssl-images-amazon.com/images/I/71Tf7zYYqgS.jpg" alt=""/>
+                                                <img src={data.thumbnail} alt=""/>
                                             </div>
                                             <div className="book-right">
                                                         <div className="genre">
-                                                            <p>Self-Help</p> 
+                                                            <p>{data.genre}</p> 
                                                         </div>
                                                         <div className="title">
-                                                            <h2>Blueberry Dreams</h2>
-                                                            <h3>Stimulate The Inner You</h3>
+                                                            <h2>{data.title}</h2>
+                                                            <h3>{data.subtitle}</h3>
                                                         </div>
                                                         <div className="author">
-                                                            <p>Charles Pope</p>
+                                                            <p>{data.author}</p>
                                                         </div>
                                                         <div className="amazon">
-                                                            <img src={Amazon} alt=""  />
+                                                            <a href={data.amazon_link} rel="noreferrer noopener" target="_blank"><img src={Amazon} alt={data.title}  /></a>
                                                         </div>
                                             </div>
                                         </div>
                                     </div>
-                            {/* //     ) 
-                            //  })}  */}
+                                 ) 
+                             })}  
 
 
                                   {/*    <div className="book">
