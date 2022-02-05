@@ -79,7 +79,7 @@ const getBooks = () => {
                 post = {
                     id: timestamp,
                     title: metadata.title ? metadata.title : "No title given",
-                    subtitle: lines.subtitle ? lines.subtitle : "",
+                    subtitle: metadata.subtitle ? metadata.subtitle : "",
                     author: metadata.author ? metadata.author : "No author given",
                     genre: metadata.genre ? metadata.genre : "No author given",
                     amazon_link: metadata.amazon_link ? metadata.amazon_link : "No author given",
