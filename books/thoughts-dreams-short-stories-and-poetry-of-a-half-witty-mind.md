@@ -1,0 +1,8 @@
+---
+title: Thoughts, dreams, short stories and poetry of a half witty mind.
+genre: Literature & Fiction
+author: Ross Haines
+amazon_link: https://www.amazon.com/Thoughts-dreams-short-stories-poetry/dp/1648956173/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1643091433&sr=8-1
+thumbnail: https://images-na.ssl-images-amazon.com/images/I/71M-7wy3ZBL.jpg
+---
+It is my first love of creativity within my mind. My family entertained themselves in many ways every Sunday afternoon. When I was young, we regularly had competitions between the five of us. All had talent by singing, dancing and recitals of plays or poetry. I myself followed Shakespeare sonnets, and a wide range of stage plays by the great writer. So being who I am, over the years of my life, I wrote down the moments that I found amusing. To my surprise, I found over one hundred old notebooks I have written my first book, which I named Dragon Eye Chronicles. It gave me the confidence to select two hundred poems for your entertainment. Of course, I rewrote and updated them to fit today's style of society that we all choose to follow or protest for a better life. I split up the book in six volumes that cover a wide range of material. Each section covers a certain period in my life, growing up from a child, teenager, and adult, finding love and losing one's self with the outside influences Please enjoy with a little soft music, red wine and candle light to capture the small love poems that I wrote in my youth. I hope you enjoy them.
