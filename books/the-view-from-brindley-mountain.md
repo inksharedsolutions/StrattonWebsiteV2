@@ -1,0 +1,13 @@
+---
+title: The View from Brindley Mountain
+subtitle: A Memoir of the Rural South
+genre: Biographies & Memoirs
+author: Eugene Scruggs
+amazon_link: https://www.amazon.com/View-Brindley-Mountain-Memoir-Rural/dp/1648950604/ref=sr_1_1?crid=2NAHB4PEFKD34&keywords=9781648950605&qid=1643381925&sprefix=9781648950605%2Caps%2C254&sr=8-1
+thumbnail: https://images-na.ssl-images-amazon.com/images/I/71Fx7M31FvL.jpg
+---
+This nonfiction work takes the reader on a trip through the 1940s and '50s in the rural South. The story unfolds in the lower reaches of the Appalachian Mountain chain on a plateau called Brindley Mountain. A part of the Sand Mountain Ridge, the area covers lower Morgan County and north east Cullman County. In an earlier time, the Choctaw, Chickasaw, Cherokee, and Creek hunted in relative peace across these ridges and valleys of north-central Alabama. In 1873, a young, rebellious Bavarian named Johann Gottfried Cullmann came into the area seeking a peaceful haven for his immigrating countrymen. He ultimately selected a large swath of this gently-sloping and pine-forested wilderness for his new Deutsche Kolonie. Other hardly pioneers began to homestead the free federal lands. This produced a rather odd mingling for the rural South. A fledgling town grew rapidly with its blacksmith shops, cotton gins, grist mills, ice house, and merchant class.
+
+On a hardscrabble farm south of this bustling county seat, a young boy grew to manhood dreaming of future journeys and conquests. On the back porch of a little clapboard house, this would-be traveler contemplated the wide horizon stretching out in all directions, full of seemingly endless possibilities and challenges.
+
+Dr. C. Eugene Scruggs retired following a long career as professor and administrator in higher education. Dr. Scruggs's career covered forty years at four US universities and two European. He was visiting professor at the University of Paris and a tutor for a summer program at Cambridge England. During his career, Scruggs led many study tours to Europe, Central and South America. He served two terms as chair of the Department of Foreign Languages at the University of South Florida in Tampa. Following his retirement, Scruggs published three books and coedited one other. His lifelong hobby has been art. He has created several hundred watercolor and pastel painting. More recently his passion has been vocal music, from Barbershop to Gospel, to Western. Scruggs currently lives in a retirement community in Lakeland, Florida, where he is actively involved in educational and enrichment programs for senior citizens. He welcomes comments from readers via e-mail at scruggsgene@aol.com.
