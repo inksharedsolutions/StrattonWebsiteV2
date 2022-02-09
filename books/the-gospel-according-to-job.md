@@ -1,0 +1,9 @@
+---
+title: The Gospel According to Job
+subtitle: The Untold Story
+genre: Worship & Devotion
+author: W. Robert McClelland
+amazon_link: https://www.amazon.com/Gospel-According-Job-Untold-Story/dp/1648956866/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1643098336&sr=8-1
+thumbnail: https://images-na.ssl-images-amazon.com/images/I/61NqT4LoKmL.jpg
+---
+"Those who are familiar with McClelland's other books know they are in for a thought provoking treat worth 'cussing and discussing!' 'Why' he asks, 'should anyone be interested in a GOSPEL ACCORDING TO JOB? For the same reason that the Book of Job is included in the Bible, ' he says. In the wisdom of the Church and under the guidance of the Holy Spirit, the Book of Job becomes Sacred Scripture to keep the conversation about God honest. McClelland goes on to suggest that Jesus is God's Apology to the world for His questionable behavior in the Old Testament, and particularly His use of Job and his family as stakes in a wager to bolster His Ego's insecurity. In Jesus, God has taken responsibility for His part in creating the problem of our alienation by failing to live up to His godly responsibilities as a loving Father. Furthermore, McClelland goes on to argue that while the Church often gives God a 'pass, ' lest He incriminate Himself by His own Word, God has, nevertheless, entrusted this amazing offer of Reconciliation to our interpretation of His Son, Jesus. Christ's death, therefore, is seen as Atonement, not only for our sins, but for God's Sin as well. THE GOSPEL ACCORDING TO JOB, not surprisingly, is a good read and well worth your consideration." - Genesis Literary Review
