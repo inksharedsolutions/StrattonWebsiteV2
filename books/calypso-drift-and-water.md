@@ -1,0 +1,11 @@
+---
+title: Calypso Drift and Water
+subtitle: Reflective Eco Logic Moving Lyrical Imaginative Awareness
+genre: History & Criticism
+author: Steinberg Henry
+amazon_link: https://www.amazon.com/Calypso-Drift-Water-Reflective-Imaginative/dp/1648950655/ref=sr_1_1?crid=19UGKJB9LMMFL&keywords=9781648950650&qid=1643381710&sprefix=9781648950650%2Caps%2C507&sr=8-1
+thumbnail: https://images-na.ssl-images-amazon.com/images/I/81Q5Kr0gyAL.jpg
+---
+Calypso Drift And Water is a record of social and cultural history. Though the book represents the island of Dominica, it defines and describes cultural, social, and political practices of the entire Caribbean where Calypso sinks past the color of our skin to find our bones! Engaging Dominica's most articulate winning rhythms, songpoets appearing in Calypso Drift And Water: Reflective Eco Logic Moving Lyrical Imaginative Awareness, identify crucial changes unfolding in an island-state between 2013 and 2016. Those were perhaps our last days of innocence. At its core therefore, this work encourages songpoets, singers, composers, producers of Calypso, and broadcast-journalists/commentators to incorporate radical ecology and social justice in their lyrics and commentary. It is now a responsibility: the people depend on us. It is a spectacle too: they, from all walks of life, come in thousands to Calypso Festivals to participate and share sacred spirit/energy, in a land that is not only resilient, but whose eco logic is electric-Dominica!
+
+Steinberg Henry is originally from the Eastern Caribbean island of Dominica, the one hit by Hurricane Maria on September 17, 2017. At present, he lives in Atlanta, Georgia. Steinberg Henry is father, grandfather and husband to Jeanne nee Felix of St. Joseph, and Dominica's Jolly's Pharmacy. Calypso Drift and Water is his fourth work, and the second in the Calypso series. The first is titled Calypso Drift. Steinberg Henry continues to work as advocate for persons with disabilities, being himself, visually impaired. Consider for a while how he transcends this disability to bring you this work over distance! Amazing!
