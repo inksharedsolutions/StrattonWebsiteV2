@@ -20,7 +20,29 @@ import JSONData from "../../books.json";
 
 interface Props { }
 
+var temp = JSONData;
+
 const AboutUs: React.FC<Props> = () => {
+
+    const [search, setSearch] = React.useState('');
+
+    // React.useEffect(() => {
+    //     let data = JSONData.filter((d) => d.author.toLowerCase().includes(search) || d.title.toLowerCase().includes(search));
+    //     temp = data.length > 0? data : JSONData;
+    //     console.log(temp);
+    // },[search])
+
+    const filterData = () => {
+        let data = JSONData.filter((d) => d.author.toLowerCase().includes(search) || d.title.toLowerCase().includes(search));
+        for(var i = 0; i < data.length; i++){
+            if(data.length > 0){
+                temp = data;
+            }else
+                temp = JSONData;
+        }
+        console.log(temp);
+    }
+    
 
     return (
 
@@ -36,7 +58,7 @@ const AboutUs: React.FC<Props> = () => {
             <div className="searchBar">
                 <div className="w-100">
 
-                    <input type="text"  placeholder="search"/>  
+                    <input type="text"  placeholder="search" onChange={(e) => setSearch(e.target.value)}/>  
 
                     <label>Sort By:</label>
 
@@ -49,7 +71,7 @@ const AboutUs: React.FC<Props> = () => {
                         </option>
                     </select>
 
-                    <button> SEARCH </button>
+                    <button onClick={() => filterData()}> SEARCH </button>
                 </div>
             </div>
 
@@ -140,7 +162,7 @@ const AboutUs: React.FC<Props> = () => {
                        
                         <div className="book-con">
 
-                            {JSONData.map((data, index) => { 
+                            {temp.map((data, index) => { 
                                return( 
                                     <div className="book" key={index}>
                                         <div className="lib-flex">
