@@ -78,7 +78,7 @@ var temp = JSONData;
             }else
                 temp = JSONData;
         }
-        console.log(temp);
+    
     }
     
 
