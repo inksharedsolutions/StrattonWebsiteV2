@@ -35,7 +35,7 @@ const AboutUs: React.FC<Props> = () => {
     const filterData = () => {
         let data = JSONData.filter((d) => d.author.toLowerCase().includes(search) || d.title.toLowerCase().includes(search));
         for(var i = 0; i < data.length; i++){
-            if(data.length > 0){
+            if(data.length > 0){ 
                 temp = data;
             }else
                 temp = JSONData;
