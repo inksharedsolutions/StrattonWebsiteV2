@@ -9,9 +9,13 @@
         "moduleResolution": "node",
         "target": "es5",
         "allowJs": true,
+        "checkJs": false,
         "jsx": "react",
         "resolveJsonModule": true,
         "esModuleInterop": true,
+        
+        
+        
     },
     "include": [
         "./src/**/*",

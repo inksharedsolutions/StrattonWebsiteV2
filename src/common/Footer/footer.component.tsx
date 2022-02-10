@@ -46,9 +46,9 @@ const FooterComponent: React.FC<Props> = () => {
 
     const goToLibrary = () => {
         // Redirect to Library, No Library Page yet
-        // history.push('/contact-us');
-        //     window.scrollTo(0, 0);
-        //     behavior: 'smooth';
+        history.push('/library');
+            window.scrollTo(0, 0);
+            behavior: 'smooth';
     }
 
     const goToFAQ = () => {
@@ -105,6 +105,11 @@ const FooterComponent: React.FC<Props> = () => {
 
                     <div className="col-md-4 footer-nav">
                         <ul className="footer-links">
+
+                            <li onClick={() => goToLibrary()}>
+                                <Link to="">  Library</Link>
+                            </li>
+
 
                             <li onClick={() => goToFAQ()}>
                                 <Link to="">  FAQs</Link>
