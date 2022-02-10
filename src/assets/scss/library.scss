@@ -38,7 +38,7 @@
     background: url('../images/backgrounds/library.png');
     background-repeat: repeat-x;
     background-size: 100% 100%;
-    padding: 13vh 0;
+    padding: 13vh 11vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,7 +65,7 @@
 }
 
 .searchBar{
-    padding: 20px 0;
+    padding: 20px 30px;
     width:100%;
     background: #5d7c6b;
     position:relative;
@@ -77,15 +77,22 @@
         justify-content: space-between;
         max-width: 1140px;
         gap: 10px;
-     
         margin: 0 auto;
+            
+            @media (max-width:600px) {       
+                flex-direction: column;
+            }
 
         input{
             border-radius: 10px;
             width: 60%;
             padding: 0 1%;
-            border: none;
+            border: none; 
             font-size: 20px;
+
+            @media (max-width:600px) {
+                width: 100%;
+            }
         }
         
         label{
@@ -127,17 +134,22 @@
         margin: 0 auto;
         padding: 3rem 0;
         display: flex;
-     
+        justify-content: center;
+
         flex-direction: row;
       
        
         .left{
             color: #4A4444;
             border-right: solid 1px #D2D2D2;
-            width: 20%;
+            // width: 20%;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
+     
+            @media (max-width:500px) {
+                display: none;
+            }
           
             .flex{
                 display: flex;
@@ -167,7 +179,12 @@
                 
                 .book{
                     height: 350px;
-                      
+                    padding-bottom: 0;
+
+                    @media (max-width:500px) {
+                        padding-bottom: 15%;
+                        height: auto;
+                    }
                         
                     .lib-flex{
                         display: flex;

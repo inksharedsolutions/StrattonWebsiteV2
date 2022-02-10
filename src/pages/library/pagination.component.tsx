@@ -22,7 +22,7 @@ const Pagination:React.FC<Props> = ({postPerPage, totalPosts ,updateNum}) => {
 
         <nav>
             {/* {posts.map((data, index) => {  */}
-        <ul className='pagination justify-content-center'>
+        <ul className='pagination justify-content-center flex-wrap'>
           {
             pageNumbers.map((pageNum,index)=>{
               
