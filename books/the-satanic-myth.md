@@ -1,0 +1,11 @@
+---
+title: The Satanic Myth
+subtitle: The Devil May Not Have Made You Do It!
+genre: Religion & Spirituality
+author: Dr. Barry D. Fike
+amazon_link: https://www.amazon.com/Satanic-Myth-Devil-Have-Made/dp/1643458892/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1643379089&sr=8-1
+thumbnail: https://images-na.ssl-images-amazon.com/images/I/61noaaVTM9L.jpg
+---
+After years of searching, doing linguistic studies, and looking at the Hebraic understanding from many writings in ancient lore, I began to see something that I believe many in Christian circles have missed concerning the concept of Satan. While Satan is mentioned in scripture, the concept is never developed theologically. People have to run from Genesis to Isaiah trying to string a series of random verses together to get an understanding of who or what evil is composed of. When we get to historic Christianity, the doctrine of the devil is only second to the doctrine of God, and the devil is an indispensable part of the machinery of faith and piety. All of a sudden, we seem to have leaped from the Hebrew scriptures to the New Testament, and again, tying random scriptures together, we have developed a complete theology concerning evil and the ruler over it. The logic is inconsistent and doesn’t work with the evidence within the biblical text. Let’s look at the logic of the good and evil impulse within each individual that makes all of us free moral agents without the need for a Satan/Devil/Lucifer the way most Christians understand it.
+
+Having preached for over forty years within the Lord’s body, Dr. Barry Fike has studied the Hebrew background of the New Testament church for over thirty years trying to understand the development of the body of Christ from its foundational Hebraic roots. While working with students at many educational levels, alongside the local body in California, Dr. Fike has a passion for learning the truth about theological positions that the church holds and testing it with his foundational knowledge. This book is a result of looking, studying, and probing into the biblical text and the evidence that comes from looking into its Hebrew background.

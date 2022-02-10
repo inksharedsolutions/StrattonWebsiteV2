@@ -1,0 +1,12 @@
+---
+title: A Curious Cat Wags a Fishy Tale
+genre: Literature & Fiction
+author: Chip Weinert
+amazon_link: https://www.amazon.com/Curious-Cat-Wags-Fishy-Tale/dp/1648950000/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1643379263&sr=8-1
+thumbnail: https://images-na.ssl-images-amazon.com/images/I/71XvFKsdi3L.jpg
+---
+In a parallel universe where humans evolved not only from apes, but from dogs, cats, bears, otters, and seals, to name a few, Matthew "Duke" Hazard is hired to solve a murder. Duke discovers, with the help from a friendly band of river otters, that a rogue gang of seals are stealing all the salmon and trout from the Beaver Butt River and selling them on the black market to a cartel of ruthless muskrats for use in their slave-labor lutefisk factories. Duke, a feline, who, like most cats, would rather curl into a ball in that sunny spot on the couch and take a nap, ends up being harassed--as well as helped--by the local government to expose a case of corruption that may have led to murder! The action takes place on the water and on the shores of the wild and scenic Beaver Butt River, which flows between the two towns of CatsCamp and Dogstown before emptying into the ocean. We learn about the fish and the fishing that are a major factor in the lives of both towns both commercially and recreationally.
+
+Along the way, we meet cast of wild creatures: Leo Phieu, an old one-eyed, fish-smelling Burmese who has inhaled his share of gasoline, paint, and fiberglass fumes over the years. We also meet his niece Faye, who has a crush on Duke that Duke does not return. And then there's Butch and Ginger Larson, owners of the feline weekly paper, the CatsCamp Distorter. There are otters, seals, and even a cameo from a pair of fly-fishing frogs! Plus, a few characters making an encore appearance from the first book in the series, A Curious Cat in a Dead Dog's Town, such as Duke's buddy Gibson, Police Captain Ursalik, and Duke's mother, who thinks Duke is lazy even by a cat's standards.
+
+Chip Weinert is a former newspaper and magazine writer, editor, and associate publisher as well as professional windsurfer. He lives (and surfs, windsurfs, fishes, and bikes) on Oregon's Rogue Coast with two crazy canines who think he's insane. Stay tuned for his next book in the Curious Cat series, A Curious Cat Goes over the Handlebars.
