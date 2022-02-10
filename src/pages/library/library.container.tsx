@@ -1,4 +1,4 @@
-import * as React from "react";
+import  React, {useState, useEffect } from "react";
 import HeaderSection from "../../common/Navigation/header.component";
 import Navigation from "../../common/Navigation/navigation.component";
 import Image from "../../common/Image/image.component";
@@ -15,12 +15,49 @@ import Ingram from "../../assets/images/logo/ingram.png";
 import LightningSource from "../../assets/images/logo/lightning source.png";
 import Blueberry from "../../assets/images/books/bluedreams.png";
 import Amazon from "../../assets/images/logo/amazon-lib.png";
-
+import axios from'axios';
 import JSONData from "../../books.json";
+import { Books } from "styled-icons/icomoon";
+import BookLayout from "./books.component";
+import Pagination from "./pagination.component";
+import posts from "../../books.json";
 
-interface Props { }
+interface Props {
+    number: number;
+  
+ }
 
-const AboutUs: React.FC<Props> = () => {
+const AboutUs: React.FC<Props> = ({number}) => {
+
+   const [post, setPosts] = useState([]);
+   const [loading, setLoading] = useState(false);
+   const [currentPage, setCurrentpage] = useState(1);
+   const [postPerPage, setPostsPerPage] = useState(10);
+   const updateNum = (num: number) : void =>{
+    setCurrentpage(num)
+   }
+
+   useEffect(()=> {
+       const fetchPosts = async ()=> {
+           setLoading(true);
+           const res = await axios.get('../../books.json');
+           setPosts(res.data);
+           setLoading(false);
+
+       }
+
+       
+       fetchPosts();
+   }, []);
+//    GET Current post
+   const indexOflastPost = currentPage * postPerPage;
+   const indexofFirstPost = indexOflastPost - postPerPage;
+   const currentPost = posts.slice(indexofFirstPost , indexOflastPost);
+
+//   change page
+
+
+
 
     return (
 
@@ -136,88 +173,14 @@ const AboutUs: React.FC<Props> = () => {
                         </div>
                         
                     </div>
-                    <div className="right">
-                       
-                        <div className="book-con">
-
-                            {JSONData.map((data, index) => { 
-                               return( 
-                                    <div className="book" key={index}>
-                                        <div className="lib-flex">
-                                            <div className="book-left">
-                                                <img src={data.thumbnail} alt=""/>
-                                            </div>
-                                            <div className="book-right">
-                                                        <div className="genre">
-                                                            <p>{data.genre}</p> 
-                                                        </div>
-                                                        <div className="title">
-                                                            <h2>{data.title}</h2>
-                                                            <h3>{data.subtitle}</h3>
-                                                        </div>
-                                                        <div className="author">
-                                                            <p>{data.author}</p>
-                                                        </div>
-                                                        <div className="amazon">
-                                                            <a href={data.amazon_link} rel="noreferrer noopener" target="_blank"><img src={Amazon} alt={data.title}  /></a>
-                                                        </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                 ) 
-                             })}  
-
-
-                                  {/*    <div className="book">
-                                    <div className="lib-flex">
-                                            <div className="book-left">
-                                                <img src={Blueberry} alt=""/>
-                                            </div>
-                                            <div className="book-right">
-                                                        <div className="genre">
-                                                            <p>Self-Help</p>
-                                                        </div>
-                                                        <div className="title">
-                                                            <h2>Blueberry Dreams</h2>
-                                                            <h3>Stimulate The Inner You</h3>
-                                                        </div>
-                                                        <div className="author">
-                                                            <p>Charles Pope</p>
-                                                        </div>
-                                                        <div className="amazon">
-                                                            <img src={Amazon} alt=""  />
-                                                        </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="book">
-                                        <div className="lib-flex">
-                                                <div className="book-left">
-                                                    <img src={Blueberry} alt=""/>
-                                                </div>
-                                                <div className="book-right">
-                                                            <div className="genre">
-                                                                <p>Self-Help</p>
-                                                            </div>
-                                                            <div className="title">
-                                                                <h2>Blueberry Dreams</h2>
-                                                                <h3>Stimulate The Inner You</h3>
-                                                            </div>
-                                                            <div className="author">
-                                                                <p>Charles Pope</p>
-                                                            </div>
-                                                            <div className="amazon">
-                                                                <img src={Amazon} alt=""  />
-                                                        </div>
-                                                </div>
-                                            </div>
-                                     </div> */}
-                        </div>
+                    <div className="right" id="top">
+                   <BookLayout posts={currentPost}></BookLayout>
+                  
                     </div>
+                   
                 </div>
             </div>
-
+            <Pagination postPerPage={postPerPage} totalPosts={posts.length}  updateNum={updateNum}></Pagination>
 
             <div className="channels-section">
                 <div className="channel-header">

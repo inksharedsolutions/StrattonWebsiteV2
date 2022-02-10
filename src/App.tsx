@@ -10,6 +10,7 @@ import privacy from "./pages/PrivacyPolicy/PrivacyPolicy.container";
 import faq from "./pages/FAQ/faq";
 import LibraryContainer from "./pages/library/library.container";
 
+
 import './assets/scss/main.scss';
 
 export const App = () => {
@@ -43,6 +44,7 @@ export const App = () => {
                     <Route path="/faq" component={faq} />
                     <Route path="/privacy" component={privacy} />
                     <Route path="/library" component={LibraryContainer} />
+                   
                 </Switch>
             </HashRouter>   
             {
