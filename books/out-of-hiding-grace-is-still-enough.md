@@ -1,6 +1,6 @@
 ---
-title: "Out of Hiding: Grace is Still Enough"
-subtitle: to Heal the brokenhearted from child abuse
+title: Out of Hiding Grace is Still Enough
+subtitle: To Heal the brokenhearted from Child abuse
 genre: Self-Help
 author: Dr. Barbara Kathleen Welch
 amazon_link: https://www.amazon.com/Out-Hiding-Grace-Still-Enough/dp/1643455702/ref=sr_1_1?crid=3A8OAW04U7NK9&keywords=9781643455709&qid=1643365169&sprefix=9781643455709%2Caps%2C243&sr=8-1

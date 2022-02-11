@@ -1,6 +1,5 @@
 ---
 title: Mocker Met Poe
-subtitle: ""
 genre: Action & Adventure
 author: James Shannon Abney
 amazon_link: https://www.amazon.com/Mocker-Met-James-Shannon-Abney/dp/1648956718/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1643095620&sr=8-1

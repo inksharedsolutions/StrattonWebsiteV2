@@ -1,8 +1,8 @@
 ---
 title: Adoption Joys 2
-subtitle: " Dads Make a Difference "
+subtitle: Dads Make a Difference
 genre: Family Relationships
-author: Doris Howe (
+author: Doris Howe
 amazon_link: https://www.amazon.com/Adoption-Joys-Dads-Make-Difference/dp/164895488X/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642686315&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/61xlZ5rs07L.jpg
 ---

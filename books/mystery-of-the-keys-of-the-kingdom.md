@@ -2,7 +2,7 @@
 title: Mystery of the Keys of the Kingdom
 subtitle: Jesus's Gifts for a Life of Victory
 genre: Religion & Spirituality
-author: " Deborah Bouchard "
+author: Deborah Bouchard
 amazon_link: https://www.amazon.com/Mystery-Keys-Kingdom-Jesuss-Victory/dp/1648954766/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642679735&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/61Wa2DWw0IS.jpg
 ---

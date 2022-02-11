@@ -1,5 +1,5 @@
 ---
-title: "The BlackHawk Meets The Tiger "
+title: The BlackHawk Meets The Tiger
 genre: Fantasy
 author: Tiger Blackhawk
 amazon_link: https://www.amazon.com/BlackHawk-Meets-Tiger-Blackhawk/dp/1648954251/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642675280&sr=8-1

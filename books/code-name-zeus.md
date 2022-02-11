@@ -2,7 +2,7 @@
 title: Code Name - Zeus
 subtitle: A Geo-political Saga
 genre: Science Fiction
-author: "Gary Andersen "
+author: Gary Andersen
 amazon_link: https://www.amazon.com/Code-Name-Zeus-Geo-political-Saga/dp/1648954146/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642673259&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/6179vA9qdmS.jpg
 ---

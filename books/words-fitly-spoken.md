@@ -1,7 +1,7 @@
 ---
 title: Words Fitly Spoken
 genre: Literature & Fiction
-author: "Bruce Goodpaster "
+author: Bruce Goodpaster
 amazon_link: https://www.amazon.com/Words-Fitly-Spoken-Bruce-Goodpaster/dp/1648956904/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1643096359&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/61UPi0W9ZAL.jpg
 ---

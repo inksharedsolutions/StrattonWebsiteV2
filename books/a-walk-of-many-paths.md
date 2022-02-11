@@ -2,7 +2,7 @@
 title: A Walk of Many Paths
 subtitle: Poems Second Edition
 genre: Literature & Fiction
-author: "D M Ferguson "
+author: D M Ferguson
 amazon_link: https://www.amazon.com/Walk-Many-Paths-Poems-Second/dp/1648955495/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642687974&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/61GZv-xDeKL.jpg
 ---

@@ -1,6 +1,6 @@
 ---
 title: Operation S.O.S.
-subtitle: "Book 2: Tales of the Super Sib Squad"
+subtitle: Book 2 Tales of the Super Sib Squad
 genre: Children's Books
 author: Jape Malarkey
 amazon_link: https://www.amazon.com/Operation-S-S-Tales-Super/dp/1643453017/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1643374206&sr=8-1

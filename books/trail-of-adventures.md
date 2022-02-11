@@ -1,6 +1,6 @@
 ---
 title: Trail of Adventures
-subtitle: "Trail of Dead Men "
+subtitle: Trail of Dead Men
 genre: Literature & Fiction
 author: M T Deason
 amazon_link: https://www.amazon.com/Trail-Adventures-Dead-Men/dp/1648955436/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642687762&sr=8-1

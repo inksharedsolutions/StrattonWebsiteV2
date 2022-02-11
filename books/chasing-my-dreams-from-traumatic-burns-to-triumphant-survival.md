@@ -1,5 +1,5 @@
 ---
-title: "Chasing My Dreams: From Traumatic Burns to Triumphant Survival"
+title: Chasing My Dreams From Traumatic Burns to Triumphant Survival
 genre: Biographies & Memoirs
 author: Barbara Kammerer Quayle
 amazon_link: https://www.amazon.com/Chasing-My-Dreams-Traumatic-Triumphant/dp/1648954421/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642678567&sr=8-1

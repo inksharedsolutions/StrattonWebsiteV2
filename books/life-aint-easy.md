@@ -1,5 +1,5 @@
 ---
-title: "Life Ain't Easy "
+title: Life Ain't Easy
 genre: Self-Help
 author: Wyatt Wilkinson
 amazon_link: https://www.amazon.com/Life-Aint-Easy-Wyatt-Wilkinson/dp/1648955789/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642919182&sr=8-1

@@ -1,7 +1,7 @@
 ---
 title: Short Like Humpty Dumpty
 genre: Christian Books & Bibles
-author: "Paul Douglas Castle "
+author: Paul Douglas Castle
 amazon_link: https://www.amazon.com/Short-Humpty-Dumpty-Douglas-Castle/dp/1648955622/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642919040&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/711nvskWs-L.jpg
 ---

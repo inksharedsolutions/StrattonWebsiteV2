@@ -1,6 +1,6 @@
 ---
 title: The Early Years A Memoir
-subtitle: "Book 1: Matters of the Heart"
+subtitle: Book 1 Matters of the Heart
 genre: Biographies & Memoirs
 author: Rachel G. Carrington
 amazon_link: https://www.amazon.com/Early-Years-Memoir-Matters-Heart/dp/1648952143/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1643549860&sr=8-1

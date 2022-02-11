@@ -1,6 +1,6 @@
 ---
 title: Journey's End
-subtitle: "Part 2: An Educational Guide to Death and Dying"
+subtitle: Part 2 An Educational Guide to Death and Dying
 genre: Self-Help
 author: Victoria Brewster & Julie Saeger Nierenberg
 amazon_link: https://www.amazon.com/Journeys-End-Educational-Guide-Death/dp/1648956963/ref=sr_1_1?crid=18X736LMYKJB1&keywords=9781648956973&qid=1643097431&sprefix=%2Caps%2C252&sr=8-1

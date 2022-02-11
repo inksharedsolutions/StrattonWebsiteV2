@@ -1,7 +1,7 @@
 ---
 title: Dark Yesterdays Bright Tomorrows
 genre: Romance
-author: "Lionel B Harris "
+author: Lionel B Harris
 amazon_link: https://www.amazon.com/Yesterdays-Bright-Tomorrows-Lionel-Harris/dp/164895474X/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642679696&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/71tjhhb+1fS.jpg
 ---

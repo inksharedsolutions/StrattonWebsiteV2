@@ -1,6 +1,6 @@
 ---
 title: Redbone
-subtitle: " The Misunderstood Light Skinned Female"
+subtitle: The Misunderstood Light Skinned Female
 genre: Politics & Social Sciences
 author: D Cleveland
 amazon_link: https://www.amazon.com/Redbone-Misunderstood-Light-Skinned-Female/dp/1643456814/ref=sr_1_1?crid=2OAJYFO84HJ66&keywords=9781643456812&qid=1643093559&sprefix=%2Caps%2C1974&sr=8-1

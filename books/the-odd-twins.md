@@ -1,7 +1,7 @@
 ---
 title: The Odd Twins
 genre: Genre Fiction
-author: " Randy Caparco "
+author: Randy Caparco
 amazon_link: https://www.amazon.com/Odd-Twins-Randy-Caparco/dp/164895412X/ref=sr_1_1?crid=38BFKPHJXQ2KV&keywords=9781648954122&qid=1642672806&sprefix=9781648954122%2Caps%2C284&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/51dt-4XkRqS.jpg
 ---

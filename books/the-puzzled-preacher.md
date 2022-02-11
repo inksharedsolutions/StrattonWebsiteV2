@@ -1,6 +1,6 @@
 ---
 title: The Puzzled Preacher
-subtitle: "A Pastoral Exposition of Ecclesiastes "
+subtitle: A Pastoral Exposition of Ecclesiastes
 genre: Christian Books & Bibles
 author: David Balsley
 amazon_link: https://www.amazon.com/Puzzled-Preacher-Pastoral-Exposition-Ecclesiastes/dp/1648956157/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1643091485&sr=8-1

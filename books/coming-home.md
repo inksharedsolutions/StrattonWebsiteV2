@@ -1,6 +1,6 @@
 ---
 title: Coming Home
-subtitle: "Book 4: California Dreaming"
+subtitle: Book 4 California Dreaming
 genre: Mystery, Thriller & Suspense
 author: Stacey Johnston
 amazon_link: https://www.amazon.com/Coming-Home-California-Dreaming-Book/dp/1643455567/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1643550117&sr=8-1

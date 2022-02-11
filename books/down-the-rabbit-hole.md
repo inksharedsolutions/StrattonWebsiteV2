@@ -1,6 +1,6 @@
 ---
 title: Down the Rabbit Hole
-subtitle: "Volume 1: Inspirational Blog Post Bits"
+subtitle: Volume 1 Inspirational Blog Post Bits
 genre: Religion & Spirituality
 author: Dr. Ronald P. Rozzi MS.D., RHY
 amazon_link: https://www.amazon.com/Down-Rabbit-Hole-Inspirational-Blog/dp/1648954901/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642686718&sr=8-1

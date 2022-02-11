@@ -1,7 +1,7 @@
 ---
 title: Beautiful Sunset
 genre: Biographies & Memoirs
-author: "D L Smith "
+author: D L Smith
 amazon_link: https://www.amazon.com/Beautiful-Sunset-D-L-Smith/dp/1648955800/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642919239&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/61rZSe+DdTL.jpg
 ---

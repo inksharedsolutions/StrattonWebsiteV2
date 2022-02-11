@@ -1,6 +1,6 @@
 ---
 title: Asim's Extraordinary Journeys
-subtitle: "Book 1: All For The Children"
+subtitle: Book 1 All For The Children
 genre: Science Fiction & Fantasy
 author: Tommy Lee Davis
 amazon_link: https://www.amazon.com/Asims-Extraordinary-Journeys-Book-Children/dp/1648951236/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1643533295&sr=8-1

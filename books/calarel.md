@@ -2,7 +2,7 @@
 title: Calarel
 subtitle: The Beginning Journey
 genre: Science Fiction & Fantasy
-author: "Robert Gayhart "
+author: Robert Gayhart
 amazon_link: https://www.amazon.com/Calarel-Beginning-Journey-Robert-Gayhart/dp/1648956211/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1643093147&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/61l3lQSp5uL.jpg
 ---

@@ -1,7 +1,7 @@
 ---
 title: Life Broken
 genre: Biographies & Memoirs
-author: "Cassandra McClinton "
+author: Cassandra McClinton
 amazon_link: https://www.amazon.com/Life-Broken-Cassandra-McClinton/dp/1648954987/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642686824&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/51Md745y5AL.jpg
 ---

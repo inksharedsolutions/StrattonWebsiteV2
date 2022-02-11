@@ -1,6 +1,5 @@
 ---
 title: The Best Professor at the University of Washington
-subtitle: ""
 genre: Literature & Fiction
 author: Brian Douglas Beverly
 amazon_link: https://www.amazon.com/Best-Professor-University-Washington/dp/164895667X/ref=sr_1_1?crid=34EP68L25BIFI&keywords=9781648956676&qid=1643096000&sprefix=9781648956676%2Caps%2C254&sr=8-1

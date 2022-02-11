@@ -57,20 +57,20 @@ const AboutUs: React.FC<Props> = ({number}) => {
 //   change page
 
 
-
+//modified 
 var temp = JSONData;
 
 
 
     const [search, setSearch] = React.useState('');
+    const [sort, setSort] = React.useState('alphabetical');
 
-    // React.useEffect(() => {
-    //     let data = JSONData.filter((d) => d.author.toLowerCase().includes(search) || d.title.toLowerCase().includes(search));
-    //     temp = data.length > 0? data : JSONData;
-    //     console.log(temp);
-    // },[search])
+    React.useEffect(() => {
+        sortData('alphabetical');
+    },[search])
 
     const filterData = () => {
+        
         let data = JSONData.filter((d) => d.author.toLowerCase().includes(search) || d.title.toLowerCase().includes(search));
         for(var i = 0; i < data.length; i++){
             if(data.length > 0){
@@ -78,9 +78,27 @@ var temp = JSONData;
             }else
                 temp = JSONData;
         }
-    
+        sortData(sort);
     }
-    
+
+    const sortData = (sort: string) => {
+        switch(sort){
+            case 'alphabetical': 
+                temp.sort((title1, title2) => {
+                    return title1.title.toLowerCase().localeCompare(title2.title.toLowerCase())
+                });
+                break;
+            case 'Date':
+                console.log(sort);
+                break;
+            default:
+                temp.sort((title1, title2) => {
+                    return title1.title.toLowerCase().localeCompare(title2.title.toLowerCase())
+                });
+                break;
+        }
+    }
+//
 
     return (
 
@@ -100,7 +118,10 @@ var temp = JSONData;
 
                     <label>Sort By:</label>
 
-                    <select name="sort" id="sort">
+                    <select name="sort" id="sort" onChange={(e) => setSort(e.target.value)}>
+                        <option value="alphabetical">
+                            Alphabetical
+                        </option>
                         <option value="Relevance">
                             Relevance
                         </option>

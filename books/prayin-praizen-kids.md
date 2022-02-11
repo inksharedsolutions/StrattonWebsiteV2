@@ -2,7 +2,7 @@
 title: Pray'in/Praiz'en Kids
 subtitle: Prayer Curriculum and Character Education Stories
 genre: Worship & Devotion
-author: "Dr Andrea Y Shelton "
+author: Dr Andrea Y Shelton
 amazon_link: https://www.amazon.com/Prayin-Praizen-Kids-Curriculum-Character/dp/1648953840/ref=sr_1_1?crid=29N06KWXSB5KY&keywords=9781648953842&qid=1642671917&sprefix=9781648953842%2Caps%2C286&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/61FPc2o+mHS.jpg
 ---

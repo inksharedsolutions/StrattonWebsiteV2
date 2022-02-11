@@ -1,7 +1,7 @@
 ---
 title: Life's Greatest Adventure
 genre: Literature & Fiction
-author: "Ruben S Aguilar "
+author: Ruben S Aguilar
 amazon_link: https://www.amazon.com/Lifes-Greatest-Adventure-Ruben-Aguilar/dp/1648956327/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1643095023&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/71AlJCPKEjL.jpg
 ---

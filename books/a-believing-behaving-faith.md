@@ -1,6 +1,5 @@
 ---
 title: A Believing Behaving Faith
-subtitle: A Believing Behaving Faith
 genre: Religion & Spirituality
 author: Dr John Thomas Wylie
 amazon_link: https://www.amazon.com/Believing-Behaving-Faith-Practical-Commentary/dp/1648955142/ref=sr_1_1?crid=2FKC76KDOF3V8&keywords=9781648955143&qid=1642687387&sprefix=9781648955143%2Caps%2C285&sr=8-1

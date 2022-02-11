@@ -1,8 +1,8 @@
 ---
 title: Stick Man
-subtitle: "The Little Stickman "
+subtitle: The Little Stickman
 genre: Literature & Fiction
-author: "Bertha Valentine "
+author: Bertha Valentine
 amazon_link: https://www.amazon.com/Stick-Man-Stickman-Bertha-Valentine/dp/1648956254/ref=sr_1_1?crid=284G3UULTQL51&keywords=9781648956256&qid=1643093351&sprefix=9781648956256%2Caps%2C246&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/714zYjw564L.jpg
 ---

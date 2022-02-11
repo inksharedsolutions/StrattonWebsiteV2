@@ -1,6 +1,5 @@
 ---
 title: The Founding Fathers' Agenda
-subtitle: ""
 genre: Politics & Social Sciences
 author: Daniel Zanou
 amazon_link: https://www.amazon.com/Founding-Fathers-Agenda-Daniel-Zanou/dp/1643455222/ref=sr_1_1?crid=14NLS027LOQBW&keywords=9781643455228&qid=1643365029&sprefix=9781643455228%2Caps%2C423&sr=8-1

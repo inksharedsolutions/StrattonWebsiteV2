@@ -1,7 +1,7 @@
 ---
-title: "The Finisher "
+title: The Finisher
 genre: Action & Adventure
-author: "Bert Marshall "
+author: Bert Marshall
 amazon_link: https://www.amazon.com/Finisher-Bert-Marshall/dp/1648953867/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642673430&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/718W-JCo5gS.jpg
 ---

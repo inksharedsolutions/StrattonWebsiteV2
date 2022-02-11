@@ -2,7 +2,7 @@
 title: The DMV48 Men Of Power
 subtitle: A Local Guide To Great Black Men in the DMV
 genre: Self-Help
-author: "Dr Reneé Allen "
+author: Dr Reneé Allen
 amazon_link: https://www.amazon.com/DMV48-Men-Power-Local-Guide/dp/1648955126/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642686249&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/71DUTdC8ErL.jpg
 ---

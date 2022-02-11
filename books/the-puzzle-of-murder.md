@@ -1,6 +1,5 @@
 ---
 title: The Puzzle of Murder
-subtitle: ""
 genre: Mystery, Thriller & Suspense
 author: Anthony Odom
 amazon_link: https://www.amazon.com/Puzzle-Murder-Anthony-Odom/dp/164895541X/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642687842&sr=8-1

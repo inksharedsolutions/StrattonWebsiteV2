@@ -1,5 +1,5 @@
 ---
-title: "Usurper "
+title: Usurper
 genre: Biographies & Memoirs
 author: William D Hoy
 amazon_link: https://www.amazon.com/Usurper-William-D-Hoy/dp/1648956238/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1643091563&sr=8-1
