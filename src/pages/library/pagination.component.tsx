@@ -5,7 +5,8 @@ import { Link } from "react-router-dom";
 interface Props {
     postPerPage: any,
     totalPosts: any,
-    updateNum: (args: number)=> void
+    updateNum: (args: number)=> void,
+    
 
     
 }

@@ -9,6 +9,7 @@ import ContactUs from "./pages/contactus/contactus.container";
 import privacy from "./pages/PrivacyPolicy/PrivacyPolicy.container";
 import faq from "./pages/FAQ/faq";
 import LibraryContainer from "./pages/library/library.container";
+import $ from "jquery"; 
 
 
 import './assets/scss/main.scss';
