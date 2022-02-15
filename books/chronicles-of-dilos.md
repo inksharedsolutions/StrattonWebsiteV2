@@ -1,6 +1,6 @@
 ---
 title: Chronicles of Dilos
-subtitle: " Children of Destiny"
+subtitle: Children of Destiny
 genre: Literature & Fiction
 author: G D Haverland
 amazon_link: https://www.amazon.com/Chronicles-Dilos-Children-Destiny-Haverland/dp/1648954529/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642678901&sr=8-1

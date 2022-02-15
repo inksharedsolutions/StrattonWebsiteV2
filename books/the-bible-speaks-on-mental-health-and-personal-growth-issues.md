@@ -2,7 +2,7 @@
 title: The Bible Speaks On Mental Health and Personal Growth Issues
 subtitle: Helps For Hurting Christians And Christian Counselors
 genre: Christian Living
-author: "Wayne Welch "
+author: Wayne Welch
 amazon_link: https://www.amazon.com/Speaks-Mental-Health-Personal-Growth/dp/1648953883/ref=sr_1_1?crid=7P9T0RYOBUA0&keywords=9781648953880&qid=1642672545&sprefix=9781648953880%2Caps%2C279&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/61CDgDmFl3S.jpg
 ---

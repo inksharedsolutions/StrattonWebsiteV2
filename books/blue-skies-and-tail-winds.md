@@ -1,5 +1,5 @@
 ---
-title: "Blue Skies and Tail Winds "
+title: Blue Skies and Tail Winds
 genre: Literature & Fiction
 author: Gerry Cole
 amazon_link: https://www.amazon.com/Blue-Skies-Tail-Winds-Gerry/dp/1648955266/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642687285&sr=8-1

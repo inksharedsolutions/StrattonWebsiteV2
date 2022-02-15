@@ -1,7 +1,7 @@
 ---
 title: Finding a Soulful Love
 genre: Romance
-author: "Lucinda Johnson "
+author: Lucinda Johnson
 amazon_link: https://www.amazon.com/Finding-Soulful-Love-Lucinda-Johnson/dp/1648954294/ref=sr_1_1?crid=32TPLMFYC0VSQ&keywords=9781648954290&qid=1642674743&sprefix=%2Caps%2C290&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/61fKndvBfuS.jpg
 ---

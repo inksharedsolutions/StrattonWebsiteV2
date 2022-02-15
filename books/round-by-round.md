@@ -1,6 +1,6 @@
 ---
 title: Round by Round
-subtitle: "Volume 2: In Search of Wisdom"
+subtitle: Volume 2 In Search of Wisdom
 genre: Motivational
 author: Florine Dotson Evans
 amazon_link: https://www.amazon.com/Round-2-Search-Wisdom/dp/1648954928/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642686672&sr=8-1

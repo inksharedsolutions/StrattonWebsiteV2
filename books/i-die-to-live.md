@@ -1,7 +1,7 @@
 ---
 title: I Die To Live
 genre: Action & Adventure
-author: " Perry D Defiore "
+author: Perry D Defiore
 amazon_link: https://www.amazon.com/I-Die-Live-Perry-Defiore/dp/164895376X/ref=sr_1_1?crid=1N6MZADV9MHJE&keywords=9781648953767&qid=1642672491&sprefix=9781648953767%2Caps%2C604&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/71YcOsOvZ0S.jpg
 ---

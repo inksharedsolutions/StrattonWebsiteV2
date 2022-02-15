@@ -1,6 +1,6 @@
 ---
 title: The Marlagans
-subtitle: " For Mars"
+subtitle: For Mars
 genre: Science Fiction & Fantasy
 author: Alton Bryant
 amazon_link: https://www.amazon.com/Marlagans-Mars-Alton-Bryant/dp/1648956270/ref=sr_1_1?crid=259UJF607UDKX&keywords=9781648956270&qid=1643093407&sprefix=9781648956270%2Caps%2C245&sr=8-1

@@ -1,8 +1,7 @@
 ---
 title: A Word In Due Season
-subtitle: ""
 genre: Literature & Fiction
-author: "Kennesha M Walker "
+author: Kennesha M Walker
 amazon_link: https://www.amazon.com/Word-Due-Season-Kennesha-Walker/dp/164895619X/ref=sr_1_1?crid=2SZ2FLP7VYK1B&keywords=9781648956195&qid=1643093233&sprefix=9781648956195%2Caps%2C268&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/61ogZiazEJL.jpg
 ---

@@ -3,7 +3,7 @@ title: Bully Navigator
 subtitle: The Ultimate Parent's Guide to Protecting Your Child from Bullying and
   Sexual Violence at School
 genre: Education & Teaching
-author: "Lawrence J Altman Jd , Steve M Cohen Ed D "
+author: Lawrence J Altman Jd , Steve M Cohen Ed D
 amazon_link: https://www.amazon.com/Bullying-Sexual-Violence-Protecting-Children/dp/1648950639/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1643096433&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/719wlYzMR1L.jpg
 ---

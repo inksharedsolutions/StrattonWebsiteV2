@@ -1,5 +1,5 @@
 ---
-title: "Origins of the Lost Poetic Archives from an Unknown Scholar:"
+title: Origins of the Lost Poetic Archives from an Unknown Scholar
 subtitle: Collector's Edition
 genre: Poetry
 author: B-Poet

@@ -1,6 +1,6 @@
 ---
 title: Heart to Heart
-subtitle: " Considered Sentiments for Teatime"
+subtitle: Considered Sentiments for Teatime
 genre: Literature & Fiction
 author: Susan Patterson
 amazon_link: https://www.amazon.com/Heart-Considered-Sentiments-Teatime/dp/1648955568/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642687897&sr=8-1

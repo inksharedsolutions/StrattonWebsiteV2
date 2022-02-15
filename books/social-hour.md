@@ -1,6 +1,6 @@
 ---
 title: Social Hour
-subtitle: "Book 2: Pineridge Series"
+subtitle: Book 2 Pineridge Series
 genre: Romance
 author: Molly McGinty
 amazon_link: https://www.amazon.com/Social-Hour-Pineridge-Book-2/dp/1648952186/ref=sr_1_1?crid=2YFCUJ7A955B7&keywords=9781648952180&qid=1643556277&sprefix=9781648952180%2Caps%2C364&sr=8-1

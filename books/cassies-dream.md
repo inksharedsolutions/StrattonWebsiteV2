@@ -1,6 +1,5 @@
 ---
 title: Cassie's Dream
-subtitle: ""
 genre: Literature & Fiction
 author: Jean Marie Ivey
 amazon_link: https://www.amazon.com/Cassies-Dream-Jean-Marie-Ivey/dp/1648956920/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1643097387&sr=8-1

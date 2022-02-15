@@ -2,7 +2,7 @@
 title: Proud to Be Me Rosalinda
 subtitle: Part III
 genre: Literature & Fiction
-author: "Jesse Moreno "
+author: Jesse Moreno
 amazon_link: https://www.amazon.com/Proud-Be-Me-Rosalinda-Part/dp/1648956297/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1643091629&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/515pJcS+tGL.jpg
 ---

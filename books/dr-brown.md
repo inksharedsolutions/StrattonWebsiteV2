@@ -1,8 +1,8 @@
 ---
 title: Dr. Brown
-subtitle: " The American Medical Problem"
+subtitle: The American Medical Problem
 genre: Health, Fitness & Dieting
-author: "H Doyle Smith "
+author: H Doyle Smith
 amazon_link: https://www.amazon.com/Dr-Brown-American-Medical-Problem/dp/1648956440/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1643095470&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/61ztGb6GOGL.jpg
 ---

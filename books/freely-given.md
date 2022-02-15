@@ -1,6 +1,6 @@
 ---
 title: Freely Given
-subtitle: "Seeing God's Wisdom in Everyday Situations "
+subtitle: Seeing God's Wisdom in Everyday Situations
 genre: Religion & Spirituality
 author: Marquis D Jones
 amazon_link: https://www.amazon.com/Freely-Given-Seeing-Everyday-Situations/dp/1648954162/ref=sr_1_1?crid=22CZ05R0VCJ0E&keywords=9781648954160&qid=1642673394&sprefix=%2Caps%2C786&sr=8-1

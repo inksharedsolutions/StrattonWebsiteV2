@@ -1,7 +1,7 @@
 ---
 title: Rescued
 genre: Self-Help
-author: "Alana M Brayboy "
+author: Alana M Brayboy
 amazon_link: https://www.amazon.com/Rescued-Alana-M-Brayboy/dp/1648956637/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1643096053&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/51GirZ+WEyL.jpg
 ---

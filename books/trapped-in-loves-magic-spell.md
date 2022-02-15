@@ -1,6 +1,6 @@
 ---
 title: Trapped In Love's Magic Spell
-subtitle: " Book 1: The Ships"
+subtitle: Book 1 The Ships
 genre: " "
 author: Joanne Baker
 amazon_link: https://www.amazon.com/Trapped-Loves-Magic-Spell-Ships/dp/1648955193/ref=sr_1_1?crid=2B592YOLG5YVO&keywords=9781648955198&qid=1642687316&sprefix=%2Caps%2C285&sr=8-1

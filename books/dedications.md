@@ -1,5 +1,5 @@
 ---
-title: "Dedications "
+title: Dedications
 genre: Literature & Fiction
 author: Tina Jeffries
 amazon_link: https://www.amazon.com/Dedications-Tina-Jeffries/dp/1648956653/ref=sr_1_1?crid=ZY5KR21MAV92&keywords=9781648956652&qid=1643095591&sprefix=9781648956652%2Caps%2C257&sr=8-1

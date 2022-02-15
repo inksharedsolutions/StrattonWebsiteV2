@@ -1,6 +1,5 @@
 ---
 title: A Brother Knows
-subtitle: ""
 genre: Science Fiction & Fantasy
 author: Fernando Aranda
 amazon_link: https://www.amazon.com/Brother-Knows-Fernando-Aranda/dp/1648955371/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642687870&sr=8-1

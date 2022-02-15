@@ -1,5 +1,5 @@
 ---
-title: "The Vine and the Cross "
+title: The Vine and the Cross
 genre: Genre Fiction
 author: Jean Marie Ivey
 amazon_link: https://www.amazon.com/Vine-Cross-Jean-Marie-Ivey/dp/1648954669/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642675848&sr=8-1

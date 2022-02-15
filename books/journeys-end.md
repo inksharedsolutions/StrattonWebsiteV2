@@ -2,7 +2,7 @@
 title: Journey's End
 subtitle: Part 1 Heartfelt Stories of Death and Dying
 genre: Self-Help
-author: "Victoria Brewster "
+author: Victoria Brewster
 amazon_link: https://www.amazon.com/Journeys-End-Heartfelt-Stories-Death/dp/1648955886/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1643090446&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/71x9fKF0QJL.jpg
 ---

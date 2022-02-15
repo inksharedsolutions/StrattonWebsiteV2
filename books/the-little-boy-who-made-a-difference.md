@@ -1,6 +1,6 @@
 ---
 title: The Little Boy Who Made a Difference
-subtitle: "Book 1: Understanding the Impact of Childhood Bullying"
+subtitle: Book 1 Understanding the Impact of Childhood Bullying
 genre: Literature & Fiction
 author: Jo Ann Olukaka
 amazon_link: https://www.amazon.com/Little-Boy-Made-Difference-Understanding/dp/1648955088/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642686427&sr=8-1

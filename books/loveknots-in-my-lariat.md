@@ -1,5 +1,5 @@
 ---
-title: "Loveknots in my Lariat "
+title: Loveknots in my Lariat
 subtitle: Ramona Cugnini
 genre: Poetry
 author: Ramona Cugnini

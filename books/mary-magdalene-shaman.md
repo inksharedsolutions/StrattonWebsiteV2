@@ -2,7 +2,7 @@
 title: Mary Magdalene, Shaman
 subtitle: Awakening To The Indigenous Christian Soul
 genre: Christian Books & Bibles
-author: "Sara Taft "
+author: Sara Taft
 amazon_link: https://www.amazon.com/Mary-Magdalene-Shaman-Awakening-Indigenous/dp/1648956521/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1643095699&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/61l6cjhXppL.jpg
 ---

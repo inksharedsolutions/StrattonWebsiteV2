@@ -1,8 +1,8 @@
 ---
 title: Prince Gideon
-subtitle: " Chronicles of Illúmaril Vol 3"
+subtitle: Chronicles of Illúmaril Vol 3
 genre: Science Fiction & Fantasy
-author: " Gary Caplan"
+author: Gary Caplan
 amazon_link: https://www.amazon.com/Prince-Gideon-Chronicles-Ill%C3%BAmaril-Vol/dp/1648956386/ref=sr_1_1?crid=1RD7H1YJKD609&keywords=9781648956386&qid=1643095505&sprefix=9781648956386%2Caps%2C251&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/61bDcQUG4rL.jpg
 ---

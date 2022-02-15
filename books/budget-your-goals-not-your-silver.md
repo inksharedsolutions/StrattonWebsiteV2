@@ -1,7 +1,7 @@
 ---
 title: Budget Your Goals Not Your Silver
 genre: Business & Money
-author: "H Doyle Smith "
+author: H Doyle Smith
 amazon_link: https://www.amazon.com/Budget-Your-Goals-Not-Silver/dp/1648955517/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642687944&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/61o2artc3LL.jpg
 ---

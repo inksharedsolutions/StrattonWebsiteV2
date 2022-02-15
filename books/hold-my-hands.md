@@ -1,5 +1,5 @@
 ---
-title: "Hold My Hands "
+title: Hold My Hands
 genre: Romance
 author: Patricia Brennan
 amazon_link: https://www.amazon.com/Hold-My-Hands-Patricia-Brennan/dp/1648956548/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1643095667&sr=8-1

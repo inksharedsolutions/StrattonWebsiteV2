@@ -1,6 +1,6 @@
 ---
 title: The Widening View
-subtitle: "Boone to Beijing "
+subtitle: Boone to Beijing
 genre: Biographies & Memoirs
 author: Eugene Scruggs
 amazon_link: https://www.amazon.com/Widening-View-Boone-Beijing/dp/1648955452/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642687724&sr=8-1

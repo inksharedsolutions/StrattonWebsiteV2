@@ -1,5 +1,5 @@
 ---
-title: "The Bee Tree "
+title: The Bee Tree
 genre: Literature & Fiction
 author: Margaret And Margene Wiese
 amazon_link: https://www.amazon.com/Bee-Tree-Margaret-Margene-Wiese/dp/1648953123/ref=sr_1_1?crid=33YMLO8MDN6MG&keywords=9781648953125&qid=1642666719&sprefix=9781648953125%2Caps%2C546&sr=8-1

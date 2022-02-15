@@ -1,6 +1,6 @@
 ---
 title: Promise of The Rainbow
-subtitle: "Book 2: The Rainbow Series"
+subtitle: Book 2 The Rainbow Series
 genre: Literature & Fiction
 author: Randa Lynne Zollinger
 amazon_link: https://www.amazon.com/Promise-Rainbow-Book-2/dp/1648957064/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1643097538&sr=8-1

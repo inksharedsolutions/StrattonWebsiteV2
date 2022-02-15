@@ -1,8 +1,8 @@
 ---
 title: Protection
-subtitle: "What You Were Born To Do "
+subtitle: What You Were Born To Do
 genre: Action & Adventure
-author: " Leo Kearley"
+author: Leo Kearley
 amazon_link: https://www.amazon.com/Protection-What-You-Were-Born/dp/1648955231/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642687501&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/71cj6JN4T1L.jpg
 ---

@@ -2,7 +2,7 @@
 title: The City of the Sky
 subtitle: The Complete Series
 genre: Science Fiction
-author: "T J Keogh "
+author: T J Keogh
 amazon_link: https://www.amazon.com/City-Sky-Complete-T-Keogh/dp/1648954189/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642672679&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/713nhS4neBS.jpg
 ---

@@ -2,7 +2,7 @@
 title: Mama?! I Cried!!!
 subtitle: Escaped, I Alone Have Escaped To Tell Thee
 genre: Biographies & Memoirs
-author: "Kavara Gabriel Gee "
+author: Kavara Gabriel Gee
 amazon_link: https://www.amazon.com/Mama-Cried-Escaped-Alone-Have/dp/1648955606/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642918555&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/61l+9CH5s1L.jpg
 ---

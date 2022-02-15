@@ -2,7 +2,7 @@
 title: Essence of Life
 subtitle: Poetry & Life in Motion II
 genre: Literature & Fiction
-author: "Jennifer Fahie "
+author: Jennifer Fahie
 amazon_link: https://www.amazon.com/Essence-Life-Poetry-Motion-II/dp/1648955908/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1642920361&sr=8-1
 thumbnail: https://images-na.ssl-images-amazon.com/images/I/712dT8RZ1aL.jpg
 ---
