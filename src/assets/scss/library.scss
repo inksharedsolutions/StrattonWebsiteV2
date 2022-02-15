@@ -224,9 +224,11 @@
                             display: flex;
                             flex-direction: column;
                             justify-content: space-between;
+                            text-align: initial;
 
                             @media (max-width:500px) {
                                 width: 100%;
+                                text-align: center;
                             }
 
 

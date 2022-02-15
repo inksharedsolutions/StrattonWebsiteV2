@@ -62,12 +62,12 @@ var temp = JSONData;
 
 
 
-    const [search, setSearch] = React.useState('');
-    const [sort, setSort] = React.useState('alphabetical');
+    const [search, setSearch] = useState('');
+    const [sort, setSort] = useState('alphabetical');
 
     React.useEffect(() => {
         sortData('alphabetical');
-    },[search])
+    },[])
 
     const filterData = () => {
         
@@ -219,7 +219,7 @@ var temp = JSONData;
                     </div>
 
                     <div className="right" id="top">
-                   <BookLayout posts={currentPost}></BookLayout>
+                   <BookLayout posts={currentPost} search={search}></BookLayout>
 
                     </div>
                    
