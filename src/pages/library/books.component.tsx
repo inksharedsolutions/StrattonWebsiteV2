@@ -8,20 +8,25 @@ import Amazon from "../../assets/images/logo/amazon-lib.png";
 interface Props {
     posts: Array<any>
     search: any,
+    // checked: any
 }
 
 const Books:React.FC<Props> = ({posts ,search} ) => {
-
     var temp = JSONData;
-  
-    if(search !=""){
+   
+    // if(search.trim() !="" || checked !=""){
+    if(search.trim() !="" ){
         
     return(
       
          
         <div className="book-con">
           {JSONData.filter((d) => {
-              return d.title.toLowerCase().includes(search.toLowerCase())
+               
+              return d.title.toLowerCase().includes(search.toLowerCase()) ||
+               d.author.toLowerCase().includes(search.toLowerCase()) 
+            //    ||d.genre.toLowerCase() == (checked.toLowerCase())
+           
            }).map((data, index) => { 
             
             return(

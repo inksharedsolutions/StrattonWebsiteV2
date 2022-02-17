@@ -1,0 +1,91 @@
+[
+    {
+    "value": "Arts & Photography",
+    "id": "Arts & Photography",
+    "title": "Arts & Photography"
+ },{
+    "value": "Biograph6ies & Memoirs",
+    "id": "Biograph6ies & Memoirs",
+    "title": "Biograph6ies & Memoirs"
+ }
+ ,{
+    "value": "Business Money",
+    "id": "Business Money",
+    "title": "Business Money"
+ }
+ ,{
+    "value": "Christian Books & Bibles",
+    "id": "Christian Books & Bibles",
+    "title": "Christian Books & Bibles"
+ }
+ ,{
+    "value": "Cookbooks, Food & Wine",
+    "id": "Cookbooks, Food & Wine",
+    "title": "Cookbooks, Food & Wine"
+ }
+ ,{
+    "value": "Education & Teaching",
+    "id": "Education & Teaching",
+    "title": "Education & Teaching"
+ }
+ ,{
+    "value": "History",
+    "id": "History",
+    "title": "History"
+ }
+ ,{
+    "value": "Kindle Ebooks",
+    "id": "Kindle Ebooks",
+    "title": "Kindle Ebooks"
+ }
+ ,{
+    "value": "Literature & Fiction",
+    "id": "Literature & Fiction",
+    "title": "Literature & Fiction"
+ }
+ ,{
+    "value": "Medical Books",
+    "id": "Medical Books",
+    "title": "Medical Books"
+ }
+ ,{
+    "value": "Mystery, Thriller & Suspense",
+    "id": "Mystery, Thriller & Suspense",
+    "title": "Mystery, Thriller & Suspense"
+ }
+ ,{
+    "value": "Parenting & Relationship",
+    "id": "Parenting & Relationship",
+    "title": "Parenting & Relationship"
+ }
+ ,{
+    "value": "Politics & Social Sciences",
+    "id": "Politics & Social Sciences",
+    "title": "Politics & Social Sciences"
+ }
+ ,{
+    "value": "Reference",
+    "id": "Reference",
+    "title": "Reference"
+ }
+ ,{
+    "value": "Religion & Spirituality",
+    "id": "Religion & Spirituality",
+    "title": "Religion & Spirituality"
+ }
+ ,{
+    "value": "Romance",
+    "id": "Romance",
+    "title": "Romance"
+ }
+ ,{
+    "value": "Science Fiction & Fantasy",
+    "id": "Science Fiction & Fantasy",
+    "title": "Science Fiction & Fantasy"
+ }
+ ,{
+    "value": "Self-Help",
+    "id": "Self-Help",
+    "title": "Self-Help"
+ }
+]
