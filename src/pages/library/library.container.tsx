@@ -22,6 +22,7 @@ import BookLayout from "./books.component";
 import Pagination from "./pagination.component";
 import posts from "../../books.json";
 import genre from "./genre.json";
+import { ContactsBookUploadDimensions } from "@styled-icons/remix-fill/ContactsBookUpload";
 interface Props {
   number: number;
 }
@@ -125,17 +126,21 @@ const AboutUs: React.FC<Props> = ({ number }) => {
 // };
 
 
-const [checked, setChecked] = useState<any[]>([]);
+const [checked, setChecked] = useState<string[]>([]);
 
 const handleCheckbox =(e:any)=>{
 
 if(e.checked)
   {setChecked([...checked,e.value])
- 
-}
-  else
+
+} else
   {
-    setChecked(  checked.splice(0,0, checked.indexOf(checked,e.value)));
+    let pos = checked.indexOf(e.value)
+    if(pos > -1){
+      checked.splice(pos, 1)
+    }
+
+    setChecked([...checked])
   }
 }
 
