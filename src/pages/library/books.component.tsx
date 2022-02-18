@@ -1,5 +1,6 @@
 import * as React from 'react';
 import JSONData from "../../books.json";
+import genre from "./genre.json";
 
 import $ from "jquery"; 
 
@@ -8,10 +9,10 @@ import Amazon from "../../assets/images/logo/amazon-lib.png";
 interface Props {
     posts: Array<any>
     search: any,
-    // checked: any
+    checked: any;
 }
 
-const Books:React.FC<Props> = ({posts ,search} ) => {
+const Books:React.FC<Props> = ({posts ,search, checked} ) => {
     var temp = JSONData;
    
     // if(search.trim() !="" || checked !=""){
@@ -22,10 +23,13 @@ const Books:React.FC<Props> = ({posts ,search} ) => {
          
         <div className="book-con">
           {JSONData.filter((d) => {
+              console.log(genre);
+              console.log(checked);
+            console.log(d.genre.includes(checked));
                
               return d.title.toLowerCase().includes(search.toLowerCase()) ||
                d.author.toLowerCase().includes(search.toLowerCase()) 
-            //    ||d.genre.toLowerCase() == (checked.toLowerCase())
+               ||d.genre.includes(checked)
            
            }).map((data, index) => { 
             

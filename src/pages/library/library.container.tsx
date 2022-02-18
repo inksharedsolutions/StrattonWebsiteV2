@@ -21,7 +21,7 @@ import { Books } from "styled-icons/icomoon";
 import BookLayout from "./books.component";
 import Pagination from "./pagination.component";
 import posts from "../../books.json";
-import Genre from "./genre.json";
+import genre from "./genre.json";
 interface Props {
   number: number;
 }
@@ -57,6 +57,11 @@ const AboutUs: React.FC<Props> = ({ number }) => {
 
   const [search, setSearch] = useState("");
   const [sort, setSort] = useState("alphabetical");
+
+  
+  React.useEffect(() => {
+    sortData('alphabetical');
+},[search])
 
  
 
@@ -97,28 +102,47 @@ const AboutUs: React.FC<Props> = ({ number }) => {
 
   };
 
-//   const [checked, setChecked] = useState([]);
+ 
 
-//   // Add/Remove checked item from list
-// /* tslint:disable */
-//   const handleCheck = (event:any[]) => {
-//     var updatedList = [...checked];
-//     if (event.checked) {
-//       updatedList = [...checked, event.target.value];
-//     } else {
-//       updatedList.splice(checked.indexOf(event.target.value), 1);
-//     }
-//     setChecked(updatedList);
-//   };
+  // Add/Remove checked item from list
+/* tslint:disable */
+  // const handleCheck = (event:any[]) => {
+  //   var updatedList = [...checked];
+  //   if (event.checked) {
+  //     updatedList = [...checked, event.target.value];
+  //   } else {
+  //     updatedList.splice(checked.indexOf(event.target.value), 1);
+  //   }
+  //   setChecked(updatedList);
+  // }; 
 
-// const [selected, setSelected] = useState(1);
-// const handleChange = (e: ChangeEvent<{
+// const [selected, setSelected] = useState([]);
+// const handleCheck = (e: ChangeEvent[]<{
 //   name?: string | undefined,
 //   value: unknown | number
 // }>, child: React.ReactNode) => {
 //   setSelected(e.target.value as number);
 // };
 
+
+const [checked, setChecked] = useState<any[]>([]);
+
+const handleCheckbox =(e:any)=>{
+
+if(e.checked)
+  {setChecked([...checked,e.value])
+ 
+}
+  else
+  {
+    setChecked(  checked.splice(0,0, checked.indexOf(checked,e.value)));
+  }
+}
+
+
+useEffect(() => {
+  console.log(checked);
+}, [checked])
 
   return (
     <div className="library-Component">
@@ -165,10 +189,10 @@ const AboutUs: React.FC<Props> = ({ number }) => {
               <div className="text">All</div>
             </div> */}
             {
-              Genre.map((data,index)=>(
+              genre.map((data,index)=>(
                 <div className="flex" key={index}>
                     <input type="checkbox" 
-                    // onChange={() => handleCheck}
+                  onChange={(e) => handleCheckbox(e.target)}
                      name="genre" value={data.value} id={data.id} />
                     <div className="text">{data.title}</div>
                 </div>
@@ -250,7 +274,7 @@ const AboutUs: React.FC<Props> = ({ number }) => {
 
           <div className="right" id="top">
             <BookLayout posts={currentPost} search={search} 
-            // checked={checked}
+            checked={checked}
             ></BookLayout>
           </div>
         </div>
