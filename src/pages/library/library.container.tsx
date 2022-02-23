@@ -22,7 +22,6 @@ import BookLayout from "./books.component";
 import Pagination from "./pagination.component";
 import posts from "../../books.json";
 import genre from "./genre.json";
-import { ContactsBookUploadDimensions } from "@styled-icons/remix-fill/ContactsBookUpload";
 interface Props {
   number: number;
 }
@@ -59,12 +58,9 @@ const AboutUs: React.FC<Props> = ({ number }) => {
   const [search, setSearch] = useState("");
   const [sort, setSort] = useState("alphabetical");
 
-  
   React.useEffect(() => {
-    sortData('alphabetical');
-},[search])
-
- 
+    sortData("alphabetical");
+  }, [search]);
 
   const filterData = () => {
     let data = JSONData.filter(
@@ -100,54 +96,22 @@ const AboutUs: React.FC<Props> = ({ number }) => {
         });
         break;
     }
-
   };
 
- 
+  const [checked, setChecked] = useState<string[]>([]);
 
-  // Add/Remove checked item from list
-/* tslint:disable */
-  // const handleCheck = (event:any[]) => {
-  //   var updatedList = [...checked];
-  //   if (event.checked) {
-  //     updatedList = [...checked, event.target.value];
-  //   } else {
-  //     updatedList.splice(checked.indexOf(event.target.value), 1);
-  //   }
-  //   setChecked(updatedList);
-  // }; 
+  const handleCheckbox = (e: any) => {
+    if (e.checked) {
+      setChecked([...checked, e.value]);
+    } else {
+      let pos = checked.indexOf(e.value);
+      if (pos > -1) {
+        checked.splice(pos, 1);
+      }
 
-// const [selected, setSelected] = useState([]);
-// const handleCheck = (e: ChangeEvent[]<{
-//   name?: string | undefined,
-//   value: unknown | number
-// }>, child: React.ReactNode) => {
-//   setSelected(e.target.value as number);
-// };
-
-
-const [checked, setChecked] = useState<string[]>([]);
-
-const handleCheckbox =(e:any)=>{
-
-if(e.checked)
-  {setChecked([...checked,e.value])
-
-} else
-  {
-    let pos = checked.indexOf(e.value)
-    if(pos > -1){
-      checked.splice(pos, 1)
+      setChecked([...checked]);
     }
-
-    setChecked([...checked])
-  }
-}
-
-
-useEffect(() => {
-  console.log(checked);
-}, [checked])
+  };
 
   return (
     <div className="library-Component">
@@ -193,16 +157,18 @@ useEffect(() => {
               <input type="checkbox" name="" id="" />
               <div className="text">All</div>
             </div> */}
-            {
-              genre.map((data,index)=>(
-                <div className="flex" key={index}>
-                    <input type="checkbox" 
+            {genre.map((data, index) => (
+              <div className="flex" key={index}>
+                <input
+                  type="checkbox"
                   onChange={(e) => handleCheckbox(e.target)}
-                     name="genre" value={data.value} id={data.id} />
-                    <div className="text">{data.title}</div>
-                </div>
-              ))
-            }
+                  name="genre"
+                  value={data.value}
+                  id={data.id}
+                />
+                <div className="text">{data.title}</div>
+              </div>
+            ))}
             {/* <div className="flex">
               <input type="checkbox" onChange={(e) => handleCheckbox(e.target.value)} name="genre" value="Arts & Photography" id="Arts & Photography" />
               <div className="text">Arts & Photography</div>
@@ -278,8 +244,10 @@ useEffect(() => {
           </div>
 
           <div className="right" id="top">
-            <BookLayout posts={currentPost} search={search} 
-            checked={checked}
+            <BookLayout
+              posts={currentPost}
+              search={search}
+              checked={checked}
             ></BookLayout>
           </div>
         </div>
