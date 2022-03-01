@@ -1,17 +1,13 @@
 [
-    {
-    "value": "Arts & Photography",
-    "id": "Arts & Photography",
-    "title": "Arts & Photography"
- },{
+   {
+      "value": "",
+      "id": "",
+      "title": "All"
+   },
+ {
     "value": "Biographies & Memoirs",
     "id": "Biographies & Memoirs",
     "title": "Biographies & Memoirs"
- }
- ,{
-    "value": "Business Money",
-    "id": "Business Money",
-    "title": "Business Money"
  }
  ,{
     "value": "Christian Books & Bibles",

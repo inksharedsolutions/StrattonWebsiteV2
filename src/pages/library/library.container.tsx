@@ -101,16 +101,17 @@ const AboutUs: React.FC<Props> = ({ number }) => {
   const [checked, setChecked] = useState<string[]>([]);
 
   const handleCheckbox = (e: any) => {
-    if (e.checked) {
-      setChecked([...checked, e.value]);
-    } else {
-      let pos = checked.indexOf(e.value);
-      if (pos > -1) {
-        checked.splice(pos, 1);
-      }
+    // if (e.checked) {
+    //   setChecked([...checked, e.value]);
+    // } else {
+    //   let pos = checked.indexOf(e.value);
+    //   if (pos > -1) {
+    //     checked.splice(pos, 1);
+    //   }
 
-      setChecked([...checked]);
-    }
+    //   setChecked([...checked]);
+    // }
+    setChecked(e.value);
   };
 
   return (
@@ -160,7 +161,7 @@ const AboutUs: React.FC<Props> = ({ number }) => {
             {genre.map((data, index) => (
               <div className="flex" key={index}>
                 <input
-                  type="checkbox"
+                  type="radio"
                   onChange={(e) => handleCheckbox(e.target)}
                   name="genre"
                   value={data.value}
@@ -245,7 +246,7 @@ const AboutUs: React.FC<Props> = ({ number }) => {
 
           <div className="right" id="top">
             <BookLayout
-              posts={currentPost}
+              posts={currentPost} 
               search={search}
               checked={checked}
             ></BookLayout>

@@ -71,19 +71,36 @@ const Books: React.FC<Props> = ({ posts, search, checked }) => {
     }
   };
   React.useEffect(() => {
-    checkGenre();
+    checked;
   }, [checked]);
 
     return (
       <div className="book-con">
         {JSONData.filter((d) => {
-          console.log(d.genre.includes(checkGenre()));
-          // console.log( d.title.toLowerCase().includes(search.toLowerCase()));
-
+          // console.log(d.genre.includes(checkGenre()));
+          // // console.log( d.title.toLowerCase().includes(search.toLowerCase()));
+          // for ( var index in checked) {
+          //         if(d.genre === checked[index]){
+          
+          //           console.log(d);
+          //           return true;
+          
+          //         }}
           return (
-            d.genre.trim().includes(checkGenre())  
+            d.genre.trim().includes(checked)  
           );
         }).map((data, index) => {
+       
+          // if(!data.title){
+          //   return(
+          //   console.log("true")
+          //   )
+          // }
+          // else{
+          //   return (
+          //     console.log("false")
+          //   )
+          // }
           return (
             <div className="book" key={index}>
               <div className="lib-flex">
@@ -119,6 +136,11 @@ const Books: React.FC<Props> = ({ posts, search, checked }) => {
     );
   
   }
+  // else if(!checked || !search){
+  //   return(
+  //     <h1>No books found.</h1>
+  //   )
+  // }
   
   else {
     return (
