@@ -150,7 +150,7 @@ function paginate( data:any) {
         <li>
         <button
               onClick={() => handlePrevbtn(currentPage)}
-              disabled = {data.data == pages[0]? true : false}
+              disabled = {currentPage == pages[0]? true : false}
           >
             Prev
           </button>
@@ -162,7 +162,7 @@ function paginate( data:any) {
       <li>
           <button
               onClick={() => handleNextbtn(currentPage)}
-              disabled = {data.data == pages[pages.length - 1]? true : false}
+              disabled = {currentPage == pages[pages.length - 1]? true : false}
           >
             Next
           </button>
