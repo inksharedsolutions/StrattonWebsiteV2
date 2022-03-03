@@ -65,14 +65,14 @@ const Books: React.FC<Props> = ({ posts, search, checked }) => {
   } 
   else if(checked != ""){
     
-  const checkGenre = () => {
-    for (var index in checked) {
-      return checked[index];
-    }
-  };
-  React.useEffect(() => {
-    checked;
-  }, [checked]);
+  // const checkGenre = () => {
+  //   for (var index in checked) {
+  //     return checked[index];
+  //   }
+  // };
+  // React.useEffect(() => {
+  //   checked;
+  // }, [checked]);
 
     return (
       <div className="book-con">

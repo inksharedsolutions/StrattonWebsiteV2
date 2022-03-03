@@ -20,6 +20,7 @@ import JSONData from "../../books.json";
 import { Books } from "styled-icons/icomoon";
 import BookLayout from "./books.component";
 import Pagination from "./pagination.component";
+import PaginateTest from "./paginate"
 import posts from "../../books.json";
 import genre from "./genre.json";
 interface Props {
@@ -45,7 +46,8 @@ const AboutUs: React.FC<Props> = ({ number }) => {
 
     fetchPosts();
   }, []);
-  //    GET Current post
+  //    GET Current postfdsfsdf
+  const test = 0;
   const indexOflastPost = currentPage * postPerPage;
   const indexofFirstPost = indexOflastPost - postPerPage;
   const currentPost = posts.slice(indexofFirstPost, indexOflastPost);
@@ -55,8 +57,29 @@ const AboutUs: React.FC<Props> = ({ number }) => {
   //modified
   var temp = JSONData;
 
-  const [search, setSearch] = useState("");
+  const [search, setSearch] = useState<any>();
+  const [checkBoxData,setcheckBoxData] = useState <any>();
+  const [tempSearch, settempSearch] = useState<any>();
+  const [searchText, setSearchText] = useState<any>();
   const [sort, setSort] = useState("alphabetical");
+
+
+  const handleSearch = (text:string) =>{
+    setSearchText(text);
+    let filterSearch = JSONData;
+    if(checked.length){
+      filterSearch = checkBoxData;
+    }
+    const data = JSONData.filter((books)=>
+    books.author.toLowerCase().includes(text) ||
+    books.title.toLowerCase().includes(text))
+    setSearch(data);
+    settempSearch(data);
+    
+  }
+
+
+
 
   React.useEffect(() => {
     sortData("alphabetical");
@@ -100,19 +123,46 @@ const AboutUs: React.FC<Props> = ({ number }) => {
 
   const [checked, setChecked] = useState<string[]>([]);
 
-  const handleCheckbox = (e: any) => {
-    // if (e.checked) {
-    //   setChecked([...checked, e.value]);
-    // } else {
-    //   let pos = checked.indexOf(e.value);
-    //   if (pos > -1) {
-    //     checked.splice(pos, 1);
-    //   }
 
-    //   setChecked([...checked]);
-    // }
-    setChecked(e.value);
+  const handleCheckbox = (e: any) => {
+    setcheckBoxData([]);
+    if(e.target.checked){
+      setChecked([...checked,e.target.value])
+    }
+    else{
+      const getSelectedCheckBoxes = checked.filter((item)=>{
+        item !== e.target.value;
+      })
+      setChecked(getSelectedCheckBoxes);
+    }
+   
   };
+
+
+
+  useEffect(() => {
+    const filterSearch = searchText ? tempSearch :JSONData;
+    if(checked.length){
+      const  data  = filterSearch.filter(function(books: any) {
+        return checked.indexOf(books.genre.trim()) !== -1 ;
+    });
+       setcheckBoxData(data);
+    }
+    
+  }, [checked])
+
+  useEffect(() => {
+   
+    if(checkBoxData?.length){
+      setSearch(checkBoxData); 
+      console.log("test")
+    }
+    else{
+      setSearch(tempSearch);
+    }
+
+  }, [checkBoxData])
+
 
   return (
     <div className="library-Component">
@@ -131,7 +181,7 @@ const AboutUs: React.FC<Props> = ({ number }) => {
           <input
             type="text"
             placeholder="search"
-            onChange={(e) => setSearch(e.target.value)}
+            onChange={(e) => handleSearch(e.target.value)}
           />
 
           <label>Sort By:</label>
@@ -161,8 +211,8 @@ const AboutUs: React.FC<Props> = ({ number }) => {
             {genre.map((data, index) => (
               <div className="flex" key={index}>
                 <input
-                  type="radio"
-                  onChange={(e) => handleCheckbox(e.target)}
+                  type="checkbox"
+                  onChange={(e) => handleCheckbox(e)}
                   name="genre"
                   value={data.value}
                   id={data.id}
@@ -170,94 +220,28 @@ const AboutUs: React.FC<Props> = ({ number }) => {
                 <div className="text">{data.title}</div>
               </div>
             ))}
-            {/* <div className="flex">
-              <input type="checkbox" onChange={(e) => handleCheckbox(e.target.value)} name="genre" value="Arts & Photography" id="Arts & Photography" />
-              <div className="text">Arts & Photography</div>
-            </div>
-            <div className="flex">
-              <input type="checkbox"  onChange={(e) => handleCheckbox(e.target.value)} name="genre" value="Biographies & Memoirs" id="Biographies & Memoirs" />
-              <div className="text">Biograph6ies & Memoirs</div>
-            </div>
-            <div className="flex">
-              <input type="checkbox"  onChange={(e) => handleCheckbox(e.target.value)} name="genre" value="Business Money" id="Business Money" />
-              <div className="text">Business Money</div>
-            </div>
-            <div className="flex">
-              <input type="checkbox"  onChange={(e) => handleCheckbox(e.target.value)}   name="genre" value="Christian Books & Bibles" id="Christian Books & Bibles" />
-              <div className="text">Christian Books & Bibles</div>
-            </div>
-            <div className="flex">
-              <input type="checkbox"  onChange={(e) => handleCheckbox(e.target.value)} name="genre" value="Cookbooks, Food & Wine" id="Cookbooks, Food & Wine" />
-              <div className="text">Cookbooks, Food & Wine</div>
-            </div>
-            <div className="flex">
-              <input type="checkbox"  onChange={(e) => handleCheckbox(e.target.value)} name="genre" value="Education & Teaching" id="Education & Teaching" />
-              <div className="text">Education & Teaching</div>
-            </div>
-            <div className="flex">
-              <input type="checkbox"  onChange={(e) => handleCheckbox(e.target.value)} name="genre" value="History" id="History" />
-              <div className="text">History</div>
-            </div>
-            <div className="flex">
-              <input type="checkbox"  onChange={(e) => handleCheckbox(e.target.value)}  name="genre" value="Kindle Ebooks" id="Kindle Ebooks" />
-              <div className="text">Kindle Ebooks</div>
-            </div>
-            <div className="flex">
-              <input type="checkbox"  onChange={(e) => handleCheckbox(e.target.value)} name="genre" value="Literature & Fiction" id="Literature & Fiction" />
-              <div className="text">Literature & Fiction</div>
-            </div>
-            <div className="flex">
-              <input type="checkbox"  onChange={(e) => handleCheckbox(e.target.value)} name="genre" value="Medical Books" id="Medical Books" />
-              <div className="text">Medical Books</div>
-            </div>
-            <div className="flex">
-              <input type="checkbox"  onChange={(e) => handleCheckbox(e.target.value)} name="genre" value="Mystery, Thriller & Suspense" id="Mystery, Thriller & Suspense" />
-              <div className="text">Mystery, Thriller & Suspense</div>
-            </div>
-            <div className="flex">
-              <input type="checkbox"  onChange={(e) => handleCheckbox(e.target.value)} name="genre" value="Parenting & Relationship" id="Parenting & Relationship" />
-              <div className="text">Parenting & Relationship</div>
-            </div>
-            <div className="flex">
-              <input type="checkbox"  onChange={(e) => handleCheckbox(e.target.value)} name="genre" value="Politics & Social Sciences" id="Politics & Social Sciences" />
-              <div className="text">Politics & Social Sciences</div>
-            </div>
-            <div className="flex">
-              <input type="checkbox"  onChange={(e) => handleCheckbox(e.target.value)} name="genre" value="Reference" id="Reference" />
-              <div className="text">Reference</div>
-            </div>
-            <div className="flex">
-              <input type="checkbox"  name="genre" value="Religion & Spirituality" id="Religion & Spirituality" />
-              <div className="text">Religion & Spirituality</div>
-            </div>
-            <div className="flex">
-              <input type="checkbox"  onChange={(e) => handleCheckbox(e.target.value)} name="genre" value="Romance" id="Romance" />
-              <div className="text">Romance</div>
-            </div>
-            <div className="flex">
-              <input type="checkbox"  onChange={(e) => handleCheckbox(e.target.value)} name="genre" value="Science Fiction & Fantasy" id="Science Fiction & Fantasy" />
-              <div className="text">Science Fiction & Fantasy</div>
-            </div>
-            <div className="flex">
-              <input type="checkbox"  onChange={(e) => handleCheckbox(e.target.value)} name="genre" value="Self-Help" id="Self-Help" />
-              <div className="text">Self-Help</div>
-            </div> */}
+        
           </div>
 
           <div className="right" id="top">
-            <BookLayout
+            {/* <BookLayout
               posts={currentPost} 
               search={search}
               checked={checked}
-            ></BookLayout>
+            ></BookLayout> */}
+            <PaginateTest
+            data ={search}
+            ></PaginateTest>
           </div>
         </div>
       </div>
-      <Pagination
+      {/* <Pagination
         postPerPage={postPerPage}
         totalPosts={posts.length}
+        search={search}
+        checked={checked}
         updateNum={updateNum}
-      ></Pagination>
+      ></Pagination> */}
 
       <div className="channels-section">
         <div className="channel-header">
