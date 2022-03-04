@@ -299,11 +299,12 @@
                 p{
                     text-align: justify;
                     font-size: 18px;
+                    line-height: 20px;
+                        
 
                     @media (max-width:500px) {
                         text-align: left;
                         font-size: 18px;
-                        line-height: 20px;
                         
                     }
                  
@@ -517,6 +518,10 @@
                 .slick-dots {
                     display: flex !important;
                     justify-content: center;
+                }
+                .slick-track{
+                    display: flex;
+                    align-items: center;
                 }
                 
                 h2{ 

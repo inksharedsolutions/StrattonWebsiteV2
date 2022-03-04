@@ -119,6 +119,18 @@ const PublishContainer: React.FC<Props> = () => {
       );
     e.currentTarget.reset();
   };
+  $(".toHide").hide();
+  $(".readMore").click(function(){
+    var text :any = document.getElementById("readMore")
+    
+    $(".toHide").toggle();
+    if (text.innerHTML === "Read More") {
+      text.innerHTML = "Read Less";
+    } else {
+      text.innerHTML = "Read More";
+    }
+    
+  })
 
   const responsive = {
     desktop: {
@@ -144,7 +156,7 @@ const PublishContainer: React.FC<Props> = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,
-    adaptiveHeight: true,
+    // adaptiveHeight: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -408,10 +420,10 @@ const PublishContainer: React.FC<Props> = () => {
                     received a phone call from a project manager from Stratton.
                     It became more of a friendly call than a request for a
                     business arrangement. He mentioned a book that I had
-                    recently published with another publisher. Of course, I was
+                    recently published with another publisher.Of course, I was
                     skeptical about republishing and spent a good deal of time
                     investigating Stratton. I was soon convinced that it was
-                    fair, and I took the offer. I am now under contract for six
+                    fair, and I took the offer.<p className="toHide"> I am now under contract for six
                     books. One has been released and is available for sale. Two
                     are in the editing process, one I am working on daily and is
                     near completion and two are in the wings. Working with
@@ -423,7 +435,9 @@ const PublishContainer: React.FC<Props> = () => {
                     projects, and our association has only been since last
                     November. I cannot believe we have accomplished so much in
                     such a short time. I couldn't be more pleased.
-                  </p>
+                    </p>
+                    </p>
+                    <a className="readMore" id="readMore">Read More</a>
                   <span>Jean I.</span>
                 </div>
 
@@ -437,7 +451,8 @@ const PublishContainer: React.FC<Props> = () => {
                     through the rough times of the pandemic and managed to
                     adjust and conduct business as regularly as possible which
                     is a compliment of its own especially in publishing my book,
-                    **** ** *** ********. I want to give special commendation to
+                    **** ** *** ********. <p className="toHide">
+                    I want to give special commendation to
                     Jem G*****, Senior Acquisition Specialist at Stratton Press,
                     for her excellent expertise. Clearly, she went above and
                     beyond the call of duty in the personable way she treated me
@@ -455,7 +470,9 @@ const PublishContainer: React.FC<Props> = () => {
                     positive results through their marketing program, even to
                     the extent of letters of positive feedback about my book
                     before it is printed!
+                    </p>
                   </p>
+                  <a className="readMore" id="readMore">Read More</a>
                   <span>Dr. Donald H. S.</span>
                 </div>
 
@@ -476,7 +493,7 @@ const PublishContainer: React.FC<Props> = () => {
                     committed to any particular publisher. She took her time and
                     told me what they could provide for me and asked if I'd be
                     comfortable sending a few pages that they may access to see
-                    if my material would be acceptable. So, needless to say,
+                    if my material would be acceptable.<p className="toHide"> So, needless to say,
                     they liked what I had and I felt comfortable with what they
                     offered. Not to mention that Razie was top notch and ended
                     up overseeing things for me all the way through even when my
@@ -498,7 +515,9 @@ const PublishContainer: React.FC<Props> = () => {
                     writing and wouldn't hesitate to let Stratton Press handle
                     them. And, maybe even re-publish my first book again down
                     the road.
+                    </p>
                   </p>
+                  <a className="readMore" id="readMore">Read More</a>
                   <span>Dr. Ron</span>
                 </div>
 
