@@ -155,8 +155,8 @@ function scrollFunction() {
 }
 
   return (
-
-    //  
+<div>
+    
     <nav className="navbar navbar-light navbar-expand-md justify-content-center shadow-sm mb-0 top">
       
       {/* OVERLAY MENU */}
@@ -207,14 +207,7 @@ function scrollFunction() {
           </Link>
         </a>
 
-       {/* SideBar */}
-       <div className="sidenav">
-            <Link to="faq"  onClick={() => goToFAQ()}>FAQ</Link>
-            {/* <Link to="contact-us"  onClick={() => goToContactUs()}>Contact Us</Link> */}
-            <HashLink to="/#testimonials"> Reviews </HashLink>
-            {/* <Link to="/privacy"  onClick={() => goToPolicy()}>Privacy&Policy</Link> */}
-        </div>
-        {/* End of SideBar */}
+    
         {/* MENU BUTTON FOR PHONES */}
         <div className="navbar-sp" onClick={() => goToOverlay()}>
           <div className="container">
@@ -269,9 +262,17 @@ function scrollFunction() {
         </div>
         {/* END FOR COLLAPSABLE */}
       </div>
-      
     </nav>
+      {/* SideBar */}
+      <div className="sidenav">
+            <Link to="faq"  onClick={() => goToFAQ()}>FAQ</Link>
+            {/* <Link to="contact-us"  onClick={() => goToContactUs()}>Contact Us</Link> */}
+            <HashLink to="/#testimonials"> Reviews </HashLink>
+            {/* <Link to="/privacy"  onClick={() => goToPolicy()}>Privacy&Policy</Link> */}
+        </div>
+        {/* End of SideBar */}
     
+    </div>
   );
 };
 
