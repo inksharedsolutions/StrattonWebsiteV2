@@ -119,7 +119,12 @@ const PublishContainer: React.FC<Props> = () => {
       );
     e.currentTarget.reset();
   };
+ 
+  $(".slick-arrow ").click(function(){
+    $(".toHide").hide();
+  });
   $(".toHide").hide();
+  
   $(".readMore").click(function(){
     var text :any = document.getElementById("readMore")
     
@@ -444,7 +449,7 @@ const PublishContainer: React.FC<Props> = () => {
                 <div>
                   <h3>August 31,2020</h3>
                   <p>
-                    To whom it may concern, To be sure, more than not, The
+                    To whom it may concern, To be sure, more than not, TheS
                     Better Business Bureau receives more negative reviews than
                     positive compliments. Well, this one surely is a positive
                     one! I recommend Stratton Press because they have gone
