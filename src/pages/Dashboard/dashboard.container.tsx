@@ -545,7 +545,7 @@ const settingSp ={
                   <div className="temp-author"></div>
                   <div className="left">
                   <iframe
-                  src="https://drive.google.com/file/d/1a31nrgz4dtUaFaZjuESRBbfuvmA3LRwR/preview"               
+            src="https://drive.google.com/file/d/1a31nrgz4dtUaFaZjuESRBbfuvmA3LRwR/preview"
             frameBorder="0"
             allowFullScreen
              >
