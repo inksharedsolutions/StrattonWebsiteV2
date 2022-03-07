@@ -545,10 +545,10 @@ const settingSp ={
                   <div className="temp-author"></div>
                   <div className="left">
                   <iframe
-            src="https://drive.google.com/file/d/1tFtv-LIzrEOzWalrZ3fWZDrj-aDDSorh/preview"
+                  src="https://drive.google.com/file/d/1a31nrgz4dtUaFaZjuESRBbfuvmA3LRwR/preview"               
             frameBorder="0"
             allowFullScreen
-          >
+             >
          
           </iframe>
                     <h2>This Week In America Radio Interview :</h2>
