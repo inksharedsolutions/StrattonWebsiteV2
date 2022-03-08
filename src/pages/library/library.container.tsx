@@ -4,6 +4,7 @@ import Navigation from "../../common/Navigation/navigation.component";
 import Image from "../../common/Image/image.component";
 import banner from "../../assets/images/backgrounds/banner2.jpg";
 import FooterComp from "../../common/Footer/footer.component";
+import $ from "jquery";
 
 import libraryBG from "../../assets//images/backgrounds/library.png";
 
@@ -20,7 +21,7 @@ import JSONData from "../../books.json";
 import { Books } from "styled-icons/icomoon";
 import BookLayout from "./books.component";
 import Pagination from "./pagination.component";
-import PaginateTest from "./paginate"
+import PaginateTest from "./paginate";
 import posts from "../../books.json";
 import genre from "./genre.json";
 interface Props {
@@ -31,55 +32,34 @@ const AboutUs: React.FC<Props> = ({ number }) => {
   const [post, setPosts] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentpage] = useState(1);
-  const [postPerPage, setPostsPerPage] = useState(10);
+  const [postPerPage, setPostsPerPage] = useState(5);
   const updateNum = (num: number): void => {
     setCurrentpage(num);
   };
-
-  useEffect(() => {
-    const fetchPosts = async () => {
-      setLoading(true);
-      const res = await axios.get("../../books.json");
-      setPosts(res.data);
-      setLoading(false);
-    };
-
-    fetchPosts();
-  }, []);
-  //    GET Current postfdsfsdf
-  const test = 0;
-  const indexOflastPost = currentPage * postPerPage;
-  const indexofFirstPost = indexOflastPost - postPerPage;
-  const currentPost = posts.slice(indexofFirstPost, indexOflastPost);
-
-  //   change page
 
   //modified
   var temp = JSONData;
 
   const [search, setSearch] = useState<any>();
-  const [checkBoxData,setcheckBoxData] = useState <any>();
+  const [checkBoxData, setcheckBoxData] = useState<any>();
   const [tempSearch, settempSearch] = useState<any>();
   const [searchText, setSearchText] = useState<any>();
   const [sort, setSort] = useState("alphabetical");
 
-
-  const handleSearch = (text:string) =>{
+  const handleSearch = (text: string) => {
     setSearchText(text);
     let filterSearch = JSONData;
-    if(checked.length){
+    if (checked.length) {
       filterSearch = checkBoxData;
     }
-    const data = JSONData.filter((books)=>
-    books.author.toLowerCase().includes(text) ||
-    books.title.toLowerCase().includes(text))
+    const data = JSONData.filter(
+      (books) =>
+        books.author.toLowerCase().includes(text) ||
+        books.title.toLowerCase().includes(text)
+    );
     setSearch(data);
     settempSearch(data);
-    
-  }
-
-
-
+  };
 
   React.useEffect(() => {
     sortData("alphabetical");
@@ -123,46 +103,42 @@ const AboutUs: React.FC<Props> = ({ number }) => {
 
   const [checked, setChecked] = useState<string[]>([]);
 
-
   const handleCheckbox = (e: any) => {
     setcheckBoxData([]);
-    if(e.target.checked){
-      setChecked([...checked,e.target.value])
-    }
-    else{
-      const getSelectedCheckBoxes = checked.filter((item)=>{
+    if (e.target.checked) {
+      setChecked([...checked, e.target.value]);
+    } else {
+      const getSelectedCheckBoxes = checked.filter((item) => {
         item !== e.target.value;
-      })
+      });
       setChecked(getSelectedCheckBoxes);
     }
-   
   };
 
-
+  useEffect(() => {
+    const filterSearch = searchText ? tempSearch : JSONData;
+    if (checked.length) {
+      const data = filterSearch.filter(function (books: any) {
+        return checked.indexOf(books.genre.trim()) !== -1;
+      });
+      setcheckBoxData(data);
+    }
+  }, [checked]);
 
   useEffect(() => {
-    const filterSearch = searchText ? tempSearch :JSONData;
-    if(checked.length){
-      const  data  = filterSearch.filter(function(books: any) {
-        return checked.indexOf(books.genre.trim()) !== -1 ;
-    });
-       setcheckBoxData(data);
-    }
-    
-  }, [checked])
-
-  useEffect(() => {
-   
-    if(checkBoxData?.length){
-      setSearch(checkBoxData); 
-      console.log("test")
-    }
-    else{
+    if (checkBoxData?.length) {
+      setSearch(checkBoxData);
+      console.log("test");
+    } else {
       setSearch(tempSearch);
     }
+  }, [checkBoxData]);
 
-  }, [checkBoxData])
-
+  $(".genre-ttl").click(function () {
+    if (screen.width <= 600) {
+      $(".genre-list").toggleClass("display");
+    }
+  });
 
   return (
     <div className="library-Component">
@@ -203,13 +179,17 @@ const AboutUs: React.FC<Props> = ({ number }) => {
       <div className="library-banner-section">
         <div className="w-100">
           <div className="left">
-            <h3>Genres</h3>
+            <h3 className="genre-ttl" id="genre-ttl">
+              {" "}
+              Genres <span className="Arrow"> &#8650;</span>
+            </h3>
+
             {/* <div className="flex">
               <input type="checkbox" name="" id="" />
               <div className="text">All</div>
             </div> */}
             {genre.map((data, index) => (
-              <div className="flex" key={index}>
+              <div className="flex genre-list " key={index}>
                 <input
                   type="checkbox"
                   onChange={(e) => handleCheckbox(e)}
@@ -220,7 +200,6 @@ const AboutUs: React.FC<Props> = ({ number }) => {
                 <div className="text">{data.title}</div>
               </div>
             ))}
-        
           </div>
 
           <div className="right" id="top">
@@ -229,9 +208,7 @@ const AboutUs: React.FC<Props> = ({ number }) => {
               search={search}
               checked={checked}
             ></BookLayout> */}
-            <PaginateTest
-            data ={search}
-            ></PaginateTest>
+            <PaginateTest data={search}></PaginateTest>
           </div>
         </div>
       </div>
