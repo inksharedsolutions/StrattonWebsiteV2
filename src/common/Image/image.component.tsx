@@ -16,6 +16,7 @@ const Image:React.FC<Props> = ({
         <img
             alt={alt}
             src={src}
+            
         />
     )
 }

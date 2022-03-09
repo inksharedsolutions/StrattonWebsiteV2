@@ -385,7 +385,7 @@ const settingSp ={
         <div className="learnmore-section">
           <div className="about-us">
             <div className="col">
-              <img src={People} className="aboutUse-img" alt="..." />
+              <img src={People} loading="lazy" className="aboutUse-img" alt="..." />
               <label className="row">About Us</label>
               <p className="align-middle">
                   We are an Author Services Provider 
@@ -403,7 +403,7 @@ const settingSp ={
               </button>
             </div>
             <div className="col">
-              <img src={Package} className="packages-img" alt="..." />
+              <img src={Package} loading="lazy"  className="packages-img" alt="..." />
               <label className="">Our Publishing Packages</label>
               <p className="align-middle">
                 Do you need someone to design your book cover? 
@@ -422,7 +422,7 @@ const settingSp ={
               </button>
             </div>
             <div className="col">
-              <img src={Ratings} className="ratings-img" alt="..." />
+              <img src={Ratings} loading="lazy" className="ratings-img" alt="..." />
               <label className="">A- BBB Rating</label>
               <p className="align-middle">
                   Better Business Bureau (BBB) rates Stratton Press an A-,
@@ -452,7 +452,7 @@ const settingSp ={
             return (
               <div>
                 <a href={items.href}>
-                  <img  className="carouselBanner" src={items.img} alt={items.alt}/>
+                  <img  className="carouselBanner" loading="lazy"  src={items.img} alt={items.alt}/>
                 </a>
               </div>
             );
@@ -468,7 +468,7 @@ const settingSp ={
             return (
               <div>
                 <a href={items.href}>
-                  <img src={items.img} alt={items.alt} />
+                  <img src={items.img} loading="lazy" alt={items.alt} />
                 </a>
               </div>
             );
@@ -485,6 +485,7 @@ const settingSp ={
         <div className="content">
           <iframe
             src="https://www.youtube.com/embed/TuhAb-6AJ3Q?version=3&enablejsapi=1"
+            loading="lazy" 
             frameBorder="0"
             allowFullScreen
           >
@@ -498,7 +499,7 @@ const settingSp ={
           <div className="bar2"></div>
         </div>
         <div className="content">
-        <iframe  src="https://www.youtube.com/embed/MgVFfR45nis" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/MgVFfR45nis" loading="lazy"  title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
       </div>
 
@@ -506,7 +507,7 @@ const settingSp ={
       <section className="spotlight">
         <div className="w100 height">
           <div className="author">
-            <Image src={HalDavis} alt="..." className="author-image" />
+            <Image src={HalDavis } alt="..." className="author-image" />
           </div>
           <div className="temp"></div>
           <div className="author-spot">
@@ -529,8 +530,8 @@ const settingSp ={
                   </div>
                   <div className="right">
                     <div className="book-flex">
-                      <img className="p10" src={Book1} alt="book" />
-                      <img src={Book2} alt="book" />
+                      <img className="p10" src={Book1} loading="lazy" alt="book" />
+                      <img src={Book2} loading="lazy" alt="book" />
                     </div>
                     <div className="ttl-flex">
                       <a href="https://haldavisusmcret.com" target="_blank">
@@ -545,6 +546,7 @@ const settingSp ={
                   <div className="temp-author"></div>
                   <div className="left">
                   <iframe
+                  loading="lazy" 
             src="https://drive.google.com/file/d/1a31nrgz4dtUaFaZjuESRBbfuvmA3LRwR/preview"
             frameBorder="0"
             allowFullScreen
@@ -558,7 +560,7 @@ const settingSp ={
                     
                   </div>
                   <div className="right">
-                  <iframe  src="https://www.youtube.com/embed/qNOpjGy5Us0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                  <iframe loading="lazy"  src="https://www.youtube.com/embed/qNOpjGy5Us0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     <h2>Book Trailer :</h2>
                     <h1>Beyond the Mountains and Across the Seas</h1>
                     <HashLink to="#video2"> <button onClick={() => interviewBtn("book")}>Check Out the Full Interview</button> </HashLink>
@@ -623,7 +625,7 @@ const settingSp ={
                     {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                     {/* <UserCircle size={65} color="gray" /> */}
                       <div className="">
-                              <img src={adelia} alt="Avatar" />
+                              <img src={adelia} loading="lazy"  alt="Avatar" />
                       </div>
                     <p className="card-text">
                     Stratton Press not only took their time to walk me all the way but 
@@ -656,7 +658,7 @@ const settingSp ={
                     {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                     {/* <UserCircle size={65} color="gray" /> */}
                       <div className="">
-                          <img src={jean} alt="Avatar" />
+                          <img src={jean} loading="lazy" alt="Avatar" />
                       </div>
                     <p className="card-text">
                     I really appreciated the way your organization has helped me as a writer 
@@ -691,7 +693,7 @@ const settingSp ={
                       {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                       {/* <UserCircle size={65} color="gray" /> */}
                         <div className="">
-                            <img src={thomas} alt="Avatar" />
+                            <img src={thomas} loading="lazy" alt="Avatar" />
                         </div>
                       <p className="card-text">
                       I thought the complete procedure was very good. 
@@ -722,7 +724,7 @@ const settingSp ={
                       {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                       {/* <UserCircle size={65} color="gray" /> */}
                         <div className="">
-                            <img src={jerry} alt="Avatar" />
+                            <img src={jerry} loading="lazy"  alt="Avatar" />
                         </div>
                       <p className="card-text">
                       Stratton Press has taken the rough road to publication and smoothed it out. 
@@ -754,7 +756,7 @@ const settingSp ={
                       {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                       {/* <UserCircle size={65} color="gray" /> */}
                         <div className="">
-                            <img src={cb} alt="Avatar" />
+                            <img src={cb} loading="lazy" alt="Avatar" />
                         </div>
                       <p className="card-text">
                       For ease of working with, this publisher is one of the best. 
@@ -785,7 +787,7 @@ const settingSp ={
                       {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                       {/* <UserCircle size={65} color="gray" /> */}
                         <div className="">
-                            <img src={clint} alt="Avatar" />
+                            <img src={clint} loading="lazy" alt="Avatar" />
                         </div>
                       <p className="card-text">
                       They did an amazing job on my novel, Rebirth of the Dark Ones. 
@@ -828,7 +830,7 @@ const settingSp ={
                 {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                 {/* <UserCircle size={65} color="gray"/> */}
                     <div className="">
-                            <img src={lilian} alt="Avatar" />
+                            <img src={lilian} loading="lazy"  alt="Avatar" />
                     </div>
                   <p className="card-text">
                     I learned more about my craft, and I was impressed that they
@@ -860,7 +862,7 @@ const settingSp ={
                 {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                 {/* <UserCircle size={65} color="gray" /> */}
                 <div className="">
-                            <img src={adelia} alt="Avatar" />
+                            <img src={adelia} loading="lazy" alt="Avatar" />
                     </div>
                   <p className="card-text">
                   Stratton Press not only took their time to walk me all the way but 
@@ -893,7 +895,7 @@ const settingSp ={
                 {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                {/* <UserCircle size={65} color="gray" /> */}
                <div className="">
-                        <img src={jean} alt="Avatar" />
+                        <img src={jean}loading="lazy"  alt="Avatar" />
                     </div>
                   <p className="card-text">
                   I really appreciated the way your organization has helped me as a writer 
@@ -927,7 +929,7 @@ const settingSp ={
                 {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                {/* <UserCircle size={65} color="gray" /> */}
                <div className="">
-                        <img src={thomas} alt="Avatar" />
+                        <img src={thomas} loading="lazy"  alt="Avatar" />
                     </div>
                   <p className="card-text">
                    I thought the complete procedure was very good. 
@@ -958,7 +960,7 @@ const settingSp ={
                 {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                {/* <UserCircle size={65} color="gray" /> */}
                <div className="">
-                        <img src={jerry} alt="Avatar" />
+                        <img src={jerry} loading="lazy" alt="Avatar" />
                     </div>
                   <p className="card-text">
                   Stratton Press has taken the rough road to publication and 
@@ -990,7 +992,7 @@ const settingSp ={
                 {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                {/* <UserCircle size={65} color="gray" /> */}
                <div className="">
-                        <img src={cb} alt="Avatar" />
+                        <img src={cb} loading="lazy"  alt="Avatar" />
                     </div>
                   <p className="card-text">
                   For ease of working with, this publisher is one of the best. 
@@ -1021,7 +1023,7 @@ const settingSp ={
                 {/* <img src={userIcon} width="100" height="100" alt="..." /> */}
                {/* <UserCircle size={65} color="gray" /> */}
                <div className="">
-                        <img src={clint} alt="Avatar" />
+                        <img src={clint} loading="lazy" alt="Avatar" />
                     </div>
                   <p className="card-text">
                   They did an amazing job on my novel, Rebirth of the Dark Ones.
@@ -1042,7 +1044,7 @@ const settingSp ={
       <div className="bookexpo-section">
         <div className="bookexpo-rightsfair">
           <div className="bookexpo-logo">
-            <img src={BookExpoImage} alt="..." />
+            <img src={BookExpoImage} loading="lazy" alt="..." />
           </div>
           <div className="bookexpo-content">
             <h3>NEW YORK RIGHTS FAIR &amp; BOOK EXPO!</h3>
@@ -1054,7 +1056,7 @@ const settingSp ={
           </div>
         </div>
         <div className="bookexpo-picture">
-          <img src={BookExpoFair} alt="..." />
+          <img src={BookExpoFair} loading="lazy" alt="..." />
         </div>
       </div>
       <div className="channels-section">

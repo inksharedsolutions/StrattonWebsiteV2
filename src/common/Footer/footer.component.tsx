@@ -80,7 +80,7 @@ const FooterComponent: React.FC<Props> = () => {
                 <div className="row row-footer">
                     <div className="col-md-6">
                         <div className="footer-logo">
-                            <a href="index.html"><img src={logo} className="img-fluid"
+                            <a href="index.html"><img src={logo}  loading="lazy" className="img-fluid"
                                 alt="logo" /></a>
                         </div>
                     </div>
@@ -141,10 +141,10 @@ const FooterComponent: React.FC<Props> = () => {
                     </div>
                     <div className="col-4 align-self-center">
                         <ul className="social-icons">
-                            <li><a className="facebook" href="https://www.facebook.com/StrattonPressInc/" target="_blank"><img src={facebook} alt="..."/></a></li>
-                            <li><a className="instagram" href="https://www.instagram.com/strattonpress/" target="_blank"><img src={instagram} alt="..."/></a></li>
-                            <li><a className="twitter" href="https://twitter.com/strattonpress/" target="_blank"><img src={twitter} alt="..."/></a></li>
-                            <li><a className="youtube" href="https://www.youtube.com/channel/UCYWHfl76kxGvKxT_wb8V9zQ" target="_blank"><img src={youtube} alt="..."/></a></li>
+                            <li><a className="facebook" href="https://www.facebook.com/StrattonPressInc/" target="_blank"><img src={facebook}  loading="lazy" alt="..."/></a></li>
+                            <li><a className="instagram" href="https://www.instagram.com/strattonpress/" target="_blank"><img src={instagram}  loading="lazy" alt="..."/></a></li>
+                            <li><a className="twitter" href="https://twitter.com/strattonpress/" target="_blank"><img src={twitter}  loading="lazy" alt="..."/></a></li>
+                            <li><a className="youtube" href="https://www.youtube.com/channel/UCYWHfl76kxGvKxT_wb8V9zQ" target="_blank"><img src={youtube}  loading="lazy" alt="..."/></a></li>
                         </ul>
                     </div>
                 </div>

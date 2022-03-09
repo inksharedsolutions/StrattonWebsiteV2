@@ -156,9 +156,9 @@ const goToFAQ = () => {
               <div className="contact-container">
                 <div className="left">
                   <div className="logo">
-                  <a href="tel:+833.323.7009">  <img src={Telephone} alt="Telephone" /> </a>  
-                  <a href="mailto:publish@stratton-press.com"><img src={Email} alt="Email" /></a>  
-                  <Link to="faq"  onClick={() => goToFAQ()}><img src={FAQ} alt="FAQ" /></Link>
+                  <a href="tel:+833.323.7009">  <img src={Telephone} loading="lazy" alt="Telephone" /> </a>  
+                  <a href="mailto:publish@stratton-press.com"><img src={Email}loading="lazy"  alt="Email" /></a>  
+                  <Link to="faq"  onClick={() => goToFAQ()}><img src={FAQ} loading="lazy" alt="FAQ" /></Link>
                
                   </div>
 
