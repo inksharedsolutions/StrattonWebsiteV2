@@ -9,7 +9,6 @@ export class bbbReviews extends Component {
 
   render() {
 
-  
 
     const settings = {
         dots: true,
@@ -46,6 +45,30 @@ export class bbbReviews extends Component {
           },
         ],
       };
+      // React.useEffect(() => {
+      //   $(".toHide").removeClass("display-block");
+      // },[])
+  
+      
+  $(".slick-arrow ").click(function(){
+    $(".toHide").removeClass("display-block");
+  });
+
+  
+  $(".readMore").click(function(){
+    var text :any = document.getElementById("readMore")
+    
+    // $(".toHide").toggle();
+    if (text.innerHTML === "Read More") {
+       $(".toHide").addClass("display-block");
+      text.innerHTML = "Read Less";
+    } else {
+      $(".toHide").removeClass("display-block");
+      text.innerHTML = "Read More";
+    }
+    
+  })
+
     return (
         <div className="publish-5" id="publish-5">
         <div className="w-100">

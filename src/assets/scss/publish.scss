@@ -52,10 +52,13 @@
                 color: #858282;
                 padding: 103px 0 0;
                 
-           
+                
                 @media (max-width: 768px) {
                     width: 100%;
                     padding: 5vh 4vw 5vh 6vw;
+                }
+                h2{
+                    font-size: 1.7rem;
                 }
 
                 h1 {
@@ -299,7 +302,9 @@
                 p{
                     text-align: justify;
                     font-size: 18px;
+                    padding-top: 10px;
                     line-height: 20px;
+                    margin: 0;
                         
 
                     @media (max-width:500px) {
@@ -525,6 +530,10 @@
                 }
 
                 .readMore{
+                    color: #174c09;
+                    text-decoration: none;
+                }
+                .readMore1{
                     color: #174c09;
                     text-decoration: none;
                 }

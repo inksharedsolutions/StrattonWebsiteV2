@@ -1,3 +1,16 @@
+
+.display-block{
+  display: block !important;
+}
+.display-block1{
+  display: block !important;
+}
+.toHide{
+  display: none;
+}
+.toHide1{
+  display: none;
+}
 .con{
     max-width: 1140px;
     margin: 0 auto;
@@ -6,7 +19,7 @@
     @media (max-width:1024px) {
         max-width: 960px;
         
-    }
+    } 
 }
 
 .slider-bg{
