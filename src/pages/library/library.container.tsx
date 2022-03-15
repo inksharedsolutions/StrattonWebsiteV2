@@ -97,11 +97,17 @@ const AboutUs: React.FC<Props> = ({ number }) => {
     setcheckBoxData([]);
     if (e.target.checked) {
       setChecked([...checked, e.target.value]);
+      console.log("p1")
     } else {
-      const getSelectedCheckBoxes = checked.filter((item) => {
-        item !== e.target.value;
-      });
-      setChecked(getSelectedCheckBoxes);
+      // const getSelectedCheckBoxes = checked.filter((item) => {
+      //   item !== e.target.value;
+      // });
+
+      var updatedList = [...checked];
+
+      updatedList.splice(checked.indexOf(e.target.value), 1);
+      setChecked(updatedList);
+    //  console.log("p2") 
     }
   };
 
