@@ -55,19 +55,19 @@ export class bbbReviews extends Component {
   });
 
   
-  $(".readMore").click(function(){
-    var text :any = document.getElementById("readMore")
+  // $(".readMore").click(function(){
+  //   var text :any = document.getElementById("readMore")
     
-    // $(".toHide").toggle();
-    if (text.innerHTML === "Read More") {
-       $(".toHide").addClass("display-block");
-      text.innerHTML = "Read Less";
-    } else {
-      $(".toHide").removeClass("display-block");
-      text.innerHTML = "Read More";
-    }
+  //   // $(".toHide").toggle();
+  //   if (text.innerHTML === "Read More") {
+  //      $(".toHide").addClass("display-block");
+  //     text.innerHTML = "Read Less";
+  //   } else {
+  //     $(".toHide").removeClass("display-block");
+  //     text.innerHTML = "Read More";
+  //   }
     
-  })
+  // })
 
     return (
         <div className="publish-5" id="publish-5">

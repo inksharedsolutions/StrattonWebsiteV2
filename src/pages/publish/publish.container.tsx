@@ -57,11 +57,25 @@ const PublishContainer: React.FC<Props> = () => {
   const history = useHistory();
 
   React.useEffect(() => {
-    $(document).ready(function(){
-      $(".toHide").removeClass("display-block");
-    });
-
     document.title = "Stratton Press";
+    
+  
+  $(".readMore").click(function(e){
+    e.preventDefault();
+    var text :any = document.getElementById("readMore")
+      console.log('bogo ej')
+    // $(".toHide").toggle();
+    if (text.innerText === "Read More") {
+       $(".toHide").addClass("display-block");
+      text.innerText = "Read Less";
+    } else {
+      $(".toHide").removeClass("display-block");
+      text.innerText = "Read More";
+    }
+    
+  })
+
+
 
     var input = document.getElementById("phone") as HTMLCanvasElement;
     intlTelInput(input, {
@@ -123,31 +137,21 @@ const PublishContainer: React.FC<Props> = () => {
       );
     e.currentTarget.reset();
   };
+
+  
   $(document).ready(function(){
-    $(".toHide").removeClass("display-block");
+    $(".toHide1").removeClass("display-block1");
   });
   
+
  
         
   $(".slick-arrow ").click(function(){
     $(".toHide").removeClass("display-block");
   });
 
-  
-  $(".readMore").click(function(){
-    var text :any = document.getElementById("readMore")
-    
-    // $(".toHide").toggle();
-    if (text.innerHTML === "Read More") {
-       $(".toHide").addClass("display-block");
-      text.innerHTML = "Read Less";
-    } else {
-      $(".toHide").removeClass("display-block");
-      text.innerHTML = "Read More";
-    }
-    
-  })
 
+  
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },

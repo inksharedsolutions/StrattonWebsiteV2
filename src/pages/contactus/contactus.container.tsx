@@ -78,15 +78,25 @@ const goToFAQ = () => {
 
 
   React.useEffect(() => {
-    document.title = "Stratton Press";
+    
+  $(".readMore1").click(function(e){
+    e.preventDefault();
+    var text :any = document.getElementById("readMore1")
+    console.log("bruce gwapo")
+    
+    // $(".toHide1").toggle();
+    if (text.innerText === "Read more") {
+       $(".toHide1").addClass("display-block1");
+      text.innerText = "Read less";
+    } else {
+      $(".toHide1").removeClass("display-block1");
+      text.innerText = "Read more";
+    }
+    
+  })
 
   
-
-    $(document).ready(function(){
-      $(".toHide11").removeClass("display-block");
-    });
-
-    
+    document.title = "Stratton Press";    
   var input = document.querySelector("#phone")  as HTMLCanvasElement;
        intlTelInput(input, {
 
@@ -158,25 +168,18 @@ const goToFAQ = () => {
     ],
   };
 
- 
-  $(".slick-arrow ").click(function(){
-    $(".toHide1").hide();
+  $(document).ready(function(){
+    $(".toHide1").removeClass("display-block1");
   });
-  $(".toHide1").hide();
   
-  $(".readMore1").click(function(){
-    var text :any = document.getElementById("readMore1")
+ 
+        
+  $(".slick-arrow ").click(function(){
+    $(".toHide1").removeClass("display-block1");
+  });
 
-    if (text.innerHTML === "Read More") {
-          
-    $(".toHide1").show();
-      text.innerHTML = "Read Less";
-    } else {
-      $(".toHide1").hide();
-      text.innerHTML = "Read More";
-    }
-    
-  })
+  
+
 
   return (
     <div className="contactus-section">
@@ -321,7 +324,7 @@ const goToFAQ = () => {
                     such a short time. I couldn't be more pleased.
                     </p>
                  
-                    <a className="readMore1" id="readMore1">Read More</a>
+                    <a className="readMore1" id="readMore1">Read more</a>
                   <span>Jean I.</span>
                 </div>
   
@@ -355,7 +358,7 @@ const goToFAQ = () => {
                     before it is printed!
                     </p>
                   </p>
-                  <a className="readMore1" id="readMore1">Read More</a>
+                  <a className="readMore1" id="readMore1">Read more</a>
                   <span>Dr. Donald H. S.</span>
                 </div>
   
@@ -400,7 +403,7 @@ const goToFAQ = () => {
                     the road.
                     
                   </p>
-                  <a className="readMore1" id="readMore1">Read More</a>
+                  <a className="readMore1" id="readMore1">Read more</a>
                   <span>Dr. Ron</span>
                 </div>
   
