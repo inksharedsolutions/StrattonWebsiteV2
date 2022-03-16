@@ -1,9 +1,4 @@
 [
-   {
-      "value": "",
-      "id": "",
-      "title": "All"
-   },
  {
     "value": "Biographies & Memoirs",
     "id": "Biographies & Memoirs",
@@ -14,7 +9,7 @@
     "id": "Christian Books & Bibles",
     "title": "Christian Books & Bibles"
  }
- ,{
+ ,{   
     "value": "Cookbooks, Food & Wine",
     "id": "Cookbooks, Food & Wine",
     "title": "Cookbooks, Food & Wine"
