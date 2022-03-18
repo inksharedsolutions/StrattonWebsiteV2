@@ -669,7 +669,7 @@ const AboutUs: React.FC<Props> = () => {
           <div className="websites">
             <img src={web1} loading="lazy" alt="" />
             <div className="hover">
-              <a href="https://www.ava-phillips.com/" target="blank">
+            <a href="https://www.perrywrites2.com/" target="blank">
                 Live Preview
               </a>
             </div>
@@ -693,7 +693,7 @@ const AboutUs: React.FC<Props> = () => {
           <div className="websites">
             <img src={web4} loading="lazy" alt="" />
             <div className="hover">
-              <a href="https://www.author-williamhoy.com/" target="blank">
+            <a href="http://bkfloyds-kiddy-lit.com/" target="blank">
                 Live Preview
               </a>
             </div>
@@ -721,7 +721,8 @@ const AboutUs: React.FC<Props> = () => {
             <div className="websites">
               <img src={web1} loading="lazy" alt="" />
               <div className="hover">
-                <a href="https://www.ava-phillips.com/" target="blank">
+              <a href="https://www.perrywrites2.com/" target="blank">
+             
                   Live Preview
                 </a>
               </div>
@@ -745,7 +746,7 @@ const AboutUs: React.FC<Props> = () => {
             <div className="websites">
               <img src={web4} loading="lazy" alt="" />
               <div className="hover">
-                <a href="https://www.author-williamhoy.com/" target="blank">
+              <a href="http://bkfloyds-kiddy-lit.com/" target="blank">
                   Live Preview
                 </a>
               </div>

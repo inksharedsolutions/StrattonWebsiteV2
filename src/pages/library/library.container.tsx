@@ -49,7 +49,7 @@ const AboutUs: React.FC<Props> = ({ number }) => {
         books.author.toLowerCase().includes(search) ||
         books.title.toLowerCase().includes(search)
     );
-    console.log(data);
+ 
     setSearch(data);
     settempSearch(data);
   };
@@ -79,7 +79,7 @@ const AboutUs: React.FC<Props> = ({ number }) => {
         });
         break;
       case "Date":
-        console.log(sort);
+
         break;
       default:
         temp.sort((title1, title2) => {
@@ -89,25 +89,19 @@ const AboutUs: React.FC<Props> = ({ number }) => {
         });
         break;
     }
-  };
-
+  }
   const [checked, setChecked] = useState<string[]>([]);
 
   const handleCheckbox = (e: any) => {
     setcheckBoxData([]);
     if (e.target.checked) {
       setChecked([...checked, e.target.value]);
-      console.log("p1")
+  
     } else {
-      // const getSelectedCheckBoxes = checked.filter((item) => {
-      //   item !== e.target.value;
-      // });
-
       var updatedList = [...checked];
 
       updatedList.splice(checked.indexOf(e.target.value), 1);
       setChecked(updatedList);
-    //  console.log("p2") 
     }
   };
 
@@ -199,7 +193,7 @@ const AboutUs: React.FC<Props> = ({ number }) => {
           </div>
 
           <div className="right" id="top">
-            <PaginateTest data={search}></PaginateTest>
+            <PaginateTest data={search} ></PaginateTest>
           </div>
         </div>
       </div>
